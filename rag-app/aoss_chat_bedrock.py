@@ -3,15 +3,11 @@ import os
 import sys
 
 import boto3
-from langchain.chains import ConversationalRetrievalChain
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.llms.bedrock import Bedrock
-from langchain_community.chat_models import BedrockChat
-from langchain.prompts import PromptTemplate
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_aws import BedrockEmbeddings, ChatBedrockConverse
+from langchain_core.prompts import PromptTemplate
 from langchain_community.vectorstores import OpenSearchVectorSearch
 from opensearchpy import RequestsHttpConnection, AWSV4SignerAuth
-
-import helper_functions as hfn
 
 
 class MissingEnvironmentVariable(Exception):
@@ -40,7 +36,8 @@ AOSS_SVC_NAME = "aoss"
 DEFAULT_TIMEOUT_AOSS = 100
 # DEFAULT_AOSS_ENGINE = "faiss" # may not be needed
 
-API_KEY_SECRET_ENV_VAR = "API_KEY_SECRET_NAME"
+BEDROCK_EMBEDDING_MODEL_ID = "amazon.titan-embed-text-v2:0"
+DEFAULT_CHAT_MODEL_ID = os.environ.get("BEDROCK_CHAT_MODEL_ID", "amazon.nova-micro-v1:0")
 
 DEFAULT_LOG_LEVEL = logging.INFO
 LOGGER = logging.getLogger(__name__)
@@ -58,19 +55,19 @@ def build_chain(host, index_name):
   :rtype: ConversationalRetrievalChain
   """
   region = os.environ["AWS_REGION"]
+  LOGGER.info("Using Bedrock chat model: %s", DEFAULT_CHAT_MODEL_ID)
 
-  llm = BedrockChat(
+  # Use Converse API so request payloads are emitted as "messages" for Nova models.
+  llm = ChatBedrockConverse(
     region_name=region,
-    model_id="anthropic.claude-3-haiku-20240307-v1:0",
-    model_kwargs={
-        "temperature": 0.7,
-        "top_k": 250,
-        "top_p": 0.999,
-        "max_tokens": 300,
-        "anthropic_version": "bedrock-2023-05-31"
-    })
+    model=DEFAULT_CHAT_MODEL_ID,
+    temperature=0.3,
+    max_tokens=300)
 
-  embeddings = OpenAIEmbeddings()
+  embeddings = BedrockEmbeddings(
+    region_name=region,
+    model_id=BEDROCK_EMBEDDING_MODEL_ID,
+  )
   docsearch = OpenSearchVectorSearch(
     f"https://{host}",
     index_name,
@@ -136,12 +133,6 @@ if __name__ == "__main__":
      log_level = logging.DEBUG
   logging.basicConfig(level=log_level, format=LOGGING_FORMAT)
   
-  # open ai api key fetch
-  openai_secret = os.environ.get(API_KEY_SECRET_ENV_VAR)
-  if not openai_secret:
-     raise MissingEnvironmentVariable(f"{API_KEY_SECRET_ENV_VAR} environment variable is required")
-  os.environ["OPENAI_API_KEY"] = hfn.get_secret_from_name(openai_secret, kv=False)
-  
   # serverless collection ID
   aoss_id = os.environ.get(AOSS_ID_ENV_VAR)
   if not aoss_id:
@@ -163,8 +154,8 @@ if __name__ == "__main__":
      index_name
   )
   
-  print(bcolors.OKBLUE + "Hello! How can I help you?" + bcolors.ENDC)
-  print(bcolors.OKCYAN + "Ask a question, start a New search: or CTRL-D to exit." + bcolors.ENDC)
+  print(f"{bcolors.OKBLUE}Hello! How can I help you?{bcolors.ENDC}")
+  print(f"{bcolors.OKCYAN}Ask a question, start a New search: or CTRL-D to exit.{bcolors.ENDC}")
   print(">", end=" ", flush=True)
   
   for query in sys.stdin:
@@ -178,13 +169,13 @@ if __name__ == "__main__":
 
     chat_history.append((query, result["answer"]))
 
-    print(bcolors.OKGREEN + result['answer'] + bcolors.ENDC)
+    print(f"{bcolors.OKGREEN}{result['answer']}{bcolors.ENDC}")
     if 'source_documents' in result:
-      print(bcolors.OKGREEN + 'Sources:')
+      print(f"{bcolors.OKGREEN}Sources:")
       for d in result['source_documents']:
         print(d.metadata['source'])
     print(bcolors.ENDC)
-    print(bcolors.OKCYAN + "Ask a question, start a New search: or CTRL-D to exit." + bcolors.ENDC)
+    print(f"{bcolors.OKCYAN}Ask a question, start a New search: or CTRL-D to exit.{bcolors.ENDC}")
     print(">", end=" ", flush=True)
   
-  print(bcolors.OKBLUE + "Bye" + bcolors.ENDC)
+  print(f"{bcolors.OKBLUE}Bye{bcolors.ENDC}")
