@@ -179,6 +179,14 @@ export class BaseInfraStack extends cdk.Stack {
       resources: [`arn:aws:aoss:${this.region}:${this.account}:collection/*`],
     });
 
+    const bedrockInvokeModelPolicy = new iam.PolicyStatement({
+      effect: iam.Effect.ALLOW,
+      actions: [
+        "bedrock:InvokeModel"
+      ],
+      resources: ["*"],
+    });
+
     // role for aoss update lambda function
     const aossUpdateRole = new iam.Role(this, 'aossUpdateRole', {
       assumedBy: new iam.CompositePrincipal(
@@ -194,7 +202,12 @@ export class BaseInfraStack extends cdk.Stack {
       new iam.Policy(this, "aossAPIAccess", {
         statements: [aossAPIAccess]
       })
-    );    
+    );
+    aossUpdateRole.attachInlinePolicy(
+      new iam.Policy(this, "aossUpdateBedrockAccess", {
+        statements: [bedrockInvokeModelPolicy]
+      })
+    );
     this.aossUpdateLambdaRole = aossUpdateRole;
     
     // This IAM Role is used by tasks

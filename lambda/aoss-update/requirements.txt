@@ -1,8 +1,7 @@
 numpy==2.2.1 
-openai
 langchain
 langchain-community
-langchain-openai
+langchain-aws
 opensearch-py
-unstructured
+tiktoken==0.7.0
 # nltk

@@ -6,6 +6,7 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+cdk.out*/
 
 # ssl script
 .ssl
@@ -16,3 +17,16 @@ cdk.out
 venv
 env
 .env
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local editor settings
+.vscode/
+
+# Local temp files
+tmp-hooks.json
+
+# Local test uploads
+knowledgebase/*.pdf

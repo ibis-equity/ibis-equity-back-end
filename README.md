@@ -262,6 +262,24 @@ This will deploy the ECS Fargate service running the code for the RAG Applicatio
 
 This app leverages LangChain for interacting with Bedrock and OpenSearch; and Streamlit for the frontend user interface. The application code is in the [rag-app](./rag-app/) directory. 
 
+### Deploy the RAG Query API Stack (for ibis_equity_site integration)
+
+This optional stack deploys a Lambda Function URL endpoint that the `Ibis_Equity_Site` Angular frontend can call directly.
+
+```
+# set this so CORS allows the ibis frontend origin
+export IBIS_SITE_ORIGIN=<https://your-ibis-site-origin>
+
+npx cdk deploy ragQueryStack
+```
+
+After deployment, copy the `RagQueryApiUrl` stack output and set it as `RAG_API_URL` in `Ibis_Equity_Site/public/runtime-config.js`.
+
+Dependency install note for local and CI workflows:
+
+* Use `rag-app/requirements.txt` for direct project dependencies during local development.
+* Use `rag-app/requirements-lock.txt` for fully reproducible installs in CI and release pipelines.
+
 
 
 ### Add some PDF documents to the knowledgebase S3 Bucket

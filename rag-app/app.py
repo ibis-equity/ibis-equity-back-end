@@ -13,8 +13,6 @@ USER_ICON = "images/user-icon.png"
 AI_ICON = "images/ai-icon.png"
 MAX_HISTORY_LENGTH = 5
 
-API_KEY_SECRET_ENV_VAR = "API_KEY_SECRET_NAME"
-
 AOSS_INDEX_NAME_ENV_VAR = "AOSS_INDEX_NAME"
 AOSS_ID_ENV_VAR = "AOSS_ID"
 AOSS_AWS_REGION_ENV_VAR = "AOSS_AWS_REGION"
@@ -36,8 +34,6 @@ log_level = DEFAULT_LOG_LEVEL
 if os.environ.get("VERBOSE", "").lower() == "true":
     log_level = logging.DEBUG
 logging.basicConfig(level=log_level, format=LOGGING_FORMAT)
-
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # serverless collection ID
 aoss_id = os.environ.get(AOSS_ID_ENV_VAR)

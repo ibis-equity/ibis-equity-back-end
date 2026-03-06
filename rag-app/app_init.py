@@ -3,14 +3,10 @@ import os
 
 import toml
 
-import helper_functions as hfn
-
 
 class MissingEnvironmentVariable(Exception):
     """Raised if a required environment variable is missing"""
 
-
-API_KEY_SECRET_ENV_VAR = "API_KEY_SECRET_NAME"
 
 DEFAULT_LOG_LEVEL = logging.INFO
 LOGGER = logging.getLogger(__name__)
@@ -20,22 +16,15 @@ LOGGING_FORMAT = "%(asctime)s %(levelname)-5.5s " \
 
 
 if __name__ == "__main__":
-  
-  streamlit_secrets = {}
+    streamlit_secrets = {}
 
-  # logging configuration
-  log_level = DEFAULT_LOG_LEVEL
-  if os.environ.get("VERBOSE", "").lower() == "true":
-     log_level = logging.DEBUG
-  logging.basicConfig(level=log_level, format=LOGGING_FORMAT)
-  
-  # open ai api key fetch
-  openai_secret = os.environ.get(API_KEY_SECRET_ENV_VAR)
-  if not openai_secret:
-     raise MissingEnvironmentVariable(f"{API_KEY_SECRET_ENV_VAR} environment variable is required")
-  streamlit_secrets["OPENAI_API_KEY"] = hfn.get_secret_from_name(openai_secret, kv=False)
+    # logging configuration
+    log_level = DEFAULT_LOG_LEVEL
+    if os.environ.get("VERBOSE", "").lower() == "true":
+        log_level = logging.DEBUG
+    logging.basicConfig(level=log_level, format=LOGGING_FORMAT)
 
-  LOGGER.info("Writing streamlit secrets")
-  with open("/root/.streamlit/secrets.toml", "w") as file:
-     toml.dump(streamlit_secrets, file)
-  
+    # Keep an empty secrets file so Streamlit startup remains unchanged.
+    LOGGER.info("Writing streamlit secrets")
+    with open("/root/.streamlit/secrets.toml", "w") as file:
+        toml.dump(streamlit_secrets, file)
