@@ -3,6 +3,7 @@ import os
 import sys
 import uuid
 
+import boto3
 import streamlit as st
 
 import aoss_chat_bedrock as bedrock_claude
@@ -23,6 +24,9 @@ LOGGER = logging.getLogger(__name__)
 LOGGING_FORMAT = "%(asctime)s %(levelname)-5.5s " \
                  "[%(name)s]:[%(threadName)s] " \
                  "%(message)s"
+DEFAULT_POLLY_VOICE_ID = os.environ.get("POLLY_VOICE_ID", "Joanna")
+DEFAULT_POLLY_ENGINE = os.environ.get("POLLY_ENGINE", "standard")
+DEFAULT_POLLY_LANGUAGE_CODE = os.environ.get("POLLY_LANGUAGE_CODE", "en-US")
 
 
 class MissingEnvironmentVariable(Exception):
@@ -34,6 +38,50 @@ log_level = DEFAULT_LOG_LEVEL
 if os.environ.get("VERBOSE", "").lower() == "true":
     log_level = logging.DEBUG
 logging.basicConfig(level=log_level, format=LOGGING_FORMAT)
+
+
+def _env_flag(name, default=False):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _synthesize_answer_audio(answer_text: str):
+    if not _env_flag("ENABLE_POLLY_TTS", default=True):
+        return None
+    if not st.session_state.get("enable_speech", True):
+        return None
+    if not answer_text:
+        return None
+
+    region = os.environ.get("AWS_REGION")
+    if not region:
+        LOGGER.warning("Skipping Polly synthesis because AWS_REGION is not set")
+        return None
+
+    request = {
+        "Text": answer_text[:2800],
+        "OutputFormat": "mp3",
+        "VoiceId": DEFAULT_POLLY_VOICE_ID,
+    }
+    if DEFAULT_POLLY_ENGINE:
+        request["Engine"] = DEFAULT_POLLY_ENGINE
+    if DEFAULT_POLLY_LANGUAGE_CODE:
+        request["LanguageCode"] = DEFAULT_POLLY_LANGUAGE_CODE
+
+    try:
+        response = boto3.client("polly", region_name=region).synthesize_speech(**request)
+        audio_stream = response.get("AudioStream")
+        if not audio_stream:
+            return None
+        try:
+            return audio_stream.read()
+        finally:
+            audio_stream.close()
+    except Exception:
+        LOGGER.exception("Failed to synthesize answer audio with Polly")
+        return None
 
 # serverless collection ID
 aoss_id = os.environ.get(AOSS_ID_ENV_VAR)
@@ -103,6 +151,9 @@ if "answers" not in st.session_state:
 if "input" not in st.session_state:
     st.session_state.input = ""
 
+if "enable_speech" not in st.session_state:
+    st.session_state.enable_speech = _env_flag("ENABLE_POLLY_TTS", default=True)
+
 
 st.markdown("""
         <style>
@@ -126,13 +177,13 @@ st.markdown("""
 def write_logo():
     col1, col2, col3 = st.columns([5, 1, 5])
     with col2:
-        st.image(AI_ICON, use_container_width='always') 
+        st.image(AI_ICON, width='stretch') 
 
 
 def write_top_bar():
-    col1, col2, col3 = st.columns([1,10,2])
+    col1, col2, col3 = st.columns([1, 9, 3])
     with col1:
-        st.image(AI_ICON, use_container_width='always')
+        st.image(AI_ICON, width='stretch')
     with col2:
         selected_provider = sys.argv[1]
         provider = selected_provider.capitalize()
@@ -151,6 +202,9 @@ if clear:
     st.session_state.input = ""
     st.session_state["chat_history"] = []
 
+# Keep speech control in the main flow so it remains visible across screen sizes.
+st.toggle("Enable Speech", key="enable_speech", help="Read AI answers aloud with Amazon Polly")
+
 
 def handle_input():
     input = st.session_state.input
@@ -168,6 +222,9 @@ def handle_input():
     chain = st.session_state['llm_app']
     result = chain.run_chain(llm_chain, input, chat_history)
     answer = result['answer']
+    answer_audio = _synthesize_answer_audio(answer)
+    if answer_audio:
+        result['audio'] = answer_audio
     chat_history.append((input, answer))
     
     document_list = []
@@ -188,7 +245,7 @@ def write_user_message(md):
     col1, col2 = st.columns([1,12])
     
     with col1:
-        st.image(USER_ICON, use_container_width='always')
+        st.image(USER_ICON, width='stretch')
     with col2:
         st.warning(md['question'])
 
@@ -207,9 +264,20 @@ def render_result(result):
 def render_answer(answer):
     col1, col2 = st.columns([1,12])
     with col1:
-        st.image(AI_ICON, use_container_width='always')
+        st.image(AI_ICON, width='stretch')
     with col2:
         st.info(answer['answer'])
+        speech_on = bool(st.session_state.get("enable_speech", False))
+        audio_ready = bool(answer.get('audio'))
+        if speech_on and audio_ready:
+            st.caption("Speech: ON (audio ready)")
+        elif speech_on:
+            st.caption("Speech: ON (no audio generated)")
+        else:
+            st.caption("Speech: OFF")
+        if answer.get('audio'):
+            # Auto-play freshly generated Polly audio for a smoother chat UX.
+            st.audio(answer['audio'], format='audio/mpeg', autoplay=True)
 
 
 def render_sources(sources):
