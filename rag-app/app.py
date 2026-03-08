@@ -27,6 +27,16 @@ LOGGING_FORMAT = "%(asctime)s %(levelname)-5.5s " \
 DEFAULT_POLLY_VOICE_ID = os.environ.get("POLLY_VOICE_ID", "Joanna")
 DEFAULT_POLLY_ENGINE = os.environ.get("POLLY_ENGINE", "standard")
 DEFAULT_POLLY_LANGUAGE_CODE = os.environ.get("POLLY_LANGUAGE_CODE", "en-US")
+DEFAULT_PREFERRED_LANGUAGE = os.environ.get("PREFERRED_LANGUAGE", "English")
+
+LANGUAGE_PREFERENCES = {
+    "English": {"instruction": "Respond in English.", "voice_id": "Joanna", "language_code": "en-US"},
+    "Spanish": {"instruction": "Respond in Spanish.", "voice_id": "Lupe", "language_code": "es-US"},
+    "French": {"instruction": "Respond in French.", "voice_id": "Lea", "language_code": "fr-FR"},
+    "German": {"instruction": "Respond in German.", "voice_id": "Vicki", "language_code": "de-DE"},
+    "Italian": {"instruction": "Respond in Italian.", "voice_id": "Bianca", "language_code": "it-IT"},
+    "Portuguese": {"instruction": "Respond in Portuguese.", "voice_id": "Camila", "language_code": "pt-BR"},
+}
 
 
 class MissingEnvironmentVariable(Exception):
@@ -47,7 +57,7 @@ def _env_flag(name, default=False):
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
 
-def _synthesize_answer_audio(answer_text: str):
+def _synthesize_answer_audio(answer_text: str, voice_id: str, language_code: str):
     if not _env_flag("ENABLE_POLLY_TTS", default=True):
         return None
     if not st.session_state.get("enable_speech", True):
@@ -63,11 +73,13 @@ def _synthesize_answer_audio(answer_text: str):
     request = {
         "Text": answer_text[:2800],
         "OutputFormat": "mp3",
-        "VoiceId": DEFAULT_POLLY_VOICE_ID,
+        "VoiceId": voice_id or DEFAULT_POLLY_VOICE_ID,
     }
     if DEFAULT_POLLY_ENGINE:
         request["Engine"] = DEFAULT_POLLY_ENGINE
-    if DEFAULT_POLLY_LANGUAGE_CODE:
+    if language_code:
+        request["LanguageCode"] = language_code
+    elif DEFAULT_POLLY_LANGUAGE_CODE:
         request["LanguageCode"] = DEFAULT_POLLY_LANGUAGE_CODE
 
     try:
@@ -154,6 +166,12 @@ if "input" not in st.session_state:
 if "enable_speech" not in st.session_state:
     st.session_state.enable_speech = _env_flag("ENABLE_POLLY_TTS", default=True)
 
+if "preferred_language" not in st.session_state:
+    if DEFAULT_PREFERRED_LANGUAGE in LANGUAGE_PREFERENCES:
+        st.session_state.preferred_language = DEFAULT_PREFERRED_LANGUAGE
+    else:
+        st.session_state.preferred_language = "English"
+
 
 st.markdown("""
         <style>
@@ -194,6 +212,16 @@ def write_top_bar():
     return clear
 
 
+def _get_language_config():
+    preferred_language = st.session_state.get("preferred_language", "English")
+    return LANGUAGE_PREFERENCES.get(preferred_language, LANGUAGE_PREFERENCES["English"])
+
+
+def _apply_language_preference(question_text: str):
+    language_config = _get_language_config()
+    return f"{question_text}\n\n{language_config['instruction']}"
+
+
 clear = write_top_bar()
 
 if clear:
@@ -204,6 +232,12 @@ if clear:
 
 # Keep speech control in the main flow so it remains visible across screen sizes.
 st.toggle("Enable Speech", key="enable_speech", help="Read AI answers aloud with Amazon Polly")
+st.selectbox(
+    "Preferred Language",
+    options=list(LANGUAGE_PREFERENCES.keys()),
+    key="preferred_language",
+    help="AI responses and speech follow this language preference.",
+)
 
 
 def handle_input():
@@ -220,9 +254,15 @@ def handle_input():
 
     llm_chain = st.session_state['llm_chain']
     chain = st.session_state['llm_app']
-    result = chain.run_chain(llm_chain, input, chat_history)
+    model_prompt = _apply_language_preference(input)
+    result = chain.run_chain(llm_chain, model_prompt, chat_history)
     answer = result['answer']
-    answer_audio = _synthesize_answer_audio(answer)
+    language_config = _get_language_config()
+    answer_audio = _synthesize_answer_audio(
+        answer,
+        language_config.get("voice_id", DEFAULT_POLLY_VOICE_ID),
+        language_config.get("language_code", DEFAULT_POLLY_LANGUAGE_CODE),
+    )
     if answer_audio:
         result['audio'] = answer_audio
     chat_history.append((input, answer))
@@ -268,13 +308,14 @@ def render_answer(answer):
     with col2:
         st.info(answer['answer'])
         speech_on = bool(st.session_state.get("enable_speech", False))
+        preferred_language = st.session_state.get("preferred_language", "English")
         audio_ready = bool(answer.get('audio'))
         if speech_on and audio_ready:
-            st.caption("Speech: ON (audio ready)")
+            st.caption(f"Speech: ON (audio ready) | Language: {preferred_language}")
         elif speech_on:
-            st.caption("Speech: ON (no audio generated)")
+            st.caption(f"Speech: ON (no audio generated) | Language: {preferred_language}")
         else:
-            st.caption("Speech: OFF")
+            st.caption(f"Speech: OFF | Language: {preferred_language}")
         if answer.get('audio'):
             # Auto-play freshly generated Polly audio for a smoother chat UX.
             st.audio(answer['audio'], format='audio/mpeg', autoplay=True)
