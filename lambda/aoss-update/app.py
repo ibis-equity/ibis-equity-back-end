@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from urllib.parse import unquote_plus
 
 import boto3
 from botocore.exceptions import ClientError
@@ -247,9 +248,10 @@ def lambda_handler(event, context):
         model_id=BEDROCK_EMBEDDING_MODEL_ID,
     )
 
+    file_key = unquote_plus(body['file'])
     LOGGER.info(
-        f"Loading processed text document: {body['file']} from bucket: {body['bucket']}")
-    docs = _load_processed_text_document(body['bucket'], body['file'])
+        f"Loading processed text document: {file_key} from bucket: {body['bucket']}")
+    docs = _load_processed_text_document(body['bucket'], file_key)
 
     LOGGER.info("Setting up auth for OpenSearch Serverless")
     auth = AWSV4SignerAuth(

@@ -1,6 +1,7 @@
 from io import BytesIO
 import logging
 import os
+from urllib.parse import unquote_plus
 
 import boto3
 from pypdf import PdfReader
@@ -163,7 +164,8 @@ def lambda_handler(event, context):
         if not valid_record:
             LOGGER.warning("record could not be validated. Skipping this one.")
             continue
-        file_name = record["s3"]["object"]["key"]
+        # S3 event keys are URL-encoded (e.g., spaces as '+').
+        file_name = unquote_plus(record["s3"]["object"]["key"])
         LOGGER.info(
             f"Valid record found. Will attempt to process the file: {file_name}")
         

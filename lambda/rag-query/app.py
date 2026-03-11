@@ -1,3 +1,4 @@
+import base64
 import json
 import logging
 import os
@@ -22,6 +23,9 @@ BEDROCK_EMBEDDING_MODEL_ID = "amazon.titan-embed-text-v2:0"
 DEFAULT_TIMEOUT_AOSS = 100
 DEFAULT_K = 3
 DEFAULT_MODEL_ID = os.environ.get("BEDROCK_CHAT_MODEL_ID", "amazon.nova-micro-v1:0")
+DEFAULT_POLLY_VOICE_ID = os.environ.get("POLLY_VOICE_ID", "Joanna")
+DEFAULT_POLLY_ENGINE = os.environ.get("POLLY_ENGINE", "standard")
+DEFAULT_POLLY_LANGUAGE_CODE = os.environ.get("POLLY_LANGUAGE_CODE", "en-US")
 
 
 class MissingEnvironmentVariable(Exception):
@@ -72,6 +76,46 @@ def _parse_body(event: Dict[str, Any]) -> Dict[str, Any]:
     if event.get("test_event", "").lower() == "true":
         return event
     raise ValueError("Request body is required")
+
+
+def _parse_bool(value: Any, default: bool = False) -> bool:
+    if value is None:
+        return default
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "on"}
+    return bool(value)
+
+
+def _synthesize_speech(answer: str, region: str, voice_id: str, engine: str, language_code: str) -> str:
+    if not answer:
+        return ""
+
+    # Polly has a text size limit per request; keep a safe margin.
+    text = answer[:2800]
+    client = boto3.client("polly", region_name=region)
+    request: Dict[str, Any] = {
+        "Text": text,
+        "OutputFormat": "mp3",
+        "VoiceId": voice_id,
+    }
+    if engine:
+        request["Engine"] = engine
+    if language_code:
+        request["LanguageCode"] = language_code
+
+    response = client.synthesize_speech(**request)
+    audio_stream = response.get("AudioStream")
+    if not audio_stream:
+        return ""
+
+    try:
+        audio_bytes = audio_stream.read()
+    finally:
+        audio_stream.close()
+
+    return base64.b64encode(audio_bytes).decode("utf-8")
 
 
 def _build_chain(host: str, index_name: str, region: str, model_id: str, top_k: int, system_prompt: str):
@@ -176,6 +220,11 @@ def lambda_handler(event, context):
         model_id = str(config.get("modelId", DEFAULT_MODEL_ID)).strip() or DEFAULT_MODEL_ID
         top_k = int(config.get("topK", DEFAULT_K) or DEFAULT_K)
         system_prompt = str(config.get("systemPrompt", "Provide clear, grounded recommendations.")).strip()
+        speech_default = _parse_bool(os.environ.get("RAG_QUERY_ENABLE_POLLY", "true"), default=True)
+        speech_enabled = _parse_bool(config.get("speechEnabled"), default=speech_default)
+        voice_id = str(config.get("voiceId", DEFAULT_POLLY_VOICE_ID)).strip() or DEFAULT_POLLY_VOICE_ID
+        engine = str(config.get("engine", DEFAULT_POLLY_ENGINE)).strip() or DEFAULT_POLLY_ENGINE
+        language_code = str(config.get("languageCode", DEFAULT_POLLY_LANGUAGE_CODE)).strip() or DEFAULT_POLLY_LANGUAGE_CODE
 
         aoss_id = _get_required_env(AOSS_ID_ENV_VAR)
         aoss_region = _get_required_env(AOSS_AWS_REGION_ENV_VAR)
@@ -188,11 +237,26 @@ def lambda_handler(event, context):
         answer = result.get("answer", "")
         source_documents = result.get("source_documents", [])
 
+        speech: Dict[str, Any] = {
+            "enabled": speech_enabled,
+            "format": "mp3",
+            "voiceId": voice_id,
+            "engine": engine,
+            "languageCode": language_code,
+        }
+        if speech_enabled:
+            try:
+                speech["audioBase64"] = _synthesize_speech(answer, aoss_region, voice_id, engine, language_code)
+            except Exception:
+                LOGGER.exception("Polly synthesis failed")
+                speech["audioBase64"] = ""
+
         return _response(
             200,
             {
                 "answer": answer,
                 "sources": _extract_sources(source_documents),
+                "speech": speech,
             },
         )
     except MissingEnvironmentVariable as exc:

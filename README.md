@@ -262,6 +262,15 @@ This will deploy the ECS Fargate service running the code for the RAG Applicatio
 
 This app leverages LangChain for interacting with Bedrock and OpenSearch; and Streamlit for the frontend user interface. The application code is in the [rag-app](./rag-app/) directory. 
 
+Optional speech output (Amazon Polly) environment variables:
+
+```
+export ENABLE_POLLY_TTS=true
+export POLLY_VOICE_ID=Joanna
+export POLLY_ENGINE=standard
+export POLLY_LANGUAGE_CODE=en-US
+```
+
 ### Deploy the RAG Query API Stack (for ibis_equity_site integration)
 
 This optional stack deploys a Lambda Function URL endpoint that the `Ibis_Equity_Site` Angular frontend can call directly.
@@ -269,11 +278,17 @@ This optional stack deploys a Lambda Function URL endpoint that the `Ibis_Equity
 ```
 # set this so CORS allows the ibis frontend origin
 export IBIS_SITE_ORIGIN=<https://your-ibis-site-origin>
+export RAG_QUERY_ENABLE_POLLY=true
+export POLLY_VOICE_ID=Joanna
+export POLLY_ENGINE=standard
+export POLLY_LANGUAGE_CODE=en-US
 
 npx cdk deploy ragQueryStack
 ```
 
 After deployment, copy the `RagQueryApiUrl` stack output and set it as `RAG_API_URL` in `Ibis_Equity_Site/public/runtime-config.js`.
+
+The query API response now includes a `speech` object with `audioBase64` (MP3) when speech is enabled.
 
 Dependency install note for local and CI workflows:
 

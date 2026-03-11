@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from urllib.parse import unquote_plus
 
 import boto3
 
@@ -186,7 +187,7 @@ def lambda_handler(event, context):
             queue_url, 
             {
                 "bucket": bucket_name,
-                "file": record["s3"]["object"]["key"]
+                "file": unquote_plus(record["s3"]["object"]["key"])
             }
         )
     sqs_client.close()

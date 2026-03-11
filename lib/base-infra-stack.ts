@@ -236,6 +236,17 @@ export class BaseInfraStack extends cdk.Stack {
             }),
           ],
         }),
+        pollyPolicy: new iam.PolicyDocument({
+          statements: [
+            new iam.PolicyStatement({
+              effect: iam.Effect.ALLOW,
+              resources: ["*"],
+              actions: [
+                "polly:SynthesizeSpeech",
+              ],
+            }),
+          ],
+        }),
       },
     });
     this.ecsTaskRole = ragTaskRole;

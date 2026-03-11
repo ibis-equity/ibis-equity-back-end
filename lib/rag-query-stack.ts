@@ -53,6 +53,15 @@ export class RagQueryStack extends cdk.Stack {
             }),
           ],
         }),
+        pollySynthesizePolicy: new iam.PolicyDocument({
+          statements: [
+            new iam.PolicyStatement({
+              effect: iam.Effect.ALLOW,
+              actions: ['polly:SynthesizeSpeech'],
+              resources: ['*'],
+            }),
+          ],
+        }),
       },
     });
 
@@ -73,6 +82,10 @@ export class RagQueryStack extends cdk.Stack {
         AOSS_INDEX_NAME: props.indexName,
         AOSS_AWS_REGION: `${this.region}`,
         ALLOWED_ORIGIN: process.env.IBIS_SITE_ORIGIN || '*',
+        RAG_QUERY_ENABLE_POLLY: process.env.RAG_QUERY_ENABLE_POLLY || 'true',
+        POLLY_VOICE_ID: process.env.POLLY_VOICE_ID || 'Joanna',
+        POLLY_ENGINE: process.env.POLLY_ENGINE || 'standard',
+        POLLY_LANGUAGE_CODE: process.env.POLLY_LANGUAGE_CODE || 'en-US',
       },
     });
 
