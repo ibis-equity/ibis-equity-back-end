@@ -19,6 +19,7 @@ AOSS_AWS_REGION_ENV_VAR = "AOSS_AWS_REGION"
 AOSS_SVC_NAME = "aoss"
 ALLOWED_ORIGIN_ENV_VAR = "ALLOWED_ORIGIN"
 BEDROCK_EMBEDDING_MODEL_ID = "amazon.titan-embed-text-v2:0"
+TEXT_DOC_FILTER = {"wildcard": {"metadata.source.keyword": "*.txt"}}
 
 DEFAULT_TIMEOUT_AOSS = 100
 DEFAULT_K = 3
@@ -143,7 +144,12 @@ def _build_chain(host: str, index_name: str, region: str, model_id: str, top_k: 
         verify_certs=True,
         connection_class=RequestsHttpConnection,
     )
-    retriever = vector_store.as_retriever(search_kwargs={"k": top_k})
+    retriever = vector_store.as_retriever(
+        search_kwargs={
+            "k": top_k,
+            "filter": TEXT_DOC_FILTER,
+        }
+    )
 
     qa_prompt_template = f"""Human: You are a practical assistant focused on actionable answers.
     Use the provided context and keep the answer concise and useful.

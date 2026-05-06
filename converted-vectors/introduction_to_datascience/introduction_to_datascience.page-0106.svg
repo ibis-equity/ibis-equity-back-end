@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuedfrompreviouspage)</text>
+  <path d="M0 0H473.978V27.895H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,112.40399)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;tr&gt;&lt;td&gt;&lt;b&gt;whale&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$TP_{whale}=29$&lt;/td&gt;&lt;td&gt;$FP_{whale}=5$&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;notwhale&lt;/b&gt;&lt;/td&gt;&lt;td&gt;$FN_{whale}=6$&lt;/td&gt;&lt;td&gt;$TN_{whale}=97$&lt;/td&gt;&lt;/tr&gt;</text>
+  <path d="M0 0V27.895" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,112.40399)"/>
+  <path d="M0 0V27.895" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,112.40399)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,84.31)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,112.604007)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecancalculateallperformancemetricsfromabovenowindividuallyforallclasses,e.g.,theTPRfortheclasswhaleas</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃𝑅</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑤ℎ𝑎𝑙𝑒</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑤ℎ𝑎𝑙𝑒</text>
+  <path d="M0 0H85.123" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,290.859,164.80603)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑤ℎ𝑎𝑙𝑒</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐹𝑁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑤ℎ𝑎𝑙𝑒</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Ifwewanttogetperformancemetricsforallclassesatonce,wecanuse</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">macroaveraging</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">microaveraging</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Themacroaverageofaperformancemetricisthearithmeticmeanofthemetricappliedindividuallyforallclasses.Forexample,fortheTPRthemacroaverageisdeﬁnedas</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃𝑅</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑎𝑐𝑟𝑜</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+  <path d="M0 0H13.368" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,292.23,241.422)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <path d="M0 0H49.69" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,326.442,241.422)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐹𝑁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Withmicroaveraging,theperformancemetriciscalculateddirectlybychangingtheformulastousethesumofallclasses.Forexample,themicroaverageisdeﬁnedas</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃𝑅</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑖𝑐𝑟𝑜</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︀</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <path d="M0 0H110.588" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,278.135,312.509)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︀</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︀</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐹𝑁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whetherthemacroaverageorthemicroaverageisabetterchoicedependsontheusecaseandthedata.Ifthedataisbalanced,i.e.,thereisasimilaramountofdataforeachclass,theresultsforthemacroaverageandthemicroaveragewillbealmostthesame.Whenthedataisimbalanced,i.e.,thereareclassesforwhichtherearefewerinstancesthanothers,themacroaveragewilltreatallclassesthesame.Becausethemacroaverageisthearithmeticmeanoftheperformancemetricsforeachclass,theimpactontheaverageisthesameforallclasses.Thisisnotthecaseforthemicroaverage,whereclasseswithlessinstanceshaveasmallerimpact,becausethecountislowerandtheindividualcountsareused.Thus,incaseofclasslevelimbalance,themacroaveragehastheadvantagethatallclassesarefairlyrepresentedintheaverage.Thedrawbackofthisisthatclasseswithonlyfewinstancesmayhaveanoverlylargeimpactonthemacroaverage.Viceversa,theimpactonthemicroaverageofeachclassisonlyaslargeasthenumberofinstancesfortheclass,butthereisariskthatclasseswithfewinstancesmaybeignored.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.7</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">BeyondtheConfusionMatrix</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allmetricsabovearedeﬁnedusingtheconfusionmatrix.Thisisthestandardapproachforperformanceestimationinthemachinelearningliterature.However,whilesuchmetricsarecommonandoftenhavearelationtousecases,theyallhaveoneassumption,whichisusuallyunrealistic:allerrorsareequal.Inpractice,someerrorsmattermorethanothererrors.Forexample,lendingahugeamountofmoneytoacustomercariesagreaterriskthanasmallloan.Ifacustomerdefaultsonalargeloan,theimpactofafalsepositivecreditscoreisthuslargerthanforasmallloan.Therefore,itisalwaysagoodideatothinkaboutconcretecosts,beneﬁtsandrisksassociatedwiththetruepositives,falsepositives,truenegatives,andfalsenegativesandidealdeﬁneacostmatrixthatspeciﬁestheindividualgainsandlossesforeachofthesecases.Thisway,youcandeﬁneacustomizedcostfunctionforusecases,whichusuallymeansthatyougetmoremeaningfulresults,e.g.,</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">demonstratedhere</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">98Chapter7.Classiﬁcation</text>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theitemsreplacedwiththebrand.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theitemsreplacedwiththecombinationoftypeandbrand.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ModelPlaning</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thegoalofthemodelplanningistodesignthemodelsforthedataanalysis.Thismeansthatyoumustdecidehowexactlyyouwanttoanalyzethedataandwhichmodelsyouwanttousetogaininsights.Themodelsmustbesuitedbothfortheusecaseandtheavailabledata.Therearedifferentaspectsthatinﬂuencethecandidatesforsuitablemodels.Thegoaloftheanalysisusuallyprescribesthetypeofmodelthatmaybeused.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Associationruleminingcanbeusedifthegoalistoidentifyrulesthatdescriberelevantrelationshipswithintransactions(Chapter5).</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Clusteringcanbeusedtoidentifygroupsinalargesetofdata(Chapter6).</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Classiﬁcationcanbeusedtopredicttowhichcategoryobjectsbelong(Chapter7).</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Regressioncanbeusedtodescriberelationshipsbetweenvariablesandtopredictnumericvalues(Chapter8).</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Timeseriesanalysiscanbeusedtoanalyzetemporaldata(Chapter9).Therearedifferentwaystobuild,e.g.,classiﬁcationmodels.Thereareadditionalconsiderationswhichcanhelpwiththechoiceofasuitablemodel.Forexample,itmaybeimportanttogainadetailedunderstandingofwhyamodelpredictsacertainoutcome.Inthiscase,a</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">whitebox</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">modelmustbeused,wheretheinnerworkingsareunderstandableforthedatascientists-andpossiblyalsodomainexperts.Incaseunderstandingoftheinnerworkingsofamodelisnotnecessarilyrequired,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">blackbox</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">modelscanalsobeused.Formostproblems,blackboxmodels(e.g.,neuralnetworks)haveahigherperformanceceilingthanwhiteboxmodels(e.g.,decisiontrees).Anotherconsiderationforthechoiceofmodelisthevolumeofthedataandthecomputationalresourcesthatareavailable.Noteverymodelscalesequallywellwithlargeamountsofdata.Moreover,somemodelsworkonlywithmassiveamountsofdata,othersworkbetterwithsmalleramountsofdata.Becauseallthismustbeconsidered,datascientistsshouldhaveabroadknowledgeaboutdifferentmodelingapproaches,becausethereisnosilverbulletthatcansolveallproblems.However,theselectionofthemodelthatshouldbetrainedisonlyasmallpartofthemodelplanning.Dependingonthedata,youmayalsohavetomodelthefeaturesthatyourmodelsuseandselectwhichfeaturesyouwanttouse(moreonfeaturesinChapter4).Youshouldalsoplanhowyouwanttoevaluatetheresults,e.g.,howyouwanttoscoredifferentmodels,ifandhowyouwanttostatisticallycomparedifferentmodelsyouevaluate,andhowyoumayusevisualizationtosupporttheanalysisoftheresults.Finally,youhavetodecidehowyouwanttouseyourdata.Formanyusecases,dataneedstobeseparatedintodifferentsets,i.e.,trainingdata,testdata,andpossiblyalsovalidationdata(moreonthisalsoinChapter4).Forbigdata,itisusuallyalsoagoodideatoextractasmallsampleof“toydata”thatyoucanuselocallytotestyourprograms</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Example(continued)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Youdecidetouseanassociationruleminingapproach(apriorialgorithm)toidentifyitemsthatarefre-quentlyboughttogetherandyouwanttoevaluatehowwelltheapproachworksonthedifferentdatasetsyouprepared.Forthecaseswhereyoureplacedtheitemswithcategories,youwanttocreatearegressionmodel(randomforestregression)thatpredictsscorestomodelwhichconcreteitemsareoftenbought,giventhatproductsfromothercategoriesarealreadyinthebasket.Dependingontheresults,youalreadyconsiderthatyoumayneedtoimproveyourmodelsinaseconditeration,asyouseeariskthatonlycheapproductswillberecommended,whichmayleadtocross-sell,butwithoutastrongincreaseinrevenue.Youwillcreatevisualizationsthatshowwhichproductsareoftenboughttogetherinformofagraph.Yousplityourdatabasedonthetimestampandusetheoldest50%astrainingdata,thenext25%asvalidationdata,andthenewest25%astestdata.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">18Chapter2.TheProcessofDataScienceProjects</text>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Variety</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thevarietyisthethirdaspectofbigdata.Today,theanalysisofimages,videosandtexthasbecomearelativelynormalapplication.However,thiswasnotthecasewhenthetermbigdatawasinitiallycoined.Then,mostdatawasheldindatawarehouseswithdeﬁnedstructures,forexample,relationaldatabases.Thedataweremostlynumericorinﬁxedcategories.ThisbegantochangewhentheInternetstartedtogrowintothealmostall-encompassingwebofknowledgeandcontentwehavetoday.ItisnocoincidencethatGooglewasattheforefrontofthedevelopmentofbigdatatechnologies,becausetheinitialdriverwasindexingtheInternettoenableefﬁcientqueriesforﬁndingcontent.Thismeantthatunstructureddata,likewebsitesmustbeindexedandinformationretrievalalgorithmsmustbeexecutedagainstthisdata.Theamountofunstructureddataisvastlymorethanthatofstructureddata.Typically,therelationbetweendatastructuringandthevolumeofdataisdepictedasapyramid.</text>
+    <g>
+      <g transform="matrix(.63678237,0,0,.63663366,72,211.10102)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Atthetopofthepyramidisthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">structureddata</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,e.g.,tables,commaseparatedvalueﬁlesandsimilar.Often,thisdatacanbedirectlyanalyzedandpre-processingisonlyrequiredfordatacleaning,e.g.,thedetectionofinvaliddataoroutliers.Next,wehave</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">semi-structureddata</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,e.g.,XMLorJSONﬁles.Themaindifferencebetweenstructuredandsemi-structureddataisthatsemi-structureddataformatsareoftenmoreﬂexible.Forexample,eachrowinthetableofarelationaldatabasemusthavevaluesforexactlythesamecolumns.WithXMLandJSON,theﬁeldsareusually</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.IntroductiontoBigData7</text>
+  </g>
+</svg>

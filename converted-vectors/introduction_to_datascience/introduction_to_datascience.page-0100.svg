@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">theclassesfromthescoringfunctioninsteadofjusttakingtheclasswiththehighestscore.If</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">≥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ispositive,ifthescoreislessthanthethresholditisnegative,i.e.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{︃</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">positiveif</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">≥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">negativeif</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whythresholdsandscoringfunctionsareimportantforclassiﬁcationisbestdemonstratedthroughanexample.Thehistogrambelowshowsthescoresofinstancesofaspamdetectionsimulationwherepositivemeansthatanemailisspam.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,399.403)"/>
+    <g>
+      <g transform="matrix(.75003,0,0,.75002,72,187.90843)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,399.403)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,399.403)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,184.722)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,399.602)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theorangebarsshowthescoresofspamemails,thebluebarsthescoresofotheremails.Withoutpickingaspeciﬁcthreshold,wewouldjustpredicttheclasswiththehighestscore.Thisisthesameasathresholdof0.5,indicatedbythegrayline.Thiswouldmeanthatmostemailswouldbepredictedcorrectlybuttherewouldbesomeemailsthatwouldnotbeﬂaggedasspam,eventhoughtheyare,andsomeemailsthatareﬂaggedasspam,eventhoughtheyarenot.Thesearedifferenttypesoferrors,andtheyarenotequalinthisusecase.Whilespamisannoying,deletionofthespamemailsisnotalotofeffort,unlesstherearehundredsofspamemails.Ontheotherhand,evenasingleemailthatismistakenlyﬂaggedasspamandnotshowntotherecipientcanhavestrongnegativeconsequences.Wecansolvethisproblembypickingasuitablethreshold.Theblacklineindicatesathresholdof0.1.Withthisthreshold,onlyspamemailswouldbeﬂaggedasspam.Whilemorespamemailswouldnotbedetected,atleastallnormalemailswouldpassthroughthespamﬁlter.Thus,classiﬁcationwithscoringandasuitablethresholdcanmakethedifferencebetweensolvingaproblemandbuildingamodelthatisunsuitablefortheusecase.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">PerformanceMetrics</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thekeyquestionofclassiﬁcationishowgoodthehypothesis</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">approximatesthetargetconcept</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℎ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">*</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Usually,wedonotgetaperfectsolution,whichmeansthattherearesomeinstancesthatarepredictedincorrectlybythehypothesis.Thespamexampleabovealreadydemonstratesthattherearedifferentkindsofmistakes.Thebasisforanyperformanceevaluationofclassiﬁcationmodelsistheuseoftestdata.Thehypothesisisappliedtothefeaturesofthetestdata.Fromthis,wegetapredictionresultwecancomparewithactualclasses.Thefollowingtableshowstheﬁvefeaturesoftwoinstancesofourimageclassiﬁcationexample,theactualclass,andtheprediction.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">92Chapter7.Classiﬁcation</text>
+  </g>
+</svg>

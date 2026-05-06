@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">similar,butmayhavestructuraldifferences,e.g.,duetooptionalﬁelds.Theﬁrsttwolayersofthepyramidaredeﬁneddataformatsforwhichthereareusuallyquerylanguagesand/orlibrariesfortheextractionofinformation.Thisisnotthecaseonthebottomlayers.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Quasi-structured</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">datahasaﬁxedstructure,butnotinaconvenientandeasilyaccessibledataformat.Forexample,considertheoutputofthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ls-l</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">command.</text>
+  <path d="M0 0H473.978V16.936H0Z" fill="#f5f5f5" transform="matrix(1,0,0,-1,69.011,150.107)"/>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">%</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ls</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-l</text>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,150.107)"/>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,150.107)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,132.97101)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,150.30603)"/>
+  <path d="M0 0H473.978V49.813H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,200.31897)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">total36-rw-rw-rw-1sherboldsherbold24996Mar2611:0401_Introduction.ipynb-rw-rw-rw-1sherboldsherbold6302Mar2613:3202_Process.ipynbdrwxrwxrwx1sherboldsherbold512Mar2611:21</text>
+  <path d="M0 0H32.279V10.959H0Z" fill="#00a250" transform="matrix(1,0,0,-1,340.991,197.33002)"/>
+  <text fill="#208ffb" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">images</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">/</text>
+  <path d="M0 0V49.813" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,200.31897)"/>
+  <path d="M0 0V49.813" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,200.31897)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,150.30603)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,200.518)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Therecertainlyisadiscernablestructureintheoutput,i.e.,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">most</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">linescontainasummaryoftheuserrights,followedbythenumberoflinks,theuserandgroupwhoowntheﬁle,thesize,thedataofthelastchange,andthename.Thisstructurecanbeexploitedtodeﬁneaparserforthedata,forexample,usingregularexpressions.Thus,weareabletoimposeastructureonthequasi-structureddata,bydeﬁningthemeaningofthestructureonourownandwritingourownparsersforthedata.Apotentialproblemwithquasi-structureddataisthatthesedataformatsareoftennotveryreliableandmaychange.Forexample,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ls</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">couldseparateﬁeldswithtabulatorsinsteadofspaces,whichwouldbreakmostparsers.Thereisnoprotectionagainstsuchchanges,whichmakessuchparsersfragileandmaymeanthatsigniﬁcanteffortmustbeinvestedforthemaintenanceofparsersforquasi-structureddatainproductionenvironments.Onthebottomlayerofthepyramidisthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">unstructureddata</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichisthevastmajorityofavailabledata,e.g.,images,videos,andtext.Thechallengeofunstructureddataisthatastructuremustbeimposedforanalyzingthedata.Howthisisdonedependsbothonthedataandtheapplication.Moreover,thereareoftenmixedformatswithunstructureddata.Justconsiderthisscript.Wehaveamixtureofnaturallanguagetext,images,markdowninformationthatspeciﬁesspecialfeaturesofthetext(headlines,listing),andevensourcecode.Howthestructureisimposeddependsbothonthedata,aswellastheapplication.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.4</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Innovativeformsofinformationprocessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">WhilethethreeVsareusuallyconsideredasthemajoraspectsofthedeﬁnitionofbigdata,theotherpartsofthedeﬁnitionarealsoimportanttounderstandwhybigdataisnotjustmoredata,thatmaybegeneratedrapidlyanddif-ferentformats.Thenextpartofthedeﬁnitionstatesthat</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">innovativeformsofinformationprocessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">arerequired.Thismeansyoucannotjustuseanormalworkstationorevenatraditionalbatchsystem,whereyouhavemanycomputingresourcestowhichasharedstorageisattachedviathenetwork.Instead,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">datalocality</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">becomesanissue,i.e.,prevent-ingcopiesofthedataduetothevolume.Thisrequiresdifferentinfrastructuresinwhichcomputationalpowerandstorageiscombined.Whenbigdatawasanewconcept,suchtechnologiesbasicallydidnotexist.Nowadays,therearemanywaystoimplementsuchinfrastructures,e.g.,withHadoop,Spark,Kafka,Cassandra,HBase,andmanyothers.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.5</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Insights,decisionmaking,andprocessautomation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theﬁnalpartofthedeﬁnitionmeansthathavinglargeamountsofdataisnotyetbigdata.Datacanonlybecomebigdata,ifitisactuallyused,e.g.,togenerateinsights,guidedecisionmaking,orevenautomatedpartsofabusinessprocess.Thisaspectissoimportant,thattherearealsodeﬁnitionsofbigdatainwhichthereisanadditionalVfor</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">value</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8Chapter1.BigDataandDataScience</text>
+</svg>

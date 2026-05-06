@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.4</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ApacheSpark</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ApacheSparkisanotherframeworkforworkingwithBigDatathatwascreatedwiththemotivationtoovercomethelimitationsofHadoop:inmemorydataanalysis,suchthatintermediaryresultsdonothavetobewrittentotheHDFSandtheconvenientsupportforcomplexalgorithmswithmanymap()andreduce()functions.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.4.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Components</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheﬁrstdifferenceofSparkincomparisontoHadoopisthatSparkcontainsapowerfulsoftwarestackfordataanalysis,whileHadooponlyprovidesbasicfunctionality,whichisoftenusedbyothersoftwaretoprovidethesefunctions.ApacheSparkconsistsofcorecomponentsthatareresponsiblefortheBigDataprocessing.Ontopofthesefunctionality,Sparkprovideslibrariesthatsimplifythedeﬁnitionofdataanalysistasks.</text>
+    <g>
+      <g transform="matrix(.630768,0,0,.63065758,72,240.65584)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SparkSQL</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">suppersSQL-likequeriestothedatathatisusedwithinanalysis.BecauseSQLissuchawidespreadlan-guageforworkingwithdata,thisallowsuserstoloadandmanipulatedatawithApacheSparkwithoutasteeplearningcurve.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SparkStreaming</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">enablestheliveprocessingof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">streamingdata</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thisway,Sparkcanhandlecontinuouslyin-comingdata,whichisanotherlimitationofHadoop.WiththeMLlibandGraphX,Sparkalsocontainstwolibrariesfordataanalysis.MLlibprovidesimplementationsformanyofthealgorithmswesawinthelastchapters.GraphXisforprocessingofgraphdata,e.g.,socialnetworks.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.4.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DataStructures</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ThedatastructuresofSparkaredesignedforin-memorydataprocessing,whichisincontrasttotheHDFSapproachbyHadoopwhereﬁleoperationsareused.Atthecore,dataiscontainedin</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ResilientDistributedDatasets</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(RDDs).Thesedatastructuresprovideanabstractionlayerfordataoperations,independentoftheactualtypeofthedata.TheRDDsorganizedatainimmutablepartitions,suchthatallelementsinaRDDcanbeprocessedinparallel.Thus,theRDDsaresimilartothekey-valuepairsofHadoopsMapReduce.Consequently,Sparkallowsthedeﬁnitionofmap()andreduce()functionsonRDDs,giventhatthedatawithintheRDDarekey-valuepairs.However,SparkgoesbeyondthecapabilitiesofHadoop,becauseRDDscanalsocontaindatathatarenotkey-valuepairs,ﬁlteringofRDDsissupportedand,ingeneral,anyuser-deﬁnedfunctioncanbeappliedtothedatawithinanRDD.Additionally,theRDDscanbepersistedtothestorage,ifrequested.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.4.ApacheSpark187</text>
+  </g>
+</svg>

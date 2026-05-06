@@ -103,13 +103,20 @@ export class BaseInfraStack extends cdk.Stack {
         architecture: dockerPlatform == "arm" ? lambda.Architecture.ARM_64 : lambda.Architecture.X86_64,
         environment: {
             "SOURCE_BUCKET_NAME": docsBucket.bucketName,
-            "DESTINATION_BUCKET_NAME": processedTextBucket.bucketName
+            "DESTINATION_BUCKET_NAME": processedTextBucket.bucketName,
+            "MAX_PDF_PAGES": process.env.MAX_PDF_PAGES ?? "0"
         }
     });
     // grant lambda function permissions to read knowledgebase bucket
     docsBucket.grantRead(lambdaFn);
     // grant lambda function permissions to write to the processed text bucket
     processedTextBucket.grantWrite(lambdaFn);
+    // allow OCR of embedded diagram images from PDF pages
+    lambdaFn.addToRolePolicy(new iam.PolicyStatement({
+      effect: iam.Effect.ALLOW,
+      actions: ["textract:DetectDocumentText"],
+      resources: ["*"],
+    }));
 
     // create a new S3 notification that triggers the pdf processor lambda function
     const kbNotification = new s3notif.LambdaDestination(lambdaFn);

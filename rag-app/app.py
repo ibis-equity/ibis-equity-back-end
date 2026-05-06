@@ -1,10 +1,13 @@
 import logging
 import os
+import re
 import sys
 import uuid
+from urllib.parse import urlparse
 
 import boto3
 import streamlit as st
+import streamlit.components.v1 as components
 
 import aoss_chat_bedrock as bedrock_claude
 
@@ -95,6 +98,111 @@ def _synthesize_answer_audio(answer_text: str, voice_id: str, language_code: str
         LOGGER.exception("Failed to synthesize answer audio with Polly")
         return None
 
+# ---------------------------------------------------------------------------
+# Module-level S3 image helpers (must be at module scope for @st.cache_data)
+# ---------------------------------------------------------------------------
+_IMAGE_URI_PATTERN = re.compile(r"s3://[^\s\]\)]+")
+_IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".tif", ".tiff", ".svg")
+
+
+def _normalize_s3_uri(uri: str) -> str:
+    """Sanitize extracted S3 URIs that may include wrappers or trailing punctuation."""
+    if not uri:
+        return ""
+    return re.sub(r"[\.,;:!\?\"'`\)>\]}]+$", "", uri.strip().strip("<>\"'`"))
+
+
+def _parse_s3_uri(uri: str):
+    """Return (bucket, key) tuple from an s3:// URI, or (None, None) on error."""
+    uri = _normalize_s3_uri(uri)
+    if not uri or not uri.startswith("s3://"):
+        return None, None
+    parsed = urlparse(uri)
+    return parsed.netloc, parsed.path.lstrip("/")
+
+
+def _is_image_uri(uri: str) -> bool:
+    uri = _normalize_s3_uri(uri)
+    if not uri.startswith("s3://"):
+        return False
+    _, key = _parse_s3_uri(uri)
+    if not key:
+        return False
+    key_lower = key.lower()
+    return key_lower.endswith(_IMAGE_EXTENSIONS) or "/diagram-images/" in key_lower
+
+
+def _is_svg_uri(uri: str) -> bool:
+    """Check if an S3 media URI points to an SVG vector image."""
+    uri = _normalize_s3_uri(uri)
+    if not uri or not uri.startswith("s3://"):
+        return False
+    _, key = _parse_s3_uri(uri)
+    return bool(key and key.lower().endswith(".svg"))
+
+
+@st.cache_data(show_spinner=False, ttl=300)
+def _load_s3_image_bytes(uri: str):
+    """Fetch raw bytes for an S3 image URI. Returns (bytes, None) or (None, error_str)."""
+    uri = _normalize_s3_uri(uri)
+    bucket, key = _parse_s3_uri(uri)
+    if not bucket or not key:
+        return None, "invalid_s3_uri"
+    try:
+        region = os.environ.get("AWS_REGION", "us-east-1")
+        response = boto3.client("s3", region_name=region).get_object(Bucket=bucket, Key=key)
+        return response["Body"].read(), None
+    except Exception as err:
+        LOGGER.exception("Could not load S3 image bytes for %s", uri)
+        return None, str(err)
+
+
+@st.cache_data(show_spinner=False, ttl=300)
+def _extract_image_uris_from_source_text(source_uri: str):
+    """Read a processed .txt artifact from S3 and return all embedded image URIs."""
+    bucket, key = _parse_s3_uri(source_uri)
+    if not bucket or not key:
+        return []
+    try:
+        region = os.environ.get("AWS_REGION", "us-east-1")
+        response = boto3.client("s3", region_name=region).get_object(Bucket=bucket, Key=key)
+        text = response["Body"].read().decode("utf-8", errors="replace")
+    except Exception:
+        LOGGER.exception("Could not load source text for image extraction: %s", source_uri)
+        return []
+    uris = [
+        normalized for uri in _IMAGE_URI_PATTERN.findall(text or "")
+        if (normalized := _normalize_s3_uri(uri)) and _is_image_uri(normalized)
+    ]
+    return list(dict.fromkeys(uris))
+
+
+def _presign_s3_uri(uri: str):
+    """Generate a time-limited presigned URL for an S3 object."""
+    uri = _normalize_s3_uri(uri)
+    bucket, key = _parse_s3_uri(uri)
+    if not bucket or not key:
+        return None
+    try:
+        region = os.environ.get("AWS_REGION", "us-east-1")
+        return boto3.client("s3", region_name=region).generate_presigned_url(
+            "get_object",
+            Params={"Bucket": bucket, "Key": key},
+            ExpiresIn=3600,
+        )
+    except Exception:
+        LOGGER.exception("Could not generate presigned URL for %s", uri)
+        return None
+
+
+def _is_safe_https_url(url: str) -> bool:
+    """Allow rendering only HTTPS URLs to avoid browser file-origin issues."""
+    if not url:
+        return False
+    parsed = urlparse(url)
+    return parsed.scheme == "https"
+
+
 # serverless collection ID
 aoss_id = os.environ.get(AOSS_ID_ENV_VAR)
 if not aoss_id:
@@ -114,8 +222,7 @@ def read_properties_file(filename):
     import re
     with open(filename, 'r') as f:
         for line in f:
-            m = re.match(r'^\s*(\w+)\s*=\s*(.*)\s*$', line)
-            if m:
+            if m := re.match(r'^\s*(\w+)\s*=\s*(.*)\s*$', line):
                 os.environ[m.group(1)] = m.group(2)
 
 
@@ -258,24 +365,25 @@ def handle_input():
     result = chain.run_chain(llm_chain, model_prompt, chat_history)
     answer = result['answer']
     language_config = _get_language_config()
-    answer_audio = _synthesize_answer_audio(
+    if answer_audio := _synthesize_answer_audio(
         answer,
         language_config.get("voice_id", DEFAULT_POLLY_VOICE_ID),
         language_config.get("language_code", DEFAULT_POLLY_LANGUAGE_CODE),
-    )
-    if answer_audio:
+    ):
         result['audio'] = answer_audio
     chat_history.append((input, answer))
     
     document_list = []
+    source_documents = result.get('source_documents', []) if isinstance(result, dict) else []
     if 'source_documents' in result:
-        for d in result['source_documents']:
-            if not (d.metadata['source'] in document_list):
+        for d in source_documents:
+            if d.metadata['source'] not in document_list:
                 document_list.append((d.metadata['source']))
 
     st.session_state.answers.append({
         'answer': result,
         'sources': document_list,
+        'source_documents': source_documents,
         'id': len(st.session_state.questions)
     })
     st.session_state.input = ""
@@ -302,11 +410,7 @@ def render_result(result):
 
 
 def render_answer(answer):
-    col1, col2 = st.columns([1,12])
-    with col1:
-        st.image(AI_ICON, width='stretch')
-    with col2:
-        st.info(answer['answer'])
+    def _render_speech_status():
         speech_on = bool(st.session_state.get("enable_speech", False))
         preferred_language = st.session_state.get("preferred_language", "English")
         audio_ready = bool(answer.get('audio'))
@@ -316,17 +420,109 @@ def render_answer(answer):
             st.caption(f"Speech: ON (no audio generated) | Language: {preferred_language}")
         else:
             st.caption(f"Speech: OFF | Language: {preferred_language}")
+
+    col1, col2 = st.columns([1,12])
+    with col1:
+        st.image(AI_ICON, width='stretch')
+    with col2:
+        st.info(answer['answer'])
+        _render_speech_status()
         if answer.get('audio'):
             # Auto-play freshly generated Polly audio for a smoother chat UX.
             st.audio(answer['audio'], format='audio/mpeg', autoplay=True)
 
 
 def render_sources(sources):
-    col1, col2 = st.columns([1,12])
+    max_preview_images = 6
+    show_source_debug = _env_flag("RAG_SHOW_SOURCE_DEBUG", default=True)
+
+    col1, col2 = st.columns([1, 12])
     with col2:
         with st.expander("Sources"):
             for s in sources:
-                st.write(s)
+                # --- Resolve the source S3 URI ---
+                source_uri = ""
+                if isinstance(s, str):
+                    # String sources: extract the embedded s3://...txt URI
+                    m = re.search(r"s3://[^\s\]\)\"']+\.txt", s, re.IGNORECASE)
+                    source_uri = m.group(0) if m else (s or "").strip()
+                elif hasattr(s, "metadata") and isinstance(s.metadata, dict):
+                    source_uri = (s.metadata.get("source", "") or "").strip()
+
+                if source_uri.lower().startswith("file://"):
+                    st.write("Reference (local file path omitted)")
+                else:
+                    st.write(source_uri or "Reference")
+
+                # --- Collect image URIs (three-level fallback) ---
+                image_uris = []
+                meta_count = chunk_count = fallback_count = 0
+
+                # 1. Metadata field (set during indexing)
+                if hasattr(s, "metadata") and isinstance(s.metadata, dict):
+                    image_uris = [
+                        _normalize_s3_uri(u) for u in (s.metadata.get("image_uris") or [])
+                        if _is_image_uri(u)
+                    ]
+                    meta_count = len(image_uris)
+
+                # 2. Inline markers embedded in the chunk text
+                if not image_uris and hasattr(s, "page_content"):
+                    image_uris = [
+                        _normalize_s3_uri(u) for u in _IMAGE_URI_PATTERN.findall(s.page_content or "")
+                        if _is_image_uri(u)
+                    ]
+                    chunk_count = len(image_uris)
+
+                # 3. Read the full processed .txt artifact and extract all image URIs
+                if not image_uris and source_uri.lower().startswith("s3://") and source_uri.lower().endswith(".txt"):
+                    image_uris = _extract_image_uris_from_source_text(source_uri)
+                    fallback_count = len(image_uris)
+
+                if show_source_debug:
+                    st.caption(
+                        f"Debug | source_docs={len(sources)} | "
+                        f"meta={meta_count} | chunk={chunk_count} | txt_fallback={fallback_count}"
+                    )
+
+                if not image_uris:
+                    continue
+
+                unique_uris = list(dict.fromkeys(image_uris))[:max_preview_images]
+                st.caption(f"Related diagrams/images ({len(image_uris)} found, showing {len(unique_uris)})")
+                loaded = 0
+                for img_uri in unique_uris:
+                    presigned = _presign_s3_uri(img_uri)
+                    if _is_safe_https_url(presigned):
+                        st.markdown(f"[Open media source]({presigned})")
+                        if _is_svg_uri(img_uri):
+                            svg_bytes, svg_err = _load_s3_image_bytes(img_uri)
+                            if svg_bytes:
+                                try:
+                                    svg_text = svg_bytes.decode("utf-8", errors="replace")
+                                    # Inline SVG content renders consistently in Streamlit iframe components.
+                                    components.html(
+                                        f"""
+                                        <div style=\"width:100%; border:1px solid #DDD; border-radius:6px; padding:8px; background:#FFF; overflow:auto;\">
+                                          {svg_text}
+                                        </div>
+                                        """,
+                                        height=460,
+                                        scrolling=True,
+                                    )
+                                except Exception as err:
+                                    if show_source_debug:
+                                        st.warning(f"Could not decode SVG for {img_uri}: {err}")
+                            elif show_source_debug:
+                                st.warning(f"Could not load SVG bytes for {img_uri}: {svg_err}")
+                        else:
+                            st.image(presigned, use_container_width=True)
+                        loaded += 1
+                    elif show_source_debug:
+                        st.warning(f"Could not create safe HTTPS image URL for {img_uri}")
+
+                if show_source_debug:
+                    st.caption(f"Debug | attempted={len(unique_uris)} | loaded={loaded}")
 
 
 #Each answer will have context of the question asked in order to associate the provided feedback with the respective question
@@ -334,7 +530,7 @@ def write_chat_message(md, q):
     chat = st.container()
     with chat:
         render_answer(md['answer'])
-        render_sources(md['sources'])
+        render_sources(md.get('source_documents', []))
     
         
 with st.container():

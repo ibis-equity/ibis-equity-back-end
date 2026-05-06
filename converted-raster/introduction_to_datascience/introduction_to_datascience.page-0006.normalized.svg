@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.3TrendandSeasonalEffects</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">137</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.3.1RegressionandSeasonalMeans</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">137</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.3.2Differencing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">139</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.3.3ComparisonoftheApproaches</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">141</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4AutocorrelationwithARMA</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">141</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.1AutocorrelationandPartialAutocorrelation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">141</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.2AR,MAandARMA</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">143</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.3Picking</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑝</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑞</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">144</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.4ARIMA</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">145</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10TextMining</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">147</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.1Overview</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">147</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2Preprocessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">148</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.1CreationofaCorpus</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">148</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.2RelevantContent</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">148</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.3PunctuationandCases</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">149</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.4StopWords</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">150</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.5StemmingandLemmatization</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">151</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.6VisualizationofthePreprocessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...............................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">152</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.7Bag-of-Words</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">153</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.8InverseDocumentFrequency</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">154</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.9BeyondtheBag-of-Words</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">155</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.3Challenges</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">156</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.3.1Dimensionality</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">156</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.3.2Ambiguities</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">156</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.3.3AndManyMore</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">157</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11Statistics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">159</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.1Motivation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">159</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2HypothesisTesting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">160</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.1</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Test</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">160</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.2SigniﬁcanceLevel</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">162</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.3OverviewofStatisticalTests</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">162</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.4Usingthe</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Test</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">163</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.5CommonMisusesofHypothesisTesting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">163</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.3EffectSizes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">164</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.4ConﬁdenceIntervals</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">165</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.5GoodStatisticalReporting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">167</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12BigDataProcessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">169</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1DistributedComputing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">169</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1.1ParallelProgrammingModels</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">169</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1.2DistributedComputingforDataAnalysis</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">170</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1.3DataLocality</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">172</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2MapReduce</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">172</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.1map()</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">173</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.2shufﬂe()</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">173</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.3reduce()</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">174</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.4WordCountwithMapReduce</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">174</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.5Parallelization</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">175</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3ApacheHadoop</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">175</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.1HDFS</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">176</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.2YARN</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">177</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.3MapReducewithHadoop</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">180</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">iv</text>
+</svg>

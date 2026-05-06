@@ -1,0 +1,7 @@
+{
+    "Variables":  {
+                      "MAX_PDF_PAGES":  "10",
+                      "SOURCE_BUCKET_NAME":  "baseinfrastack-knowledgebaseb1b5b9dc-96defku0hgyp",
+                      "DESTINATION_BUCKET_NAME":  "baseinfrastack-processedtext1b5b9dda-g1nusiz02rae"
+                  }
+}

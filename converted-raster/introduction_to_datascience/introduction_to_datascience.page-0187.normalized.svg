@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.32841603,0,0,.32842563,72,71.99855)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheusersubmitsanapplicationtotheResourceManager.TheResourceManagerqueuesthisapplicationuntiltherearesufﬁcientcapacitiesinthecomputeclustertostarttheexecution.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagerallocatesa</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">container</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ononeoftheNodeManagersandlaunchesthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">applicationmaster</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theapplicationmasterisnottheapplicationitself,butratheragenericprogramthatknowshowtoexecutetheapplication,e.g.,whichresourcesarerequiredandwhichtasksmustbeexecuted.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheapplicationmasterrequeststheresourcesrequiredforcomputationsfromtheResourceManager.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thenodemanagerallocatestherequiredcontainers.Intheexample,thesearetwocontainersrunningontheNodeManagersontheleftandrightside.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagerinformstheapplicationmasterthattherequiredresourcesareallocated.Thisinformationincludesthedatarequiredtoaccessthecontainers.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theapplicationmasterexecutes(partsof)theapplicationinthecontainers.Theapplicationmanagersmayconﬁguretheenvironmentthroughenvironmentvariables.TheapplicationsarethenusinglocalresourcesofthehostwheretheNodeManagerisrunning,e.g.,binaryordatafromtheHDFS.Oncetheapplicationisﬁnished,allcontainersaredestroyed.TheresultsonlyaccessibleviatheHDFS.Theresourcerequests(step3)mayusethefollowinginformationtospecifytherequiredresources:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Therequirednumberofcontainers.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CPUcoresandmemorythatarerequiredpercontainer.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thepriorityoftherequest.Thispriorityislocaltotheapplicationandnotglobal.Thismeansthatthepriorityonlyinﬂuenceswhichoftheresourcesaspeciﬁcapplicationrequestsitgetsﬁrst.AhigherprioritydoesnotgiveanyadvantagesinschedulingwithrespecttootherapplicationsthatarealsorequestingresourcesfromtheResourceManager.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Itisalsopossiblytodirectlyspecifythenameofthedesiredcomputationalresources.ThiscouldeitherbeaspeciﬁchostofNameNode,butalsoamoregenericpropertyofthetopographyofthecomputecluster,e.g.,inwhichrackthehostshouldbelocated.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.ApacheHadoop179</text>
+  </g>
+</svg>

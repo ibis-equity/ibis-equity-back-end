@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">PREFACE</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Welcometotheonlinebook</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thisbookiscreatedtoprovideagreatresourceforasynchronousonlinelearningtodealwiththecurrentpandemic,wherephysicallecturesarenotpossibleandnotallparticipantsmaybeabletoattendlectures,e.g.,duetohealthissuesorjustbecauseyouhavetocareofakid.However,thisonlinebookismorethanjustashorttermﬁxduetothepandemic.Thisbookisaninteractiveguideforgettingstartedwithdatascience.Allcodethatisused,e.g.,toperformanalysisortocreatevisualizationsisincludedandcanbere-usedbyanyone.Thebookisprovidedboth</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">online</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andasa</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">PDFforprinting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Targetaudience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theprimaryaudiencearestudents,whovisitmycoursesattheuniversity.Thesestudentsusuallyhave(some)com-putersciencebackground,buttherearealsoalwaysinterestedstudentswhohaveonlylittlepriorknowledgeofcom-puterscience.Thebookiswrittensuchthatanyoneinterestedindatasciencecanfollow</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">most</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ofthebook,butmaybenoteverydetail.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Prerequisites</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Ingeneral,thisbookisdesignedtoberelativelyeasytofollowforstudentsattheuniversitylevelwhohavesomeafﬁnityforworkingwithdataandideallyalsoforprogrammingandmathematics.However,withoutatleastsomeknowledgeaboutmathematicsandcomputerscience,acompleteunderstandingofthematerialswillnotbepossible,eventhoughyoushouldbeabletounderstandmostconcepts.Thefollowingskillsarerequiredforacompleteunderstandingofthisscript:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Basicprogrammingskills,ideallysomePythonknowledge.Allcontentsofthescript,withtheexceptionoftheprogrammingexamples,shouldbeunderstandablewithoutprogrammingknowledge.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Mathematicalnotationscommonlyusedinhighermathematics.Withoutthisknowledge,youmaynotunder-standhowallmodelsfordataanalysisareworking.Herearesomeexampleofsimpleformulathatyoushouldbeabletoread:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︀</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛𝑖</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(sumofthevalues</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Π</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛𝑖</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(productofthevalues</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">R</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isa</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-dimensionalrealvaluedvector)</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+</svg>

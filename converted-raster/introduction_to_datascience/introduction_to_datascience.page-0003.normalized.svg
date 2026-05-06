@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CONTENTS:</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1BigDataandDataScience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1IntroductiontoBigData</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.1Volume</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.2Velocity</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.3Variety</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.4Innovativeformsofinformationprocessing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.5Insights,decisionmaking,andprocessautomation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.6MoreVs</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2DataScienceandBusinessIntelligence</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.1WhatisDataScience?</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.2ExamplesforApplications</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.3DifferencestoBusinessIntelligence</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.3TheSkillsofDataScientists</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2TheProcessofDataScienceProjects</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">13</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.1GenericProcessModel</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">13</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.1.1Processes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">13</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.1.2OverviewoftheGenericProcessofDataScienceProjects</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">14</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2RoleswithinDataScienceProjects</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">20</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.1BusinessUser</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">20</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.2ProjectSponsor</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">20</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.3ProjectManager</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">21</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.4BusinessIntelligenceAnalyst</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">21</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.5DataEngineer</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">21</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.6DatabaseAdministrator</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">21</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.2.7DataScientist</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">21</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3CoreDeliverables</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">22</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.1SponsorPresentation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">22</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.2AnalystPresentation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">22</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.3Code</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">22</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.4TechnicalSpeciﬁcations</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">23</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.5DataasDeliverable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">23</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3DataExploration</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">25</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.1OverviewofDataExploration</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">25</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.2DescriptiveStatistics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">26</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.2.1CentralTendency</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">26</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.2.2Variability</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">28</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.2.3Range</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">29</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.3VisualizationforDataExploration</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">29</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">i</text>
+</svg>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theeuclideandistanceisbasedontheeuclideannorm</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||·||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">anddeﬁnedas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥,𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">√︀</text>
+    <path d="M0 0H122.386" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,295.163,96.788028)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ManhattenDistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Anothercommondistancemeasureisthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Manhattendistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,alsoknownastaxi-cabnorm.ThenameofthenormcomesfromthegridofthestreetsinManhatten,thatismostlyorganizedinanaxisparallelway.Thus,ifyouwanttotravelbetweentwopoints,youcannotusethediagonal.</text>
+    <g>
+      <g transform="matrix(.75002256,0,0,.75002256,72,196.14566)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheManhattendistancesisbasedontheManhattennorm</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||·||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">anddeﬁnedas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥,𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ChebyshevDistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">The</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chebyshevdistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanothercommondistancemeasure.TheChebyshevdistanceisalsoknownasmaximummetricandChessboarddistance.ThisisbecausetheChebychevdistanceisthesameasthenumberofmovesthattheKinginthegameofchessneedstoreachacertainﬁeld.</text>
+    <g>
+      <g transform="matrix(.75002256,0,0,.75002256,72,406.26365)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thus,thevalueoftheChebychevnormismaximumofthedistancesinanydirection.TheChebyshevdistanceisbasedonthemaximumnorm</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||·||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∞</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">anddeﬁnedas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥,𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">||</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∞</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=max</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.1.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">EvaluationofClusteringResults</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theevaluationofclusteringresultsisabitdifferentfromtheevaluationoftheothercategoriesofalgorithms.Thereasonforthisisthattherearenogenericcriteria.Instead,thecriteriadependontheclusteringalgorithmandtheusecase.Eachclusteringalgorithmcomeswithitsownapproachforﬁndingrelatedobjects,i.e.,itsownconceptofsimilarity.Consequently,howgoodtheclustersmatchthedata,suchthatthedatawithintheclustersisreallysimilartoeachother,dependsonthedeﬁnitionofsimilarityusedbytheclusteringalgorithm.Wewilldiscusssuchcriteriatogetherwithalgorithms.Theimportanceoftheusecasecanbeseenusingtheemoticonexampleabove.Ifweareinterestedinemotion,wehaveaperfectgrouping.Ifwe,ontheotherhand,wanttoidentifyemoticonsfromdifferentsetsofemoticons,theclustersshouldbetheorangeonesandtheyellowones.Unfortunately,suchaspectscannotbemeasuredbygeneric</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.1.Overview65</text>
+  </g>
+</svg>

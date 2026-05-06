@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DataLocality</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Weseethatthereisafundamentalproblemwithtraditionaldistributedcomputingforbigdata,whichiswhyweneedthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">innovativeformsofinformationprocessing</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thesolutionisactuallyquitesimple:iftheproblemisthatwecannotcopyourdataoverthenetwork,wemustchangeourarchitecturesuchthatavoidthat.Thestraightforwardwaytoachievethisistobreaktheseparationofthestoragelayerfromthecomputelayer:allnodesbothstoredataandcanperformcomputationsonthatdata.</text>
+    <g>
+      <g transform="matrix(.4254576,0,0,.42548643,72,163.2727)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Inthefollowing,weexplainhowthisisimplementedinpractice.WediscusstheMapReduceprogrammingmodelthatbecamethedefactostandardforBigDataapplications.Then,weshowApacheHadoopandApacheSparktodemonstratehowthedistributedcomputingwithBigDataisimplemented.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MapReduce</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMapReduceparadigmfordatathedataparallelizationtoenableBigDataprocessingwas</text>
+    <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">publishedbyGooglein2004</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thegeneralideaistodescribecomputationsusingtwodifferentkindsoffunctions:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">map</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">functionsand</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reduce</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">functions.Bothfunctionsworkwith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">key-valuepair</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Mapfunctionsimplementtheembarrassinglyparallelpartofalgorithms,reducefunctionsaggregatetheresults.TheconceptofmapfunctionsandreducefunctionsisnotuniquetoMapReduce,butageneralconceptthatcanbefoundinmanyfunctionalprogramminglanguages.ToenableBigData,MapReduceintroducesathirdfunction,the</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">shufﬂe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theonlytaskofthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">shufﬂe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">istoarrangeintermediateresults,i.e.,tofacilitatethecommunicationbetweenthemapandreducefunctions.ThefollowingﬁguregivesanoverviewofthedataﬂowofMapReduce.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">172Chapter12.BigDataProcessing</text>
+  </g>
+</svg>

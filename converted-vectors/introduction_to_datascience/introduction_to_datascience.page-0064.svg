@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.38742239,0,0,.38741283,72,72.00041)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Therelationshipthattherulesdescribeshouldbe“interesting”.Themeaningofinterestingisdeﬁnedbytheusecase.Intheexampleabove,interestingisdeﬁnedas“shoppersboughtitemstogether”.Iftheassociationrulesshould,e.g.,ﬁndgroupsofcollaborators,interestingwouldbedeﬁnedas“workedtogetherinthepast”.Wecanalsoformallydeﬁneassociationrulemining.Wehaveaﬁnitesetofitems</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐼</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andtransactionsthatareasubsetoftheitems,i.e.,transactions</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">with</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑗</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">⊆</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐼,𝑗</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Associationrulesarelogicalrulesoftheform</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">⇒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,where</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">aredisjointsubsetsofitems,i.e.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋,𝑌</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">⊆</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐼</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∩</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∅</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Wereferto</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">asthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">antecedent</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">orleft-hand-sideoftheruleandto</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">asthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">consequent</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">orright-hand-sideoftherule.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Note:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Youmaynoticethatwedonotspeakoffeatures,butonlyofitems.Moreover,wedonotspeakofinstances,butratheroftransactions.Thereasonforthisistwo-fold.First,thisisthecommonterminologywithrespecttoassociationrulemining.Second,therearenorealfeatures,theobjectsaredeﬁnedbytheiridentity.Thetransactionsarethesameastheinstancesfrom</text>
+    <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter4</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thegoalofassociationruleminingistoidentifygoodrulesbasedonasetoftransactions.Agenericwaytodeﬁne“interestingrelationships”isthatitemsoccuroftentogetherintransactions.Considerthefollowingexamplewithtentransactions.</text>
+    <path d="M0 0H473.978V16.936H0Z" fill="#f5f5f5" transform="matrix(1,0,0,-1,69.011,507.035)"/>
+    <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,507.035)"/>
+    <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,507.035)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,489.899)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,507.234)"/>
+    <path d="M0 0H473.978V115.567H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,623)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">[['item1','item2','item3'],['item2','item4'],['item1','item5'],['item6','item7'],['item2','item3','item4','item7'],['item2','item3','item4','item8'],['item2','item4','item5'],['item2','item3','item4'],['item4','item5'],['item6','item7']]</text>
+    <path d="M0 0V115.567" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,623)"/>
+    <path d="M0 0V115.567" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,623)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,507.234)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,623.199)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecanseethattheitemsitem2,item3,anditem4occuroftentogether.Thus,thereseemstobeaninterestingrelationshipbetweentheitems.Thequestionis,howcanweﬁndsuchinterestingcombinationsofitemsautomaticallyandhowcanwecreategoodrulesfrominterestingcombinationsofitems.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">56Chapter5.AssociationRuleMining</text>
+  </g>
+</svg>

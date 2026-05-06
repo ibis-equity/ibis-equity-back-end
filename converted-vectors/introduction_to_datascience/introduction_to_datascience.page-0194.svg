@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">implementationthatisbundledasajar-Archiveandcanbeused.Forexample,thefollowingcommandcouldbeusedtorunthewordcount.</text>
+  <path d="M0 0H473.978V82.69H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,185.97303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">hadoopjarhadoop</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">streaming</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">jar\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">input</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">myInputDirs\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">outputmyOutputDir\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">mappermapper</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">py\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reducerreducer</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">py\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">filemapper</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">py\</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">filereducer</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">py</text>
+  <path d="M0 0V82.69" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,185.97303)"/>
+  <path d="M0 0V82.69" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,185.97303)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,103.08301)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,186.172)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thehadoop-streaming.jarisanormalMapReduceimplementationofMapReduceinJava,aswehaveitexplainedabove.Themap()functionofthisjarcallsthemapper.pywithinitsmap()functionandthereducer.pywithinitsreducefunction()andcommunicateswiththepythonscriptsviathestandardinput/output.TheinputandoutputparametersdeﬁnewherethedataisreadfromandwheretheresultswillbewrittentointheHDFS.Theﬁnaltwoparametersarerequired,tomakethePythonscriptsavailableonthecomputenodes.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.6</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AdditionalComponents</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Inadditiontothecorecomponentswehaveshownabove,thereareseveralothercomponents,thatwedonotdiscussindetail,butwanttomentionregardless.Webrieﬂywanttodiscusstwooftheseadditionalcomponents.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Combiner</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">functionsaresimilartoreduce()function,butarerunninglocallyoneachDataNodeandareexecutedbeforeshufﬂingthedatatoanothernode.Inmanyusecases,thecombinersareidenticaltoreduce().Inthewordcountexample,wecanapplyreduce()multipletimesinarowwithoutproblems,sincethereducerfunctioncreatesthesumofthevaluesofthekeys.Withoutacombiner,thesevalueswillalwaysbeexactlyone.Withacombiner,wewouldcreateawordcountlocallyoneachDataNode,thenshufﬂethewordcountsofthenodestoreduce()function,thatwouldcreatethetotalwordcountfromthewordcountsoneachDataNode.Combinerscan,therefore,reducethetrafﬁcbetweennodesbyaggregatingresultspriortothereduce()function.Forexample,wewouldshufﬂeonepairinsteadoftwopairstothereducer,therebycuttingthetrafﬁcinhalf.ThelargertheamountofdatathatishandledlocallyateachnodeintheHadoopcluster,thelargerthepotentialforreducingthetrafﬁcwithacombiner.Therequirementforchainingfunctionsthiswayisthatthefunctionsare</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">idempotent</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.The</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MapReduceJobHistoryServer</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanotheruser-facingcomponentofaHadoopdeployment.UsersofaHadoopclustercanaccesstheJobHistoryServertoaccessinformationaboutsubmittedHadoopapplication.Thisinformationincludeslogﬁlesofthejobexecution,startandendtimes,aswellasthestateofthejob,e.g.,whetherititpending,running,ﬁnished,orfailing.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.7</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Limitations</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Hadoophastwomajorlimitations.Theﬁrstisthatifanalgorithmrequiresmultiplemap()and/orreduce()functions,theirorderofexecutionmustbemanuallyspeciﬁedthroughthecreationof</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Job</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">objectsandthroughthedeﬁnitionoftheirdependencies.Thismeansthatwecannotjustaddmultiplemap()orreduce()jobsinaspeciﬁcordertoaJobobject,butinsteadhavetodeﬁnemultipleJobobjects,specifywhichJobobjectneedstowaitforwhichotherobjects,towhichJobobjecttheoutputofaJobobjectshouldpossiblybeforwardedasinput,etc.Thismanualmodelingofdependenciesiserrorproneandmistakesarehardtospot.RelatedtothislimitationisthatthejobsalwayshavetowritetheirintermediaryresultstotheHDFS.Whilethisisnotaproblemisthedataonlyneedstobereadandprocessedonce,thisissevereoverheadifmultiplecomputationsonthesamedataareperformed,becausetheresultsarenotkeptin-memory.Thus,iterativealgorithmsarenotveryefﬁcientwithHadoop.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">186Chapter12.BigDataProcessing</text>
+</svg>

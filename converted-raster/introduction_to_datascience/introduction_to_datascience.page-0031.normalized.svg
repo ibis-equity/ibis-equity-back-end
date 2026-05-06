@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">duringtheoperationalization.Whenthecodeisre-written,theoldcodecanalsobeusedforcomparison,e.g.,tocheckiftheresultsareunchanged.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.4</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TechnicalSpeciﬁcations</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thecodedoesnotliveonitsown.Coderequiresdocumentationandspeciﬁcations.Thisdocumentationshoulddescribetheenvironmentinwhichthecodecanbeexecuted,e.g.,whichoperationsystemsaresupported,whichothersoftwareisrequired,howdependenciescanbeinstalled,andhowthecodecanberun.Thisis,unfortunately,oftenneglected.Technicalspeciﬁcationsareoftenmissing,outdated,orincomplete.Thislackofdocumentationmaymeanthatthecodebecomesunusable.Regardless,gooddatascientistsensurethatthisisnotthecase.Inresearch,thismaymeanthatareplicationpackageisprovidedtogetherwithapublicationthatcontainsallcodeandadditionaldocumentationrequiredforrunningthecode.Inindustrialprojects,thisshouldbeastandardpartofthepackagingofthesourcecode.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.5</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DataasDeliverable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whendataiscollectedorsigniﬁcantlypre-processedandcleanedupduringaproject,thedataitselfmayalsobedeliverable.Sharingofthedatamayenablefutureprojectsandhelpwiththetestingofre-implementationsduringtheoperationalization.Datasharingisespeciallyimportantinacademia.Withoutthesharingofdata,researchcannotbuildoneachother.Moreover,replicationsandthereproductionofpriorresultsmaynotbepossible.Howdatacanbeshareddependsonthesensitivityandtheamountofdata.Sharingofbigdataisdifﬁcult,asitmayactuallybeimpossibletocreatedownloadlinks.Inthiscase,thedatamaybesharedthroughmultiplesmallerpackagesorbyprovidinganaccesspointtothedatabasethatallowsexternalqueryingofthedata.Ifthedatacontainspersonaldata,sharingmaynotbesimpleandrequirededicateddataprivacyagreementsorprioranonymization.Intheindustrialcontext,datacanbesharedinternallywithinacompany.Inresearch,datasharingshouldfollowthe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">FAIR</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thus,thedatamustbeﬁndable(e.g.,withaDigitalObjectIdentiﬁer(DOI)),accessible(authenticationsupportifrequired),interoperable(providesallinformationrequiredforusebyothers),andreusable(hasalicenseandisinlinewithcommunitystandards).Ideally,notonlythedataisshared,butalsotheprotocolsandtoolsusedtocreatethedata.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.3.CoreDeliverables23</text>
+</svg>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V187.228H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,263.61103)"/>
+    <g>
+      <g transform="matrix(.64732,0,0,.64732,72,79.3734)"/>
+    </g>
+    <path d="M0 0V187.228" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,263.611)"/>
+    <path d="M0 0V187.228" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,263.611)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.18399)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,263.81098)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theplotontheleftshowshowthelinearregressionﬁtsthetimeseries.Weseethattheﬁtisgoodandmatchestheshapeofthetimeseries.Theslopeofthelinearregression,i.e.,thecoefﬁcientisthemonthlyincreaseofpassengers.Thus,thismodelforthetrendgivesusinsightsintothetrenditself:thereare2.66morepassengerseverymonth.Theplotontherightshowsthetimeserieswithoutthetrend.Weseethatthereisnoincreasingtrendanymore,thevaluesseemtobecenteredaroundzero.Thismeansthatthetrendwassuccessfullyremoved.Wealsoobservethattherangeofthevaluesonthey-axisdecreasedfrom</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">600</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">100=500</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">to</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">150</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">100)=250</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thismeansthatthetrendexplainsaboutﬁftypercentofmagnitudethechangeinthevaluesovertime.However,westillobservethatthereisaregularpatternintheﬂuctuationaroundzero.Thisistheseasonalityofthedata.Recallthatthedataweusearemonthlymeasurements.Therefore,itisareasonableconjecturethattheseasonalitythatweobserveisarecurringpatterninthesamemontheveryyear.Wecanfurtherexplorethisbyadjustingtheseasonalitythroughthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">seasonalmean</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Tocalculatetheseasonalmean,wemustknowthelengthofaseason,i.e.,afterhowmanytimestepstheseasonalpatternrepeatsitself.Incaseofthesampledata,wehavea</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">monthlymean</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withalengthof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=12</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">timestepsfortheseasons.Wecanthencalculatetheseasonalpatternasthedifferenceoftheoverallmeanofthedetrendedtimeseriesandtheseasonalmeanandsubstractthisfromthedetrendedtimeseries,i.e.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ˆˆ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=ˆ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑒𝑎𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ˆ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑇</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑜𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑜𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡,𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑒𝑎𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ˆ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">))</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">where</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑜𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡,𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isthemoduloof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">dividedby</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Forexample,ifwehave</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=12</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=26</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑜𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡,𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Inthatcase,theseasonalmeanwouldbecalculatedoverallvalues</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">where</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑜𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">′</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,i.e.,2,14,26,38,etc.Foroursampledatawithaseasonalityof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=12</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">wegetthefollowing.</text>
+    <path d="M0 0H473.978V181.635H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,719.602)"/>
+    <g>
+      <g transform="matrix(.62735,0,0,.62735,72,540.95498)"/>
+    </g>
+    <path d="M0 0V181.635" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,719.602)"/>
+    <path d="M0 0V181.635" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,719.602)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,537.76699)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,719.80099)"/>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73397)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">138Chapter9.TimeSeriesAnalysis</text>
+  </g>
+</svg>

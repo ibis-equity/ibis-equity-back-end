@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V332.674H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,409.057)"/>
+    <g>
+      <g transform="matrix(.6482099,0,0,.64821007,72,79.371158)"/>
+    </g>
+    <path d="M0 0V332.674" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,409.057)"/>
+    <path d="M0 0V332.674" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,409.057)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.18399)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,409.257)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.5</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DecisionTrees</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Imaginetryingtoexplainwhyyouwanttobuyacertaincar.Youarelikelydescribingfeaturesofthecarthatwereyourcriteriaforthedecision:acarwithatleastﬁvedoors,acertainamountofhorsepower,etc.Someofthesecriteriaaremoreimportantthanothers,i.e.,youapplythemﬁrstforselectingyourcar.Thisistheintuitionbehindadecisiontree:logicalrulesareappliedtofeaturestomakedecisionsabouttheclassofinstances.Thesedecisionsarestructuredinatreeasfollows.</text>
+    <path d="M0 0H473.978V181.414H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,712.958)"/>
+    <g>
+      <g transform="matrix(.5159901,0,0,.51599,72,534.5334)"/>
+    </g>
+    <path d="M0 0V181.414" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,712.95797)"/>
+    <path d="M0 0V181.414" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,712.95797)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,531.345)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,713.15798)"/>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73397)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">102Chapter7.Classiﬁcation</text>
+  </g>
+</svg>

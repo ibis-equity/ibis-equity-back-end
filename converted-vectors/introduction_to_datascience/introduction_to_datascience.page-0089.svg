@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V178.78H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,255.164)"/>
+    <g>
+      <g transform="matrix(.65456,0,0,.65456,72,79.37114)"/>
+    </g>
+    <path d="M0 0V178.78" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,255.16399)"/>
+    <path d="M0 0V178.78" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,255.16399)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.18399)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,255.36299)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Consequently,youcannoteasilyapplyDBSCANtoasubsampleofdata,becausethevaluesfor</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝜖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andminPtsdependonthedensityofthesamplewhichusuallydecreaseswhenasubsampleisused.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DBSCANisalsodistancebasedandassuchsensitivetoscaleeffectsinthesamewayas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansclustering.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.5</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SingleLinkageClustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thereisanotherwayhowcitiesoftengrow,i.e.,bymergingwithothercitiesandvillagesintoalargercity.Thisisalwaysdonebycitiesthatareclosetoeachother.Thisistheconceptof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">hierarchicalclustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theideaistobuildclustersbygrowingthem,similartoDBSCAN,butnotbyconsideringdenseneighborhoods,butinsteadbymergingofexistingclustersintolargerclusters.Theoutcomeofhierarchicalclusteraremanydifferentpossibleclusterresults,becausethemergingofclusterscancontinueuntilallinstancesareinasinglecluster.Theresultofhierarchicalclusteringmaylookasfollows.</text>
+    <path d="M0 0H473.978V180.983H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,617.98306)"/>
+    <g>
+      <g transform="matrix(.6629,0,0,.6629,72,439.98844)"/>
+    </g>
+    <path d="M0 0V180.983" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,617.98306)"/>
+    <path d="M0 0V180.983" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,617.98306)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,436.80003)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,618.182)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheresultlookssimilartotheoutcomeoftheDBSCANclustering,butthereisonekeydifference.Thereisnonoise,insteadtherearesomeverysmallclusters,someevenwithonlyasingleinstance,e.g.,theleft-mostinstance.Thedifferencebetweenhierarchicalclusteringalgorithmsishowtheclustersaredeterminedbymergingdata.Wenotethattherearealsohierarchicalclusteringalgorithmsthatworktheotherwayaround,i.e.,bysplittinglargerclustersintosmallerclusters,e.g.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CompleteLinkageClustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.However,inthefollowing,wefocusonthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SingleLinkageClustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(SLINK)algorithmthatcreatesclustersthroughmergingsmallerclusters.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.5.SingleLinkageClustering81</text>
+  </g>
+</svg>

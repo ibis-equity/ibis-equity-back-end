@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V82.69H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,159.073)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">bond</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">is</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">james</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">name</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">the</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">what</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">your</text>
+    <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <path d="M0 0V82.69" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,159.073)"/>
+    <path d="M0 0V82.69" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,159.073)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.18402)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,159.27301)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.5</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Parallelization</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ThedesignofMapReduceenablesparallelizationforeverystepofthecomputationalprocess.Theinputcanbereadinchunkstoparallelizethecreationoftheinitialkey-valuepairs.Forexample,wecouldhavemultipletextﬁles,eachwith1000linesthatcouldbeprocessedinparallel.Theparallelismislimitedbythethroughputofthestorageandmakesmoresense,ifthedataisdistributedacrossmultiplephysicalmachines.map()canbeappliedtoeachkey-valuepairindependentlyandthepotentialforparallelismisonlylimitedbytheamountofdata.shufﬂe()canstartassoonastheﬁrstkey-valuepairisprocessedbythemapfunction.Thisreducesthewaitingtimes,suchthattheshufﬂingisoftenﬁnisheddirectlyafterthelastcomputationsformapareﬁnished.reduce()canruninparallelfordifferentkeys.Thus,theparallelismisonlylimitedbythenumberofuniquekeyscreatedbymap().Moreover,reduce()canalreadystart,onceallresultsforakeyareavailable.Thisiswheresortingbyshufﬂecanhelp.Iftheresultspassedtoreduce()aresorted,reducecanstartprocessingforakey,onceitseesresultsforthenextkey.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ApacheHadoop</text>
+    <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ApacheHadoop</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanopensourceimplementationofMapReduce.Formanyyears,HadoopwasthestandardsolutionforanyMapReduceapplicationandHadoopisstillrelevantformanyapplications.AllmajorcloudprovidersofferHadoopclustersintheirportfolio.Hadoop2.0implementsMapReduceinanarchitecturewiththreelayers.</text>
+    <g>
+      <g transform="matrix(.4317504,0,0,.43177919,72,468.06758)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thelowestlayeristhe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">HadoopDistributedFileSystem</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(HDFS)thatisinchargeofthedatamanagement.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">YetAnotherResourceNegotiator</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(YARN)isrunningontopoftheﬁlesystem.YARNmanagestheuseofcomputationalresourceswithinaHadoopcluster.ApplicationsfordataprocessingthatwanttousetheHadoopclusterarerunningontopofYARN.Forexample,suchapplicationscanbewrittenwiththeHadoopimplementationofMapReduce.However,duetothesuccessoftheHDFSandYARN,therearealsoothertechnologiesthatcanbeusedfordataprocessing,e.g.,</text>
+    <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ApacheSpark</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichwediscussbelow.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.ApacheHadoop175</text>
+  </g>
+</svg>

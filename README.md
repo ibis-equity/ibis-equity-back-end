@@ -24,6 +24,10 @@ This sample is inspired by [another sample](https://github.com/aws-samples/rag-w
 
 ![Architecture](./architecture/arch_aoss_rag.png)
 
+The architecture diagram uses numbered component markers with a side legend to keep the graphics readable while still providing full component details.
+
+For a detailed step-by-step ingestion flow (PDF upload -> text extraction -> SQS -> OpenSearch indexing), see [Ingestion Pipeline](./architecture/ingestion-pipeline.md).
+
 ## Short note on vector data stores
 
 [Vector database](https://en.wikipedia.org/wiki/Vector_database) is an essential component of any RAG application. The LLM framework uses the vector data store to search for information based on the question that comes from the user. 
@@ -161,6 +165,21 @@ Depending on the architecture of your computer, you may need to set this environ
 ```
 export DOCKER_CONTAINER_PLATFORM_ARCH=arm
 ```
+
+### Optional: limit pages processed per PDF
+
+If you want faster ingestion and lower processing cost for very large PDFs, set a global page cap for the PDF processor Lambda:
+
+```
+export MAX_PDF_PAGES=10
+```
+
+Behavior:
+
+- `MAX_PDF_PAGES=0` (default): process all pages.
+- `MAX_PDF_PAGES=N` (`N > 0`): process only the first `N` pages per PDF.
+
+This cap applies to extracted text, vector drawing extraction, and rendered page-image fallback paths.
 
 
 ### Deploy the BaseInfraStack

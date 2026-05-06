@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">autocorrelationwithinthetimeserieswhereweuseddifferencing.Therelationshipbetweenthedifferenttimestepslookscompletelyrandom.Theplotsoftheautocorrelationaboveignoreoneimportantaspect:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">iscorrelatedwith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">iscorrelatedwith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Howmuchofthecorrelationbetween</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isalreadyexplainedbytheindirectcorrelationbetween</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">though</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">?Theissueisthatthereis</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">carryover</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">betweenthedifferentpointsinthetimeseries.Whilethisishardtoparsewiththemathematicalnotation,themeaningofthisgetsclearerwithanexample.IfthenumberofpassengersinMarcharecorrelatedwiththevalueinFebruary,andthevalueinFebruaryiscorrelatedwiththevalueinJanuary,thenthevalueofJanuaryhasanindirectimpactonMarch,becauseithasanimpactonFebruary.Thus,someofthecorrelationbetweenJanuaryandFebruarycarriesovertoMarch.However,theremayalsobe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">direct</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">correlationbetweenJanuaryandMarch.Thisdirectcorrelationiscalled</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">partialau-tocorrelation</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thepartialautocorrelationistheautocorrelationwithoutthecarryover,i.e.,onlythedirectcorrelation.Theplotsbelowshowtheautocorrelationandthepartialautocorrelationofourexample.</text>
+    <path d="M0 0H473.978V318.403H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,615.95706)"/>
+    <g>
+      <g transform="matrix(.6376,0,0,.6376,72,300.544)"/>
+    </g>
+    <path d="M0 0V318.403" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,615.95706)"/>
+    <path d="M0 0V318.403" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,615.95706)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,297.355)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,616.156)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thebarsintheplotsindicatethestrengthofthecorrelation.Whilethereisnoﬁxedguidelineswithrespecttowhatisastrongoraweakcorrelation,commonlyusedconventionisthatabsolutevaluesbelow0.3indicatethatthereisnocorrelation,between0.3and0.5thatthereisaweakcorrelation,between0.5and0.7thatthereisamoderatecorrelation,andabove0.7thatthereisastrongcorrelation.Inthefollowing,weareonlyinterestedinatleastmoderatecorrelations.Theﬁrstrowoftheplotshowstheautocorrelationandpartialautocorrelationforthetimeseriesthatwedetrendedwiththeregressionandtheseasonalmeans.Theautocorrelationshowsaclearpatternofalternatingpositiveandnegative</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">142Chapter9.TimeSeriesAnalysis</text>
+  </g>
+</svg>

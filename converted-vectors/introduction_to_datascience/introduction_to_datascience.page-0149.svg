@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.3.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ComparisonoftheApproaches</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thetwomethodsformodelingthetrendandseasonalitybothhaveadvantagesandweaknesses.Theadvantageofregressionandseasonalmeansisthatwegetinterpretablevaluesthroughtheslopeoftheregressionandthemonthlymeanvalues.However,thismethodislimited,becauseitonlyworksforlineartrendsandwithseasonaleffectsthathavenotrend.Thus,thedatamaynotbefullystationarywiththisapproach.Thisisthestrengthofdifferencing:itcandealwithbothchangesinthemean,aswellaschangesinthemovementofthemean.Thisalsoholdstruefortheseasonaladjustment,whichcouldalsohavehigherorders,eventhoughweonlyshowedﬁrst-orderseasonaladjustment.Thus,thelikelihoodofgettingstationarydataishigherwiththisapproach.However,wegetnointerpretablevaluesforthetrendorseasonalitythatquantifytheeffects.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AutocorrelationwithARMA</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thelastaspectofatimeseriesthatwemustmodelistheautocorrelation.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AutocorrelationandPartialAutocorrelation</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theautocorrelationisthedirectrelationshipofthevaluesofthetimeseriesatdifferentpointsintime.Thus,wehavethecorrelationbetweenthetimeserieswithitself.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Note:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Auto</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">means</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">self</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inLatin,i.e.,wehavetheLatinmeaningandnottheshortformofautomatic.Ifthesearemixedupinthiscase,thisdoesnotmakesenseandcanbeconfusing.Whattheautocorrelationiscanbevisualizedwithscatterplots.Below,wevisualizetherelationshipbetweenthetimestepsofthetimeseriesforourrunningexamplewithbothvariantsofdetrendingandseasonaladjustment.</text>
+    <path d="M0 0H473.978V236.249H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,654.4)"/>
+    <g>
+      <g transform="matrix(.43861,0,0,.43861,72,421.14173)"/>
+    </g>
+    <path d="M0 0V236.249" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,654.39999)"/>
+    <path d="M0 0V236.249" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,654.39999)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,417.95198)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,654.6)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theplotsintheﬁrstcolumnshowtherelationshipwiththenexttimestep,thesecondcolumntwotimestepsintothefuture,andthethirdcolumnthreetimestepsintothefuture.WiththeLinearRegressionandtheseasonalmeans,weseethatthereisalinearrelationshipbetween</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichgetsweakerwith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andvanisheswith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+3</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thisrelationshipistheautocorrelationofthetimeseries.Inthesecondrow,weseethattheredoesnotseemtobeany</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.4.AutocorrelationwithARMA141</text>
+  </g>
+</svg>

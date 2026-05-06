@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">metrics.Instead,thedatascientists,possiblytogetherwithdomainexperts,mustanalyzethemeaningoftheclustersindepth.Criteriaforsuchamanualanalysismaybeifthenumberofclustersisreasonable,iftheobjectswithinaclusterseemsimilartodomainexperts,orifallsimilarobjectsarewithinthesamecluster.Unfortunately,suchamanualanalysiscanbeverydifﬁcult,especiallyifthedataisverylarge,therearemanyclusters,orthedatahasmanydifferentfeaturesandthusahighdimension.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.1.4</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CitiesandHouses</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Weusearunninganalogytoexplaintheconceptsbehindtheclusteringalgorithms.Theanalogyisquitesimple:insteadofobjects,theanalogyuses“houses”,andinsteadofclusters,theanalogyuses“cities”.Theanalogyworksnicely,becauseyoudonotneedtoknowtowhichcityahousebelongsanddonotevenneedtoknowhowmanycitiesthereare,toseeifahousebelongstothesamecityasotherhouses.Thisisthesameproblem,wetrytosolvewithclustering.Wedonotknowtowhichclusterobjectsbelongandhowmanyclustersthereare,butwanttouseanalgorithmthatcaninferthis.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-MeansClustering</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.2.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">GeneralIdea</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whenwethinkabouthowwecandeﬁnecities,wemaydosobyusingthetownhallsasreferencepoints.Asimpleconceptwouldbetosaythateachhousebelongstothecity,whosetownhallisclosest.Thisistheessenceofofthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansalgorithm:wedescribeclustersbytheir</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">center</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thesecentersarealsocalled</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">centroids</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-meansisanexamplefor</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">centroid-basedclustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Ifwewanttoknowtowhichclusteraninstancebelongs,wejustlookfortheclosestcenter.The</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">deﬁnesthenumberofclusters.Formally,wehaveclustercenters</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐶</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝐶</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈ℱ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andadistancemetric</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Wecandeterminetheclusterofanyinstance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈ℱ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">as</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑎𝑟𝑔𝑚𝑖𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑥,𝐶</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑖</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thefollowingﬁgurevisualizeshowdataisdividedinto</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=4</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">clusters.Thecentersareshownbythelargegreypoints,thecolorsindicatetowhichclustereachinstancebelongs.</text>
+    <path d="M0 0H473.978V182.309H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,668.226)"/>
+    <g>
+      <g transform="matrix(.6629,0,0,.6629,72,488.9066)"/>
+    </g>
+    <path d="M0 0V182.309" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,668.22598)"/>
+    <path d="M0 0V182.309" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,668.22598)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,485.71797)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,668.42599)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thisconceptissimple,effective,andalsointuitive.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">66Chapter6.Clustering</text>
+  </g>
+</svg>

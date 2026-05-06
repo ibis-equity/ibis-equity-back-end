@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.3.4</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TrendsoverTime</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thevisualizationapproachessofardidnotconsiderthatinstancesmaybedirectlyrelatedtoeachother.Themostcommonrelationshipisatemporalrelationship,e.g.,becauseyouhaveaseriesofmeasurementsovertime.WenowuseadatasetaboutthenumberofairpassengersofUSairlinesfrom1949to1960.Thedatacontainsmonthlyvaluesforthenumberofpassengers.</text>
+    <path d="M0 0H473.978V16.936H0Z" fill="#f5f5f5" transform="matrix(1,0,0,-1,69.011,168.495)"/>
+    <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">!</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">headdata/AirPassengers.csv</text>
+    <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,168.495)"/>
+    <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,168.495)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,151.35901)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,168.69397)"/>
+    <path d="M0 0H473.978V115.567H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,284.46)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Month,#Passengers1949-01,1121949-02,1181949-03,1321949-04,1291949-05,1211949-06,1351949-07,1481949-08,1481949-09,136</text>
+    <path d="M0 0V115.567" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,284.46)"/>
+    <path d="M0 0V115.567" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,284.46)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,168.69397)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,284.659)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Above,welearnedthathistogramsareagoodwaytolearnaboutfeatures.Belowisahistogramofthenumberofpassengers.</text>
+    <path d="M0 0H473.978V202.485H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,523.60806)"/>
+    <g>
+      <g transform="matrix(.75005,0,0,.75003,72,324.11116)"/>
+    </g>
+    <path d="M0 0V202.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,523.60806)"/>
+    <path d="M0 0V202.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,523.60806)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,320.92304)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,523.807)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecanlearnsomethingfromthehistogram,e.g.,thattherewhereatmostaround600passengersinamonthandthattherewereabout20monthswithbetween100and350passengers.However,wehavenoideahowthisdatarelatestothetime.Wecouldjustsaythatwegetthisifweuseascatterplotwiththenumberofpassengersasthey-axisandthemonthasthex-axis.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">46Chapter3.DataExploration</text>
+  </g>
+</svg>

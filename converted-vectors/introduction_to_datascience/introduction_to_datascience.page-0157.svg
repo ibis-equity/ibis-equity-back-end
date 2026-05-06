@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuedfrompreviouspage)</text>
+  <path d="M0 0H473.978V203.238H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,287.747)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">@JimHagedornMNand@PeteStauberintheU.S.House!CongressmanBishopisdoingaGREATjob!HehelpedpasstaxreformwhichloweredtaxesforEVERYONE!NancyPelosiisspendinghundredsofthousandsofdollarsonhisopponentbecausetheybothsupportaliberalagendaofhighertaxesandwastefulspending!"U.S.StocksWidenGlobalLead"StatementonNationalStrategyforCounterterrorism:Workinghard,thankyou!Thisisnowthe7th.timetheFBIhasinvestigatedJudgeKavanaugh.Ifwemadeit100,itwouldstillnotbegoodenoughfortheObstructionistDemocrats.</text>
+  <path d="M0 0V203.238" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,287.747)"/>
+  <path d="M0 0V203.238" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,287.747)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,84.31)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,287.946)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whatisrelevantandirrelevantcanalsodependonthecontext.Forexample,adifferentusecaseforTwitterdatawouldbetoanalyzeiftherearedifferencesbetweentweetsfromdifferentsources.Inthiscase,thesourcecannotbedropped,butwouldbeneededtodividethetweetsbytheirsource.AnotheranalysisofTwitterdatamaywanttoconsiderhowthecontentoftweetsevolvesovertime.Inthiscase,thetimestampscannotjustbedropped.Therefore,everytextminingapplicationshouldcarefullyconsiderwhatisrelevantandtailorthecontentsofthetexttothespeciﬁcneeds.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.3</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">PunctuationandCases</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whenweareonlyinterestedinthetopicofdocuments,thepunctuation,aswellasthecasesofthelettersareoftennotusefulandintroduceunwanteddifferencesbetweenthesamewords.Arelevantcornercaseofdroppingpunctuationandcasesareacronyms.Theacronym</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">U.S.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">fromthetweetsisaperfectexampleforthis,becausethisbecomes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">us</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichhasacompletelydifferentmeaning.Ifyouareawarethatthemaybesuchproblemswithinyourdata,youcanmanuallyaddressthem,e.g.,bymappingand</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">US</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">to</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">usa</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">afterdroppingthepunctuation,butbeforelowercasingthestring.Whenweapplythisprocessingtoourtweets,wegetthefollowing.</text>
+  <path d="M0 0H473.978V16.936H0Z" fill="#f5f5f5" transform="matrix(1,0,0,-1,69.011,516.13699)"/>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,516.13699)"/>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,516.13699)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,499.001)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,516.336)"/>
+  <path d="M0 0H473.978V192.279H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,708.814)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">beautifuleveninginrochesterminnesotavotevotevotethankyouminnesotailoveyoujustmademysecondstopinminnesotaforamakeamericagreatagainrallyweneedtoelectkarinhousleytotheusasenateandweneedthestrongleadershipoftomemmerjason2cdjimhagedornmnandpetestauberintheusahousecongressmanbishopisdoingagreatjobhehelpedpasstaxreformwhichloweredtaxesforeveryonenancypelosiisspendinghundredsofthousandsofdollarsonhisopponentbecausetheybothsupportaliberalagendaofhighertaxesandwastefulspendingusastockswidengloballead</text>
+  <path d="M0 0V192.279" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,708.814)"/>
+  <path d="M0 0V192.279" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,708.814)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,516.336)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,709.013)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuesonnextpage)</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.Preprocessing149</text>
+</svg>

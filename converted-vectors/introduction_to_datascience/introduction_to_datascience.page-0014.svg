@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.5954304,0,0,.59541609,72,71.9989)"/>
+    </g>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Velocity</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thevelocitydealswiththespeedatwhichnewdataiscreated,processed,and/orevaluated.Examplesforhighvelocitydataarethedifferentsensorsinself-drivingcars(LIDAR,Cameras,...).Suchdatacanbecomelargereallyfast.Forexample,WaymoreleasedcompresseddatafromaboutelevenhoursofdrivingwhichistwoTerabytesofdata</text>
+    <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">[WaymoOpen]</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Datathatisproducedatsuchhighspeedsisalsocalled</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">streamdata</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Often,streamingdatamustbeprocessedin(nearly)real-time.Thus,therearenotonlyrequirementsonbeingabletoreceivelargeamountsofdatathatarecreatedrapidly,butalsotoprocessandevaluatethisdatainatimelymanner.Consequently,onemightsaythatthereisaninversecorrelationbetweenthevelocityandthevolumewhenitcomestodecidingifdataisbig:thehigherthevelocity,thesmallerthevolumethatisrequiredtomakedatabig.Thereasonisquitesimple:processingoneGigabyteinonehourissimple,processingoneGigabytepersecondisadifferentproblem.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6Chapter1.BigDataandDataScience</text>
+  </g>
+</svg>

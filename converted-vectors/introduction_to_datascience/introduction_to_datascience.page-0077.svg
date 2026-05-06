@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V326.159H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,402.542)"/>
+    <g>
+      <g transform="matrix(.6629,0,0,.66290006,72,79.37329)"/>
+    </g>
+    <path d="M0 0V326.159" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,402.542)"/>
+    <path d="M0 0V326.159" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,402.542)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.18399)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,402.74198)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">With</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">wegetasinglelargeclusterandonesmallercluster.With</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=3</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thelargeclusterissplitintwo,andwehaveoneclusteratthetop-right,oneatthebottom,andoneinthemiddleoftheplot.With</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=4</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">themiddleclusterisfurthersplitintotwoandwehaveoneinthemiddleoftheplotandoneontherightside.With</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=5</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thebottomclusterisalsosplitintwoandnowhasatopandabottomhalf.Wecanarguethattheresultsfor</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">allmakesense.Wecouldarguethat</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isbest,becausethereisalargegapbetweentheinstancesonthetop-leftandtheothers,andthereisnoothergapthatlarge.Wecouldalsosaythat</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=3</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isbest,becausethereisasmallgapbetweenthebottomclusterandthepointsinthemiddle,andthereisnosuchgapbetweenthepointsinthemiddle.Wecouldalsosaythat</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=4</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isbest,becausehereallclustersareroughlyequallydenseandhaveasimilarshape.However,for</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=5</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,wecannotreallyarguethatthiswouldbebest.Thesplitofthegroupatthebottomjustdoesnotmakesense.Thisisageneralobservationforclustering:withoutknowingthemeaningofinstances,wecannotreallysaywhichresultisbest,becauseoftenmultipleresultsmaymakesense.Whichisbestdependsontheusecaseandthedata.Ingeneral,thereareseveralaspectsthatinﬂuencetheselectionof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thedomainknowledgeabouttheusecaseandthedata.Knowledgeaboutthedomaincanhelptodeterminedatawithinaclusterisreallysimilarandalsoifdifferentclustersarereallynotsimilartoeachother.Ifyoudeterminebasedondomainknowledgethatclustersarenotinternallysimilar,youneedtoincrease</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Ifyoudeterminethatsimilarobjectsareindifferentclusters,youshoulddecrease</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theusecasemayalsoprescribeaﬁxednumberofclustersthatmustbetheoutcome.Forexample,ifabinaryseparationofthedataintotwogroupsmustbeachieved,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">mustbesettotwo.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Visualizationsareagreattooltoseehowcleartheseparation,howbigthegapsbetweenclustersare,andhowthedataintheclustersisspreadout.Visualizationisthemeansforidentifyinggoodvaluesof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">weusedabove.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thereisalsoamoreanalyticalapproachfortheselectionof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">basedonthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Within-Sum-of-Squares</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(WSS).TounderstandWSS,wemustrevisitthealgorithmof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Means.Theupdatestepsetsthecenterssuchthattheyarelocatedatthearithmeticmeanoftheclusterpoints.Thus,theupdatestepminimizesthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">intra-clustervariance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thevarianceisthesquareofthestandarddeviationandcalculatedbythedividingthesumofthesquared</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.2.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-MeansClustering69</text>
+  </g>
+</svg>

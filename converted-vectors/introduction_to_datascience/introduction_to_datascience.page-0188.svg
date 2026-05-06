@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.3</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MapReducewithHadoop</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">HadoopprovidesaMapReduceimplementationthatusesYARNfortheexecution.InsuchaMapReduceapplication,usersdeﬁnesequencesofmap()/reduce()taskstosolvetheirproblem.TheexecutionisdrivenbytheMRAppMasterJavaapplication.ThisapplicationspeciﬁesaYARNapplicationmasterthatmanagestheexecutionoftasks,inthiscaseofthemap()andreduce()tasks.UsersspecifytheMapReduceapplicationsthroughaJavaapplication.Hadoopalsohasa</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">streamingmode</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">forjobexecution,whichwediscussbelow.ThetasksofMapReduceapplicationsarespeciﬁedthroughsubclassing.Subclassesofthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Mapper</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">classdeﬁnemap()functions,subclassesofthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Reducer</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">classdeﬁne</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reduce()</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thecodebelowspeciﬁesthemap()functionforthewordcountexample.Pleasenotethatweomitallboilerplatecodefromthecodesamples,e.g.,importstatements.Thecompleteexamplecanbefountinthe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ofﬁcialHadoopdocumentation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <path d="M0 0H473.978V181.32H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,398.242)"/>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">public</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">static</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">class</text>
+  <text fill="#0d85b5" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TokenizerMapper</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">extends</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Mapper</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Object,Text,Text,IntWritable</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">private</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">final</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">static</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritableone</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">new</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable(</text>
+  <text fill="#21804f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">);</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">private</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Textword</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">new</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text();</text>
+  <text fill="#545454" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">@Override</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">public</text>
+  <text fill="#8f2100" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">void</text>
+  <text fill="#05297d" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">map</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(Objectkey,Textvalue,Contextcontext)</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">throws</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IOException,InterruptedException{</text>
+  <text fill="#40808f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">//textintotokens</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">StringTokenizeritr</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">new</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">StringTokenizer(value.</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">toString</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">().</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">toLowerCase</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">());</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">while</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(its.</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">hasMoreTokens</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">()){</text>
+  <text fill="#40808f" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">//addanoutputpair&lt;word,1&gt;foreachtoken</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">word.</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">set</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(itr.</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">nextToken</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">());context.</text>
+  <text fill="#4070a1" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">write</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(word,one);}}}</text>
+  <path d="M0 0V181.32" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,398.242)"/>
+  <path d="M0 0V181.32" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,398.242)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,216.72303)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,398.441)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">The</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TokenizerMapper</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">classextendstogenericclass</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Mapper</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withfourparametersoftypes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Object</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theﬁrsttwoparametersspecifythetypesofthekeyandvalueoftheinputkey-valuepairsofthemap()function,whichmeanswehavekeysoftype</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Object</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andvaluesoftype</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.thelasttwoparametersspecifythetypeofoutputkey-valuepairs,whichmeanswehavekeysoftype</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withvaluesoftype</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">aredatatypesprovidedbyHadoopthataresimilartotheirJavacoun-terparts</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">String</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Integer</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.ThekeydifferencesbetweentheHadooptypesandthestandardJavatypesarethatoftheHadooptypesare</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">mutable</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,i.e.,thevaluesofobjectscanbemodiﬁed,andtheHadooptypesareoptimizedforserializationtoimprovetheefﬁciencyofexchangingkey-valuepairsbetweendifferentmap()andreduce()tasks.Theclasshastwoattributes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">one</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">word</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichareusedtogeneratetheoutputkeysandvalues.Theseadvantageofhavingtheseasattributesisthattheyarenotinitializedwitheverycallofmap(),whichimprovestheefﬁciency.Finally,wehavemap()function,deﬁneshowtheinputkeyvaluesaremappedtotheoutputpairs.Inadditiontotheinputkeyandvalue,map()getsthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">context</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.ThiscontextspeciﬁestheHadoopexecutionenvironmentandcontains,e.g.,valuesofenvironmentvariables.Moreover,thecontextreceivestheoutputofthemap()functionthroughthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">context.write()</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">method.Thus,themap()functiondoesnotreturnvalues,butcontinuouslywritesresultsforwhichthecomputationﬁnishedtothecontext.Thecontextcontainstheshufﬂe()functionandcanimmediatelystartshufﬂingtheoutputkey-valuepair,onceitwaswritten.Thus,shufﬂingcanalreadystartbeforetheﬁrstmap()functionﬁnished.Thecodebelowshowsthereduce()functionforthewordcount.</text>
+  <path d="M0 0H473.978V71.731H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,712.472)"/>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">public</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">static</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">class</text>
+  <text fill="#0d85b5" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntSumReader</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">extends</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Reducer</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Text,IntWritable,Text,IntWritable</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+  <text fill="#ff0000" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">˓</text>
+  <text fill="#ff0000" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">→</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">private</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritableresult</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">new</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable();</text>
+  <text fill="#545454" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">@Override</text>
+  <text fill="#007021" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">public</text>
+  <text fill="#8f2100" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">void</text>
+  <text fill="#05297d" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reduce</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(Textkey,Iterable</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntWritable</text>
+  <text fill="#666666" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">values,Contextcontext</text>
+  <path d="M0 0V71.731" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,712.472)"/>
+  <path d="M0 0V71.731" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,712.472)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,640.542)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,712.672)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuesonnextpage)</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">180Chapter12.BigDataProcessing</text>
+</svg>

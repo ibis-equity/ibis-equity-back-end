@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thegreenareaintheplotaboveistheprobability,thatthemeanofasampledrawnfromastandardnormaldistributiondeviatesbyatleast</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">from0.Sincewecalculated</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">suchthatthisisthesameastheprobabilitythatthemeansof</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">aredifferent,thisisthep-valueofthetest,hencetheprobabilitythatthedataisobservedgiventhenullhypothesisistrue.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.2</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SigniﬁcanceLevel</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Sincethep-valueindicateshowlikelythedatais,giventhatthenullhypothesisistrue,itisreasonabletoarguethatthenullhypothesismaynotbetrue,ifthep-valueisverysmall,i.e.,thedataisveryunlikelyifthenullhypothesisweretrue.Thisconceptisformalizedwiththe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">signiﬁcancelevel</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝛼</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thatisusedtodeﬁnethe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">statisticalsigniﬁcance</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ofresults.Thesigniﬁcancelevelisdeﬁnedasthe(acceptable)probabilityofrejectingthenullhypothesis,giventhatitistrue.Whilethesigniﬁcanceleveldependsonthedomains,commonlyusedvaluesare0.05,ormorerecentlyalso0.005.Withthesigniﬁcancelevel,wecandecideifwerejectthenullhypothesisornot:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">If</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑝</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑣𝑎𝑙𝑢𝑒&gt;𝛼</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">wefailtorejectthenullhypothesis.Thismeansthatthedatacanbereasonablywellexplained,ifthenullhypothesisweretrue.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">If</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑝</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑣𝑎𝑙𝑢𝑒</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">≤</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝛼</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">werejectthenullhypothesisandhavea</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">statisticallysigniﬁcantresult</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,e.g.,astatisticallysigniﬁcantdifferenceofthemeanvaluesincaseofthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Testifbothpopulationsarenormal.Pleasenotethatneithercasemeanswithabsolutecertaintythatthenullhypothesisorthealternativehypothesisistrue.Hypothesistestingisprobabilistic.Whenwefailtorejectthenullhypothesis,thenullhypothesiscouldstillbefalse,butthisisnotsupportedbythedata.Whenwerejectthenullhypothesis,thenullhypothesiscouldstillbetrue,itisjustunlikely-butnotimpossible!-thatsuchextremedatawouldbegenerated.Thisisalsowhyweusethesomewhatcomplicatedwordingof“failtoreject”or“reject”atsomesigniﬁcancelevel.Absolutestatementsoftheform“thereisadifference”,arenotsupportedbyhypothesistesting,onlyprobabilisticstatementsoftheform“thereisastatisticallysigniﬁcantdifferencewithasigniﬁcancelevelof</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝛼</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.3</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">OverviewofStatisticalTests</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theexplanationsabovearesimilarforallstatisticaltests:wehaveanullhypothesisthatisbasedonourassumptionsandwecalculateap-valuethatwecanusetoeitherfailtorejectorrejectthenullhypothesisgivensomelevelofsigniﬁcance.Herearethenullhypothesisofsomeimportantstatisticaltests.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Welch’s</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Test:Themeansoftwonormallydistributedpopulationsareequal</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Mann-Whitney-UTest/Wilcoxon-Ranksum-Test:Thevaluesfromonepopulationdominatethevaluesofan-otherpopulation(moreorlessdifferenceofmeans/medians)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Shapiro-WilkTest:Apopulationof3to5000independentsamplesisnormallydistributed.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Levene’sTest:Thevariancesofagroupofpopulationsareequal.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ANOVA(F-Test):Themeanvaluesofagroupnormallydistributedpopulationswithequalvariancesareequal.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Kolmogorov-SmirnoffTest:Twopopulationshavethesameprobabilitydistribution.WealreadyknowthatwecanuseWelch’s</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Testtodetermineifthemeansoftwonormaldistributionsaresigniﬁcantlydifferent.Incasethedataisnotnormal,wecanusetheMann-Whitney-UTestinstead.WecanusetheShapiro-WilkTesttodetermineifoursamplesarenormal,e.g.,todecidewhichtesttouseforthedifferenceinthecentraltendency.Whenwehavemorethanonepopulation,wecanuseANOVAtotestfordifferencesinthecentraltendency,giventhedataisnormalandallvariancesarethesame.Levene’stestscanbeusedtodetermineifisthisisthecase.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">162Chapter11.Statistics</text>
+</svg>

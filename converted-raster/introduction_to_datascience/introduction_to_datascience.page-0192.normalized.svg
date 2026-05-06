@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagersendstheinformationwherethemap()taskcanbeexecutedtotheMRAppMaster.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">13.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMasterlaunchesthereduce()functionintheallocatedcontainer.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">14.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMastertriggerstheshufﬂe()functiontoorganizeandgrouptheintermediarydatafromthedifferentnodesandprovidethedatatothereduce()function.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">15.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thereduce()functionwritestheoutputtotheHDFS.</text>
+    <g>
+      <g transform="matrix(.3670608,0,0,.36704643,72,156.84342)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">16.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMasterreportsthatthetaskandtheexecutionoftheapplicationareﬁnishedtotheResourceMan-ager.</text>
+    <g>
+      <g transform="matrix(.3670608,0,0,.36704643,72,421.9594)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">17.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagerdestroysthecontainersofthereduce()functionandtheMRAppMastertofreetheresources.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">184Chapter12.BigDataProcessing</text>
+  </g>
+</svg>

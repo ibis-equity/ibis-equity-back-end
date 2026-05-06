@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.38235364,0,0,.38235358,72,71.99469)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thus,wejusthaveobjectsandaclusteringalgorithmthatdeterminesgroupsofrelatedobjectsasresult.Whatwedonotknowwithoutinspectionoftheclustersiswhatexactlytherelationshipbetweentheobjectsinagroupis.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.1.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheFormalProblem</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Formally,wehaveasetofobjects</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑂</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑜𝑏𝑗𝑒𝑐𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑜𝑏𝑗𝑒𝑐𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thatmaybeinﬁnite.Moreover,wehaverepresentationsoftheseobjectsinafeaturespace</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℱ</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝜑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑜</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">):</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑜</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑂</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Forclustering,thefeaturespaceisusuallynumeric,i.e.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℱ⊆</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">R</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thegroupingoftheobjectsisdescribedbyamap</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑐</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ℱ→</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐺</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">with</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐺</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">{</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,...,𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">}</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">N</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thenumberofclusters.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.1.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MeasuringSimilarity</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Clustersaregroupsof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">similar</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">objects.Consequently,thedeﬁnitionofsimilarityiscentraltoclustering.Theapproachforclusteringissimple:similarmeansthatthereisashort</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">distance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">betweenobjectsinthefeaturespace.Therearedifferentwaystomeasuredistances,asanywell-deﬁnedmetriccanbeused.Inthefollowing,wepresentthethreemostcommonlyusedmetrics.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">EuclideanDistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Byfarthemostcommondistancemeasureisthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">euclideandistance</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Theeuclideandistanceisthedirectlinebetweentwopoints.</text>
+    <g>
+      <g transform="matrix(.75002256,0,0,.75002256,72,618.59768)"/>
+    </g>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.733)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">64Chapter6.Clustering</text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">fromwithinanorganizationandreducestheriskofhal-lucinations.Thisnewarchitectureoffersimportantadvancementscomparedtopreviousarchitecturesandpresentsnewchallengesforresearchandacademia.PreviouscatchwordarticleshavealreadycoveredimportantaspectsofAI,namelyfairAI(Feuerriegeletal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),AIasaService(Linsetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2021</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),foundationmodels(Schneideretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),andgenerativeAI(Feuer-riegeletal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Wecontributetothisongoingengage-mentwithcurrentAIdevelopmentsbyfocusingonRAG.Speciﬁcally,wereviewthefundamentalarchitectureofRAGandhighlightsomeextensionsthatcanenhanceaplainvanillaRAGarchitecture.WeshowcasehowRAGcanbeusedindifferentuse-casescenariosandsummarizethemostimportantadvantagesandchallengesthatshouldbeconsideredwhenusingRAGandRAG-speciﬁcexten-sions.Finally,wediscussimportantresearchavenuesforthe</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BISE</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">communitybyhighlightingimplicationsthatemergeasaconsequenceofusingRAGarchitectures.</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2Retrieval-AugmentedGeneration(RAG)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2.1FundamentalFrameworkThecoreideaofRAGistocombinethegenerativecapabil-itiesofLLMswithexternalknowledgeretrievedfromaseparatedatabase(e.g.,anorganizationaldatabase)(Lewisetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).WhileLewisetal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)acknowledgepreviousworkontheintegrationofexternaldata(Guuetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Karpukhinetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Perezetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2019</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),theycoinedtheterm‘‘</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Retrieval-AugmentedGeneration</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(RAG)’’andpro-posedageneralframeworkthatleveragesthestrengthofpre-trainedparametricmemory(i.e.,theLLM)withnon-para-metricmemory(i.e.,aseparatedatabase)asanewwaytoimprovetheperformanceforknowledge-intensivetasks.Parametricmemoryreferstoinformationthatisstoredintheparametersofamodel.Ratherthandirectlystoringreadilymeaningfuldata,theparametricmemorystoresmodelparametersthatcanbeusedlatertoregenerateinformation.Themoreparametersamodelhas,themoreinformationitcanrepresentfaithfully(Brownetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Currentmodelstypicallyincludethenumberofparametersintheirname.Forexample,Mistral7B(Jiangetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2023</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)isamodelwithsevenbillion(7</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">�</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">10</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">9</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)parameters.Whilethenumberofparametersisatechnicaldetail,ithasimportantconsequences.Forexample,modelevaluationtypicallyinvolvesthisnumber,sincelargermodelsrequiremoreresourcestorun.Thisiswhymodelsareusuallycomparedwithothermodelswiththesamenumberofparameters.Ontheotherhand,ifasmallmodelperformswellcomparedtoalargemodel,thesmallmodelisusuallypreferable.InthecontextofRAG,itisimportanttonotethattheparametricmemoryonlycontainsinformationthathasbeenprovidedaspartofthetraining.Incontrast,non-parametricmemory,orexternalmem-ory,referstoinformationthatisoutsideofamodel(e.g.,informationfromadatabase).Therefore,thisinformationisindependentoftheconstraintsofthemodel.Examplesofnon-parametricmemoryresourcesincludeInternetsitessuchasWikipediaordomain-speciﬁcdata(e.g.,organi-zationaldata).Inotherwords,non-parametricmemoryallowstheintegrationofknowledgenotpreviouslyusedinthetrainingprocess.Forexample,Veturietal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)useorganizationaldata(e.g.,policydocuments)toenhancetheperformanceofafrequentlyaskedquestions(FAQ)system.Inprinciple,thedatausedfortraininganLLM(e.g.,atextcorpusfromWikipedia)couldalsobeusedforthenon-parametricmemory.Infact,mostcurrentuserinterfacesusesomekindofRAGarchitecturetosourcethefactualdetailsoftheoriginaldata.Forexample,anFAQsystem(Veturietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)willnotonlyprovideananswertoaspeciﬁcquestion,butalsoalinktothecorrespondingdocument(e.g.,apolicydocument).Sincemostorganiza-tionsuseLLMsfromavendor(e.g.,fromMicrosoft),RAGcanbeusedtoaddinternaldataandthereforecontextualknowledge.SimilartomodeltrainingwithLLMs,aRAGarchitecturerequiresadatacollectionphasewheretheexternal(i.e.,non-parametric)dataisstoredinadedicateddatabase.Itisimportanttonotethatthisdatabaseisdistinctfromtheparametricmemory(i.e.,theLLM).Figure</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">providesanoverviewofthedifferencesbetweenafoundationmodel,LLMFine-Tuning,andRAG.Intheﬁrstscenario(</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">FoundationModel</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),alltrainingdataresultsinanLLMandispartoftheparametricmodel.Mostcommonly,modelsaretrainedonmassivetextcor-porafromtheWorldWideWeb(Touvronetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2023</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),includingtheCommonCrawldatasetandthePile(Gaoetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Themodelcreationandtrainingofthefoun-dationmodelrequiresmassiveresourcesandinfrastructure.Therefore,thecreationisonlyfeasibleforverylargeorganizations.Manyofthesemodelsareaccessibleasaserviceandcanthusbeusedbyanyone.Foundationmodelsarewell-equippedforawiderangeofapplicationsthatdonotdependonorganizationalorprivatedata(Schneideretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Inthesecondscenario(</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LLMFine-Tuning</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),additionaldomain-speciﬁcdata,suchasinternaldocuments,areusedtoupdatetheparametersoftheLLM</text>
+    <text fill="#0000ff" transform="matrix(1.060708 0 -0 .9427664 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">andtherebyimprove</text>
+    <g>
+      <path d="M0 0H45.354" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".283" transform="matrix(1,0,0,-1,306.142,674.026)"/>
+    </g>
+    <text transform="matrix(1.0607009 0 -0 .94277289 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Thisiscommonlydoneusingbackpropagation(Rumelhartetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">1986</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Fine-tuningofLLMshasbeengreatlyfacilitatedbytechniquessuchasLoRA(Huetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2022</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)thatbuildonbackpropagation.Foracurrentoverview,seeforinstance(Dingetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2023</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">552M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Statisticaltests</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">areanimportantpartinthetoolboxofanyscientistsandcanbeusedtodeterminehowwellmodelswork,especiallyifitislikelythatobservedeffectsareonlyrandom.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Timeseriesanalysis</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">exploitsstructuralpatternsintemporaldatatoanalyzetheinternalstructureofdataovertimeandmayalsobeusedtoforecastfuturevalues.Themathematicsandstatisticswouldnotbeactionableondatawithoutcomputerscience.Additionally,theoreticalcomputerscienceisalsopartofthefoundationsofdatascience.Examplesforconceptsfromcomputersciencethatarerelevantfordatasciencearethefollowing.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Datastructuresandalgorithms</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">arethefoundationofanyefﬁcientlyimplementedalgorithmandtheunderstand-ingofdatastructuresliketrees,hashmaps,andlistsaswellastheruntimecomplexityofalgorithmsenablestheunderstandingandimplementationofefﬁcientdatascienceapproaches.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Informationtheory</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">coverstheconceptsofentropyandmutualinformationwhichareimportantformanyalgo-rithmsthatareusedfordataanalysis.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Databases</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">arethefoundationofefﬁcientstorage,access,andnowadaysevencomputationwithdataandSQLisaninvaluableskillforanydatascientists,thatcanoftenevenbeusedwithNoSQLdatabases.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Parallelanddistributedcomputing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isapre-requisiteforanyBigDataanalysis,thescalingofproblemstolargegroupsofusers,andtheefﬁcientimplementationofruntimeextensivealgorithms.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Artiﬁcialintelligence</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">dealswithlogicalsystemsandreasoningthatcanalsobeappliedinmoderndatascienceapplications.Pleasenotethatweexplicitlydistinguishbetweenartiﬁcialintelligenceandmachinelearninginthisscript.Weusethetermartiﬁcialintelligenceforapplicationslike</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DeepBlue</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,therule-basedchesssystemthatwastheﬁrstcomputertobeatGaryKasparowinChess.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SoftwareEngineering</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isimportantforanydatascienceapproachthatshouldbeimplementedinaproductionsystem,butalsoforthegeneralmanagementofdatascienceprojects.Finally,thereis</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">machinelearning</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichispartsmathematics,partsstatistics,andpartscomputerscience,dependingonwhichapproachesforlearningyouwanttouse.Machinelearningtriestoinferknowledgefromdataandgeneralizethisknowledgetoothercontexts,e.g.,throughneuralnetworks,supportvectormachines,decisiontrees,orsimilaralgorithms.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.2</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ExamplesforApplications</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theﬁeldofdatascienceisdiverseandhasmanyapplicationsinresearch,industry,andsociety.Herearesixshortexamples.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AlphaGo</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanexampleforanintelligentself-learningsystem.Acoupleofyearsago,AlphaGosurprisedtheworldbecauseitcamefromseeminglynowhereandbeatoneofthebestplayersofthegameofGo.Thiswassurprising,becausepriortoAlphaGo,computerswereonthelevelofamateurswhenitcametogoandfarawayfromevenbeingachallengeforprofessionalplayers.AlphaGocombinedclassicalrule-basedartiﬁcialintelligencewithaself-learningrecurrentneuralnetwork,toachievethis.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Robotics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reliesonmachinelearningtoimprovehowrobotsmove.Bostondynamicsisfamousforteachingrobotsasenseofbalanceby</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">pushingtherobots</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Therobots</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">learn</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">howtoavoidfallingdownovertime,thesamewaytoddlerslearnthis.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Marketing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andmorespeciﬁcallytargetedadvertisementsintheInternetareabillion-dollarmarketbasedonlearningwhichadsaremostrelevantforusersbasedontheirbrowsingbehavior.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Medicine</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reliesmoreandmoreondatadrivendecisionsupport.IBMWatson,whowasinitiallyfamousbecausethiswastheﬁrstartiﬁcialintelligencethatcould</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">beathumansinjeopardy</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,isnowbeingusedtohelpmake</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">decisionsaboutcancertreatments</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(Althoughthisisnotworkingaswellashopedfor.)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Autonomousdriving</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">reliesonmachinelearningfordifferenttasks,mostimportantlytherecognitionofobjectslikeothercars,bikes,andpedestrians.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10Chapter1.BigDataandDataScience</text>
+</svg>

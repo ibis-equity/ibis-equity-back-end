@@ -1,0 +1,268 @@
+[Page 2 Text]
+Contents 
+4
+9
+Introduction to Building Apps 
+on Databricks
+From Notebooks to Production 
+Applications
+The Transactional Foundation 
+for Intelligent Applications
+Conclusion  22
+Get started  22
+The application deployment challenge   6
+Databricks Apps and Lakebase: A unified application platform  7
+What this guide covers  8
+The challenge of production data applications  10
+Architecture and how it works  10
+Anatomy of the app  13
+Defining Databricks Asset Bundles resources  17
+Considerations and best practices   20
+23
+Introduction   24
+Why Lakebase and Databricks Apps   24
+Getting started: Build a transactional app with Lakebase  25
+Extending the lakehouse with Lakebase  31
+Summary   32
+2
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 3 Text]
+33
+Turning Analytics Into 
+Applications
+Introduction: Analytics and operations are converging  34
+What is reverse ETL?  34
+Challenges of reverse ETL  35
+Lakebase: Integrated by default for easy reverse ETL  35
+Sample use case: Building an intelligent support portal with Lakebase  36
+Conclusion  39
+40
+50
+Delivering Secure, Real-Time 
+Applications on Databricks
+How to Build AI Agents With 
+Conversational Memory Using Lakebase
+Introduction  41
+Key technologies  42
+Solution overview  42
+Step-by-step guide  43
+Highlights on Postgres connection with OAuth  48
+Why conversational memory matters  51
+Using Lakebase as the state layer for agents  51
+Memory patterns for AI agents  52
+Architecture overview   53
+Implementation guide   54
+Conclusion 64
+Resources 64
+Lessons learned   49
+Try it yourself  49
+3
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 4 Text]
+01
+Introduction to Building  
+Apps on Databricks
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 5 Text]
+Introduction to Building Apps 
+on Databricks
+As AI and analytics capabilities mature across organizations, a new challenge 
+has emerged: delivering insights in a form people can actually use. 
+ 
+Data teams today have powerful tools for exploration and analysis. Notebooks 
+support rapid iteration, dashboards enable broad visibility and models drive 
+prediction and automation. But when business requirements shift to an 
+interactive application that combines live data with user input — such as an 
+AI assistant embedded in a workflow or a custom tool tailored to a specific 
+operational process — teams often hit a wall. 
+ 
+Historically, building production applications meant stepping outside the 
+data platform entirely. Moving from analysis to application meant provisioning 
+infrastructure, configuring databases, implementing authentication, setting up 
+deployment pipelines and navigating security reviews. Each step added cost, risk 
+and time — without directly contributing to the business value of the application. 
+For many organizations, this last mile challenge delayed applications for months 
+or stopped them from ever shipping.
+The problem isn’t a lack of data or AI capability. It’s the difficulty of 
+delivering those capabilities as trusted, production-grade applications 
+that others can use. 
+ 
+This guide is designed to help close that gap. Through practical walkthroughs, 
+working code examples and real-world patterns, you’ll learn how Databricks 
+Apps and Lakebase work together to take an application from a working 
+prototype to a production application without leaving the platform.
+5
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 6 Text]
+THE APPLICATION DEPLOYMENT CHALLENGE
+For teams building data and AI applications today, the path from working 
+prototype to production deployment is filled with undifferentiated heavy lifting. 
+Whether you’re a Python-fluent data engineer extending an analysis 
+or a JavaScript developer building on lakehouse data, you encounter the 
+same obstacles:
+ ■ Infrastructure provisioning and management: Every application needs 
+somewhere to run. Traditionally, this means provisioning VMs or containers, 
+configuring load balancers, setting up SSL certificates and managing 
+scaling policies. 
+ ■ Authentication and security complexity: Production applications require 
+secure authentication flows, credential management and access controls. 
+Implementing open authorization (OAuth) correctly, rotating secrets and 
+ensuring compliance with security policies demands specialized knowledge. 
+Getting it wrong creates vulnerabilities, and getting it right takes significant 
+engineering effort.
+ ■ Data synchronization and latency: Interactive applications need fast 
+access to data, but analytical data stores aren’t optimized for the low-
+latency, high-concurrency access patterns that user-facing applications 
+need. Building pipelines to move data from analytical systems to operational 
+databases and keeping that data fresh adds another layer of complexity and 
+potential failure points.
+ ■ Deployment automation and environment management: Moving code 
+from development to staging to production requires continuous integration 
+and continuous delivery (CI/CD) pipelines, environment configuration and 
+careful coordination 
+ ■ Governance and compliance: Enterprise applications must respect data 
+access policies, maintain audit trails and enforce fine-grained permissions. 
+Implementing governance controls in application code — separate from the 
+governance already established in the data platform — duplicates work and 
+creates opportunities for policy drift.
+These challenges create real costs. Deployment complexity kills momentum: 
+When you can’t ship changes quickly and confidently, you slow iteration and 
+waste time coordinating between teams. The result is that valuable capabilities 
+remain locked inside the data platform, accessible only to some technical users 
+rather than the broader organization.
+6
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 7 Text]
+DATABRICKS APPS AND LAKEBASE:  
+A UNIFIED APPLICATION PLATFORM
+Databricks Apps provides a serverless application hosting platform for running 
+web applications built with open source frameworks like Streamlit, Dash, 
+Flask, FastAPI and React. Applications inherit the platform’s built-in security, 
+compliance and resource management features. There’s no infrastructure to 
+provision, no containers to manage and no scaling policies to configure. Apps 
+automatically integrate with Unity Catalog for governance and support both 
+service principal authentication for app-level access and on-behalf-of-user 
+authorization for user-level permissions.
+Lakebase is a fully managed PostgreSQL database deeply integrated with the 
+lakehouse. It provides the transactional, low-latency data access that interactive 
+applications require while automatically synchronizing data from Unity Catalog 
+tables. With Lakebase, you can: 
+ ■ Serve analytical insights to applications in real time
+ ■ Store application state and user inputs
+ ■ Maintain full atomicity, consistency, isolation and durability (ACID) 
+transaction support
+Databricks addresses these challenges by bringing application hosting and 
+operational databases directly into the Data Intelligence Platform. Rather than 
+requiring separate infrastructure for applications, Databricks provides an 
+integrated solution where apps run alongside the data and AI capabilities they 
+depend on.
+7
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 8 Text]
+TRADITIONAL APPROACH MODERN DATABRICKS APPS  
+AND LAKEBASE APPROACH
+Separate hosting infrastructure Serverless compute and zero 
+infrastructure management
+Custom authentication systems Built-in OAuth and Unity Catalog 
+integration
+Manual data synchronization 
+pipelines
+Automated synced tables from 
+Unity Catalog
+Fragmented governance across 
+systems
+Unified governance through Unity 
+Catalog
+Complex, multi-tool deployment Single-command deployment with 
+Databricks Asset Bundles (DABs)
+All of this is possible without building custom extract, transform, load (ETL) 
+pipelines or managing database infrastructure.
+Together, these capabilities transform what’s possible:
+Historically, bridging OLTP and OLAP systems involved complex data engineering 
+and bespoke integration layers. Deploying applications required separate 
+DevOps teams, disparate CI/CD pipelines and manual security configurations. 
+With Lakebase and Databricks Apps together, these complexities are significantly 
+reduced. Developers can access real-time analytical data directly from the 
+transactional layer and deploy interactive applications in minutes rather 
+than months. 
+ 
+WHAT THIS GUIDE COVERS
+This guide provides hands-on instruction for building production-ready data 
+and AI applications on Databricks. Rather than focusing on isolated features, each 
+chapter walks through a complete application pattern using working code you 
+can adapt to your own use cases.
+You’ll see how to:
+ ■ Move from notebooks and prototypes to real applications
+ ■ Serve analytical data and application state through a transactional layer
+ ■ Build secure, governed applications without custom infrastructure
+ ■ Deploy and operate applications using repeatable, production-ready patterns
+By the end of this guide, you should clearly understand how to build, deploy and 
+manage intelligent applications on the Databricks Platform with confidence.
+8
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 9 Text]
+02
+From Notebooks to 
+Production Applications
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Page 10 Text]
+ARCHITECTURE AND HOW IT WORKS
+We’ll walk through a taxi trip application that demonstrates the entire pattern: 
+a React and FastAPI application that reads from Lakebase synced tables, 
+with automatic data updates from Unity Catalog Delta tables happening 
+within seconds.
+The following diagram provides a simplified view of the solution architecture.
+At a high level, Databricks Apps serves as the front end where users explore and 
+visualize data. Lakebase provides the Postgres database that the app queries, 
+keeping it close to live data from Unity Catalog with synced tables. DABs tie 
+everything together by defining and deploying all resources — app, database and 
+data synchronization — as one version-controlled unit.
+From Notebooks to 
+Production Applications
+by Pascal Vogel, Evan Pandya and Christopher Pries 
+THE CHALLENGE OF PRODUCTION DATA APPLICATIONS  
+ 
+Building production-ready data applications is complex. You often need separate 
+tools to host the app, manage the database and move data between systems. 
+Each layer adds setup, maintenance and deployment overhead. 
+ 
+Databricks simplifies this by consolidating everything on a single platform — 
+the Databricks Data Intelligence Platform. Databricks Apps runs web applications 
+on serverless compute. Lakebase provides a managed Postgres database that 
+syncs with Unity Catalog, giving apps fast access to governed data. And with 
+Databricks Asset Bundles (DABs), you can package code, infrastructure and data 
+pipelines together and deploy them with a single command. 
+ 
+This chapter shows how these three pieces work together to build and deploy a 
+real data application, from syncing Unity Catalog data to Lakebase to running a 
+web app on the Databricks Platform and automating deployment with DABs.
+10
+A HANDS-ON GUIDE TO APPS ON DATABRICKS
+
+[Vector Drawing URI | page 1] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0001-drawing.svg
+
+[Vector Drawing URI | page 2] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0002-drawing.svg
+
+[Vector Drawing URI | page 3] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0003-drawing.svg
+
+[Vector Drawing URI | page 4] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0004-drawing.svg
+
+[Vector Drawing URI | page 5] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0005-drawing.svg
+
+[Vector Drawing URI | page 6] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0006-drawing.svg
+
+[Vector Drawing URI | page 7] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0007-drawing.svg
+
+[Vector Drawing URI | page 8] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0008-drawing.svg
+
+[Vector Drawing URI | page 9] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0009-drawing.svg
+
+[Vector Drawing URI | page 10] s3://baseinfrastack-processedtext1b5b9dda-g1nusiz02rae/vector-drawings/hands-on-guide-apps-databricks/page-0010-drawing.svg

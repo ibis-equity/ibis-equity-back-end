@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuedfrompreviouspage)</text>
+    <path d="M0 0H473.978V279.95H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,364.459)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheBostonhouse-pricedataofHarrison,D.andRubinfeld,D.L.'Hedonicpricesandthedemandforcleanair',J.Environ.Economics&amp;Management,vol.5,81-102,1978.UsedinBelsley,Kuh&amp;Welsch,'Regressiondiagnostics...',Wiley,1980.N.B.Varioustransformationsareusedinthetableonpages244-261ofthelatter.TheBostonhouse-pricedatahasbeenusedinmanymachinelearningpapersthataddressregressionproblems...topic::References-Belsley,Kuh&amp;Welsch,'Regressiondiagnostics:IdentifyingInfluentialDataandSourcesofCollinearity',Wiley,1980.244-261.-Quinlan,R.(1993).CombiningInstance-BasedandModel-BasedLearning.InProceedingsontheTenthInternationalConferenceofMachineLearning,236-243,UniversityofMassachusetts,Amherst.MorganKaufmann.</text>
+    <path d="M0 0V279.95" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,364.459)"/>
+    <path d="M0 0V279.95" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,364.459)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,84.31)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,364.658)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theabovedescriptionisanexampleofmetadata,inthiscasethedocumentationofthedataweareusing.WenowtakeacloserlookatthefeatureMEDV,themedianvalueofowner-occupiedhomesin$1000’s.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Histograms</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">areasimpleandeffectivewaytolearnaboutthedistributionofdata.</text>
+    <path d="M0 0H473.978V202.485H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,615.562)"/>
+    <g>
+      <g transform="matrix(.74998,0,0,.75003,72,416.06513)"/>
+    </g>
+    <path d="M0 0V202.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,615.562)"/>
+    <path d="M0 0V202.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,615.562)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,412.878)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,615.761)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thehistogramvisualizeshowmuchdataisineachregionofthedata.Forthis,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">bins</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">arecreatedandthehistogramshowshowmanyinstanceareineachbin.Theaboveexampleshowshowmanyinstanceareineachofthe100bins.Thehistogramtellsusalotaboutthedata.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Forvaluesbelow30thedataseemstofollowanormaldistribution.Thisisindicatedbythebell-shapeofthehistogram.Themeanvalueofthisnormaldistributionissomewherearound22.Thiscanbeestimatedbytakingalookatwherethepeakofthehistogramislocated,i.e.,wherethemostvaluesare.Thestandarddeviationislikelysomewherebetween7and11.Sucharoughestimateofthestandarddeviationcanbeobtainedusingthe</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.3.VisualizationforDataExploration33</text>
+  </g>
+</svg>

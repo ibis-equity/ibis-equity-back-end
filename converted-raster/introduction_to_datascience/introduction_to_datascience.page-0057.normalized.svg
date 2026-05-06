@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,81.46399)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CHAPTER</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">FOUR</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,134.26599)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">OVERVIEWOFDATAANALYSIS</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.1</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NoFreeLunchTheorem(NFL)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Beforewediveintothealgorithmsforthecreationofmodelsaboutthedata,weneedsomefoundations.Theﬁrstfoundationisafundamentaltheoremaboutoptimizationalgorithms,the</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NoFreeLunchTheorem</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(NFL).Thisnowgetsabittheoretical,ifyouarejustinterestedinthe(veryimportant!)consequencesofthetheoremondatamodeling,justskiptothecolloquialdeﬁnition.ThemathematicalformulationoftheNFListhefollowing.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NoFreeLunchTheorem:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Let</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">beorderedsetsofsize</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withcostvalues</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∈</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Let</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">→</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑌</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">afunctionthatshouldbeoptimized.Let</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓,𝑚,𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">theconditionalprobabilityofgetting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">by</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">timesrunningthealgorithm</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">onthefunction</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Foranypairofalgorithms</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">tofollowingequationsholds:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓,𝑚,𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)=</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">∑︁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑑</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑦𝑚</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">|</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓,𝑚,𝑎</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Aproofforthetheoremcanbe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">foundintheliterature</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.TheequationoftheNFLtellsusthesumoftheprobabilitiesofgettingcertaincostsisequalifallfunctions</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">areconsideredforanytwoalgorithms.Themeaningofthiscanbesummarizedasfollows.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NoFreeLunchTheorem(Colloquial):</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allalgorithmsareequalwhenallpossibleproblemsareconsidered.Thisiscounter-intuitive,becauseweobservenotabledifferencesbetweendifferentalgorithmsinpractice.However,theNFLdoesnotprohibitthatanalgorithmisbetterforsomefunctions</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-i.e.,forsomeproblems.Butifanalgorithmisbetterthantheaveragealgorithmforsomeproblems,theNFLtellsusthatthealgorithmmustbeworsethantheaveragealgorithmforotherproblems.Thus,thetrueconsequenceoftheNFListhat</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thereisnotonealgorithmthatisoptimalforallproblems</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Instead,differentalgorithmsarebetterfordifferentproblems.Thatisalsothereasonforthename:thereisno“freelunch”,i.e.,onealgorithmforallproblems.Instead,datascientistsmustearntheirlunch,i.e.,ﬁndasuitablealgorithm.Thismeansthathavingdetailedknowledgeaboutonealgorithmisnotsufﬁcient.Datascientistsneedawholetoolboxofalgorithms.Theymustbeabletoselectasuitablealgorithm,basedonthedata,theirknowledgeabouttheproblem,andtheirexperiencebasedonworkingwithdifferentalgorithms.Overtime,datascientistsgatherexperiencewithmoreandmorealgorithmsandbecomeexpertsinselectingsuitablealgorithmsforagivenproblem.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">49</text>
+</svg>

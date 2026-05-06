@@ -22,6 +22,13 @@ class MissingEnvironmentVariable(Exception):
     """Raised if a required environment variable is missing"""
 
 
+def _is_indexable_key(object_key: str) -> bool:
+    """Return True only for processed text artifacts that should be indexed."""
+    if not object_key:
+        return False
+    return object_key.lower().endswith(".txt")
+
+
 def _silence_noisy_loggers():
     """Silence chatty libraries for better logging"""
     for logger in ['boto3', 'botocore',
@@ -109,6 +116,11 @@ def _record_validation(record, source_bucket_name):
     _check_missing_field(s3_data, "object")
     # check for key
     _check_missing_field(s3_data["object"], "key")
+
+    object_key = unquote_plus(s3_data["object"]["key"])
+    if not _is_indexable_key(object_key):
+        LOGGER.info("Skipping non-text object from processed bucket: %s", object_key)
+        return False
 
     return True
 

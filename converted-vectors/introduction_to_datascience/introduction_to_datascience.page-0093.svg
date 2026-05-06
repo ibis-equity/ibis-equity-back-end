@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ﬁndmoreorlesscircularclustersandEMellipsoidclusters.Thus,bothfailonthatdataandtheclustersdonotmakesense.DBSCANandSLINKworkwell,becausetheybuildtheirclustersonpair-wiseneighborshipofinstances,whichworkswithanyshapeofclusters,aslongthereisagapbetweentheclusters.Thiscanbebrokenbya“bridge”betweenthetwomoonsisdemonstratedinthethirdrow.Thefourthrowdemonstratesthatwhile</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-MeansandEMclusteringworkingeneralforroundshapes,itisalsoimportantthattheseroundshapesarenotwithineachother.Ifwehaveacirclewithinacircle,thisisalsonotcorrectlyidentiﬁedbytheclustering.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NumberofClusters</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AnotherstrengthofDBSCANandSLINKclusteringisthattheycandeterminethenumberofclustersautomatically,justbyknowingthedeﬁnitionofcorepoints,respectivelythemaximumlevel.EMclusteringalsoprovidesgoodsupporttodeterminethenumberofclusterswiththeBIC,whichhasaminimalvaluethatisoptimal.TheWSSmaybeusedfor</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Means,butlookingforelbowsinaplotisveryfuzzyandrequiresahighexpertisebythedatascientists.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ExecutionTime</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whiletheclusterresultsarecertainlyimportant,theexecutiontimecanalsobeafactor.Belowaretheresultsoftheexecutiontimeofclusteringdatawith20featuresfor10,000,100,000,1,000,000,10,000,000,and100,000,000instances,i.e.uptoabout15Gigabytesofdata.PleasenotethatweomitSLINKfromthiscomparison,becauseitalreadycrasheswith100,000instances.Themeasurementsaredonewithanormallaptop(IntelCorei7-8850@2.60GHz,32GBRAM)withscikit-learn0.23.1.</text>
+    <path d="M0 0H473.978V205.485H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,571.675)"/>
+    <g>
+      <g transform="matrix(.75,0,0,.75003007,72,369.17805)"/>
+    </g>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,571.67507)"/>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,571.67507)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,365.99006)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,571.874)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecanseethattheruntimeofallthreealgorithmsiscomparable,eventhoughDBSCANisabitslower.Wenotethatthisalsodependsonthedataset.Sparsedata,densedata,orstrangedistributionsmayaltertheseestimations.However,ingeneralruntimeisnotamajorconcernfortheselectionofoneoftheseclusteringalgorithms.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.ComparisonoftheClusteringAlgorithms85</text>
+  </g>
+</svg>

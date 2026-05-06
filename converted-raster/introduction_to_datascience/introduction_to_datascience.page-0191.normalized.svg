@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">whereblocksoftheinputdataarestored,suchthatthisdatadoesnotneedtobetransferedoverthenetwork.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagersendstheinformationwherethemap()taskcanbeexecutedtotheMRAppMaster.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMasterlaunchesthemap()functioninthecontainersthatwereallocated.TherequireddataisdirectlyreadfromtheHDFS.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Themap()functionisexecutedandtheresultsarewrittenbytointermediaryresultsﬁlesintheHDFS.</text>
+    <g>
+      <g transform="matrix(.3647808,0,0,.36476643,72,156.84488)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMasterreportsthatthetaskisﬁnishedandtheresourcesarenolongerrequiredtotheResourceManager.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagerdestroysthecontainersforthemap()functionstofreetheresources.</text>
+    <g>
+      <g transform="matrix(.3214368,0,0,.321408,72,438.484)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheMRAppMasterrequeststherequiredresourcesforthereduce()function.Thisrequiresonlyasinglecon-tainer,becausetheresultsareaggregated.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheResourceManagerallocatestherequiredresources.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.ApacheHadoop183</text>
+  </g>
+</svg>

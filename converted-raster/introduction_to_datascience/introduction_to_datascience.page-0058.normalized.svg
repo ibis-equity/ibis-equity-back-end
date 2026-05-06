@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.2</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DeﬁnitionofMachineLearning</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Machinelearningiscurrentlyoneofthehottesttopicsincomputersciencebecauserecentadvancesinusingthegrowthofcomputationalpowerandtheavailabledatahaveledtovastimprovementsforhardproblems,e.g.,objectrecognition,automatedtranslationoflanguages,andplayinggames.Togetstartedwithmachinelearning,wemustﬁrstunderstandthemeaningoftheterm.Therearemanydeﬁnitionsoutthere.TomMitchelgaveaverypowerfulandversatile</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">deﬁnitionofmachinelearning</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DeﬁnitionofMachineLearning:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Acomputerprogramissaidtolearnfromexperience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐸</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withrespecttosomeclassoftasks</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andperfor-mancemeasure</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,ifitsperformanceattasks</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,asmeasuredby</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑃</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,improveswithexperience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐸</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Attheﬁrstglancethisdeﬁnitionlooksveryabstractandthesentenceishardtoparse,especiallybecauseoftheusageoftheabstracttermsofexperience,tasks,andperformancemeasures.However,thisisexactlywhatmakesthisdeﬁnitionsogood:itactuallyﬁtstheversatileﬁeldofmachinelearning.Tounderstandthedeﬁnition,wejustneedtounderstandwhatismeantwithexperience,task,andperformancemeasure.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">The</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">experience</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">is(almostalways)ourdata.Themoredatawehave,themoreexperiencewehave.However,therearealsoself-learningsystemsthatdonotrequiredatabutgeneratetheirownexperience,like</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AlphaZero</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">thatlearnsjustbyplayingagainstitself,i.e.,notfromdataofpriorgames.Inthiscase,theexperienceisgainedbyplayingmoreandmoregames.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">The</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">tasks</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">arewhatwewanttosolve.Youwanttorecognizepedestrianssothatyourself-drivingcardoesnotrunthemover?Youwanttoplayandwingames?Youwanttomakeusersclickonlinksofadvertisements?Thoseareyourtasks.Ingeneral,thetaskiscloselyrelatedtoyourusecaseandthebusinessobjective.Inamoreabstractway,thesetaskscanbemappedtogenericcategoriesofalgorithms,whichwediscusslater.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">The</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">performancemeasure</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanestimateofhowgoodyouareatthetasks.Performancemeasuresmaybethenumbersofpedestriansthatarecorrectlyidentiﬁedandthenumberofotherobjectsthataremistakenlyidentiﬁedaspedestrians,thenumberofgamesthatarewon,orthenumberofclicksonadvertisements.Withthisinmind,thedeﬁnitionissuddenlyclearandsimple:Wejusthaveprogramsthatgetbetterattheirtaskswithmoredata.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.3</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Features</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Beforewestarttolookatalgorithmsformachinelearninginthenextchapters,weﬁrstestablishsomebasicconcepts.Atthefoundationofmachinelearningwehave</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">features</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Themeaningoffeaturesisbestexplainedusinganexample.Ashumans,weimmediatelyknowthatthefollowingpictureshowsawhale.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">50Chapter4.OverviewofDataAnalysis</text>
+</svg>

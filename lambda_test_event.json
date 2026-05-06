@@ -1,0 +1,15 @@
+{
+  "Records": [
+    {
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "baseinfrastack-processedtext1b5b9dda-g1nusiz02rae"
+        },
+        "object": {
+          "key": "introduction_to_datascience.txt"
+        }
+      }
+    }
+  ]
+}

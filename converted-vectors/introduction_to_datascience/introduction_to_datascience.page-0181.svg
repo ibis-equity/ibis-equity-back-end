@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.33239524,0,0,.332328,72,71.99983)"/>
+    </g>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">map()</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Themapfunctiongetsinitialkey-valuepairs.Theseare,e.g.,readfromthedistributedstorageortheresultofapriorcomputationusingMapReduce.Themapfunctionthanperformsacomputationona</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">single</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">key-valuepairandstorestheresultsinnewkey-valuepairs.Becausethemapfunctiononlygetsasinglekey-valuepairasinput,dataparallelizationistrivial:theoretically,themapfunctioncouldruninparallelforallkey-valuepairswithoutanyproblem.Themapfunctionisdeﬁnedas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑎𝑝</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑎𝑝</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,&lt;𝑘𝑒𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑣𝑎𝑙𝑢𝑒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">→</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑙𝑖𝑠𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;𝑘𝑒𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑣𝑎𝑙𝑢𝑒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">where</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑎𝑝</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isa</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">user-deﬁnedfunction</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(UDF)deﬁnedbytheuseroftheMapReduceframework.TheUDFdeﬁnesthecomputation,i.e.,howtheinputkey-valuepairistransformedintothelistofoutputkey-valuepairs.DependingontheUDF</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑓</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑎𝑝</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,theinputkeysandoutputkeyscouldbesameordifferent.WhilethegeneralconceptofMapReducedoesnothaveanyrestrictionsonthetypeandvaluesofthekeys,implementationsofMapReducemayrestrictthis.Forexample,intheinitialimplementationofMapReducebyGoogle,allkeysandvalueswerestringsandusersofMapReducewereexpectedtoconvertthetypeswithinthemapandreducefunctions,ifrequired.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">shufﬂe()</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thekey-valuepairscomputedbythemapfunctionareorganizedbytheshufﬂefunction,suchthatthedataisgroupedbythekey.Thesearethenorganizedbytheshufﬂeandgroupedbytheirkeys.Thus,wehave</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠ℎ𝑢𝑓𝑓𝑙𝑒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑙𝑖𝑠𝑡&lt;𝑘𝑒𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑣𝑎𝑙𝑢𝑒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">→</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑙𝑖𝑠𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;𝑘𝑒𝑦</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,𝑙𝑖𝑠𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑣𝑎𝑙𝑢𝑒</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&gt;</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">i.e.,alistofvaluesperkey.Often,thesedatafromshufﬂeissortedbykey,becausethiscansometimesimprovetheefﬁciencyofsubsequenttasks.TheshufﬂingisofteninvisibletotheuserperformedinthebackgroundbytheMapReduceframework.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.2.MapReduce173</text>
+  </g>
+</svg>

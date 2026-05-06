@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.3232128,0,0,.3232032,72,71.999057)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Sinceitisunclearwhichpartsofthedataarerequiredbythedifferentparalleltasks,itispossiblythateverycomputenodemustloadalldata.Whilethisisnotaproblemforsmalldatasets,thisdoesnotscalewithlargedatasets.ImaginethatTerabytes,orevenPetabytesofdatawouldhavetobecopiedregularlyoverthenetwork.Thetransferofthedatawouldblocktheexecutionoftheanalysisandthecomputenodeswouldbemostlyidle,waitingfordata.Thisdoesnotevenaccountforadditionalnetworktrafﬁcduetothecommunicationbetweenthetasks.Dataparallelizationfaresabitbetter,butalsodoesnotscale.</text>
+    <g>
+      <g transform="matrix(.32297758,0,0,.32299204,72,403.33589)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theadvantageofdataparallelismisthatonlypartsofthedatamustbecopiedtoeachcomputenode.Whilethisdecreasesthestressonthenetwork,alldatamuststillbetransferredovernetwork.Thus,dataparallelizationcanhandlelargeramountsofdatathanmessagepassingandsharedmemory,atsomepointtheamountofdatabecomestoolargeforthetransferviathenetwork.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.1.DistributedComputing171</text>
+  </g>
+</svg>

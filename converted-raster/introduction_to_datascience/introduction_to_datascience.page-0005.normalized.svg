@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.6MissingFeatures</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">86</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.7CorrelatedFeatures</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">86</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.6.8Summary</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">87</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7Classiﬁcation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">89</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.1Overview</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">89</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.1.1TheFormalProblem</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">91</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.1.2Scores</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">91</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.1.3BinaryClassiﬁcationandThresholds</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">91</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2PerformanceMetrics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">92</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.1TheConfusionMatrix</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">93</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.2TheBinaryConfusionMatrix</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">93</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.3BinaryPerformanceMetrics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">94</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.4ReceiverOperatorCharacteristics(ROC)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">95</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.5AreaUndertheCurve(AUC)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">97</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.6MicroandMacroAverages</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">97</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.7BeyondtheConfusionMatrix</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">98</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.3DecisionSurfaces</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">99</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.4</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-NearestNeighbor</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">100</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.5DecisionTrees</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">102</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.6RandomForests</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">105</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.7LogisticRegression</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">108</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.8NaiveBayes</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">110</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.9SupportVectorMachines(SVMs)</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">111</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.10NeuralNetworks</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">113</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11ComparisonofClassiﬁcationModels</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">117</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.1GeneralApproach</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">117</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.2DecisionSurfaces</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">117</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.3ExecutionTime</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">122</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.4ExplanatoryValueandConciseRepresentation</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">122</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.5Scoring</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">123</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.6CategoricalFeatures</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">123</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.7MissingFeatures</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">123</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.8CorrelatedFeatures</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">124</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.11.9Summary</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">124</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8Regression</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">125</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.1Overview</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">125</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.1.1TheFormalProblem</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">126</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.2PerformanceofRegressions</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">126</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.2.1VisualPerformanceAssessment</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">127</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.2.2PerformanceMetrics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">128</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3LinearRegression</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">129</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3.1OrdinaryLeastSquares</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">130</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3.2Ridge</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">130</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3.3Lasso</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">..............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">131</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3.4ElasticNet</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">131</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.3.5ImpactofRegularization</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">....................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">132</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">8.4BeyondLinearRegression</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">........................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">133</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9TimeSeriesAnalysis</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">135</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.1Overview</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.................................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">135</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.1.1TheFormalProblem</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">......................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">136</text>
+  <text fill="#355f7c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.2Box-Jenkins</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">...............................................</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">136</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">iii</text>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.6</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MoreVs</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">WeuseadeﬁnitionwiththreeVsforbigdata.UsingwordsthatstartwithVissopopularforbigdata,thatthereweremultiplesuggestionstoextendthedeﬁnitionwithadditionalVs,withupto</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">42Vs</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Obviously,thisistoomuchandwascreatedwiththegoaltoshowthatmoreVsdonotmeanthatwehaveabetterdeﬁnitionforbigdata.Regardless,forupto</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TenVs</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,therearemoreseriousdeﬁnitions.WealreadymetonetheadditionalVs,thevaluewhichisjustcalleddifferentlyinourdeﬁnition.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Veracity</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isanotherimportantVthatdealswiththequalityofthedata.Themoredatayouhave,theharderitistoensurethatthedataisreliableandtheresultscanactuallybereproduced.Thisisespeciallyimportantifthedatasourcechangesoften,e.g.,ifnewsoutletsorsocialnetworkdataareanalyzed.Volume,velocity,variety,veracityandvaluearethe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ﬁveV</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">deﬁnitionofBigData,whichisalsopopular.WedonotcoveranyoftheotherVshere.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DataScienceandBusinessIntelligence</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Datascienceisarelativelynewtermforwhichnoagreedupondeﬁnitionhasemergedyet.Thereasonforthisislikelytwo-fold.Ontheonehand,thetermisverygeneric,i.e.,everyuseofanythingrelatedtodatathatisremotelyscientiﬁccanbecoinedasdatascience.Ontheotherhand,thereisamajorhypesurroundingtheterm,whichmeansthatcompanies,consultingﬁrms,fundingagencies,andpublicinstitutionswanttoadvertisewiththeiruseandsupportofdatascience.Duetothis,wealsodonottrydoﬁndagoodandconcisedeﬁnitionfordatascience.Instead,welookatexamplesforthingsthatfallunderthetermdatascientistandtrydounderstandthedifferencestoatermthatwasalsopopularintheindustryacoupleofyearsago,i.e.,businessintelligence.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.1</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">WhatisDataScience?</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Datasciencebringstogethermathematics,statistics,andcomputersciencewiththegoaltogenerateinsightsandapplicationsfromdata.Mathematicsplaysafoundationalroleinhowweworkwithdata,becauseacommongoalofmanydatascienceprojectsistoﬁndamathematicaldescriptionforacertainaspectrelatedofthedata.Thus,datascienceisultimatelyaboutﬁndingmathematicalmodels.However,theimpactonmathematicsgoesbeyondjustbeinga“descriptionlanguage”formodelsaboutdata.Variousﬁeldsofmathematicsareintegralpartsofthemethodsweusetodeterminemodels,forexample,thefollowing.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Optimization</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">dealswiththequestionhowoptimalsolutionsforatargetfunctioncanbefoundinaspaceofpossiblesolutionsdescribedbyconstraints.Thisisoftenusedtooptimizethemodelswederivefromdata.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Stochastics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isusedtodescribethebehaviorofrandomeventsthroughrandomvariablesandstochasticprocess.Thesearethefoundationforthetheoryofmachinelearningaswellasformanyapplications.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Computationalgeometry</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isrequiredforanalyzingdatathatisspatiallydistributed,e.g.,geographically,astro-nomically,oronthe3Dspaceinfrontofacar.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Scientiﬁccomputing</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isalsorelatedtodatascience,becausemoreandmoreapplicationsemergewheremachinelearningandclassicalscientiﬁccomputingareusedtogether.Statisticsdealswiththeanalysisofsamplesofdatathroughtheinferenceofprobabilitydistributionsthatdescribethedata,timeseriesanalysis,andthedeﬁnitionofstatisticalteststhatevaluateifassumptionsonthedatalikelyhold.Concreteaspectsfromstatisticsthatarerelevantfordatascienceare,forexample,thefollowing.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Linearmodels</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">areaversatilemeanstoﬁtlineardescriptionstodatafortheanalysisandmayalsobeusedforforecastingfuturevalues.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Inference</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isasimilarmethodfordescribingdata,butmostlythroughprobabilitydistributionsinsteadoflinearmodels.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.2.DataScienceandBusinessIntelligence9</text>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <g>
+      <g transform="matrix(.31771679,0,0,.31770239,72,71.996417)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheusercontactstheNameNodewiththerequesttocreateanewﬁle.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thenamenoderespondswithadatastreamthatcanbeusedforwritingtheﬁle.Fromtheuser’sperspective,thisisanormalﬁlestreamthatwouldbeusedforlocaldataaccess(e.g.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">FileInputStream</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inJava,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ifstream</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inC++,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">open</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inPython).</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theuserwritesthecontentsoftheﬁletotheﬁlestream.TheNameNodeconﬁguredtheﬁlestreamwiththeinformationhowtheblocksshouldlooklikeandwherethedatashouldbesent.Thedataisdirectlysentblock-wisetooneoftheDataNodes.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheDataNodethatreceivestheblockdoesnotnecessarilystoretheblockitself.Instead,theblockmaybeforwardedtootherDataNodesforstorage.Eachblockisstoredatdifferentnodesandthenumberofthesenodesisdeﬁnedbythe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">replicationlevel</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Moreover,theHDFSensuresthatblocksareevenlydistributedamongthedatanodes,i.e.,aDataNodeonlystoresmultipleblocksofaﬁle,iftheblockcannotbestoredatanotherDataNode.Ideally,allDataNodesstorethesamenumberofblocksofaﬁle.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">WhenaDataNodestoresablock,thisisacknowledgedtotheDataNodethatreceivesthedatafromtheuser.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">OncetheDataNodereceivedacknowledgementsforallreplicationsofablock,theDataNodeacknowledgestotheuserthattheblockisstored.Theusercanthenstartsendingthedataforthenextblock(gotostep3),untilallblocksarewritten.Theuserdoesnotobservethisbehaviordirectly,becausethisisautomaticallyhandledbytheﬁlestream.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheuserinformstheNameNodethatthewritingﬁnishedandclosestheﬁlestream.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.2</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">YARN</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ThesecondcorecomponentofHadoopisYARN,whichismanagerforcomputationalresourcesthatisdesignedtoen-abledistributedBigDatacomputationswithdatastoredintheHDFS.SameastheHDFS,YARNhasamaster/workerparadigm.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">12.3.ApacheHadoop177</text>
+  </g>
+</svg>

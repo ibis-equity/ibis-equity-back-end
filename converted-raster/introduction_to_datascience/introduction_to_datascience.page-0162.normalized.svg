@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuedfrompreviouspage)</text>
+  <path d="M0 0H473.978V268.991H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,353.5)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">600000000711000000democratdollar...thankthousandtimetomemmusavotewast\000...0000030100...1000000200...0001200301...0100001400...0000100500...0000000600...1000000710...0010000widenworkwould00001000200030004100500060107001[8rowsx70columns]</text>
+  <path d="M0 0V268.991" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,353.5)"/>
+  <path d="M0 0V268.991" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,353.5)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,84.31)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,353.699)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecanusethewordcountsinthebagofwordsasinputforlearningalgorithms.Forclustering,thiswouldmeanthatwegroupbasedondocumentsthatusethesamewords,forclassiﬁcationthiswouldmeanthatwecomputescoresandclassesbasedonhowoftenwordsoccur.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">10.2.8</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">InverseDocumentFrequency</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Onepopularadditiontothebag-of-wordsistousethe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inversedocumentfrequency</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(IDF).Theideabehindthisap-proachistoweightwordsbytheir</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">uniqueness</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">withinthecorpus.Ifawordoccursonlyinfewdocuments,itisveryspeciﬁcandshouldhaveastrongerinﬂuencethanwordsthatoccurinmanydocuments.Theinversedocumentfre-quencyisrelatedtostopwordremoval.However,insteadofremovingwordsthatoccurinmanydocuments,theyjustgetalowerweightincomparisontowordsthatoccurinonlyfewdocumentsthroughtheIDF,whichisdeﬁnedas</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐼𝐷𝐹</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=log</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑁</text>
+  <path d="M0 0H11.756" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,325.828,525.891)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐷</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">where</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isaword(term),</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑁</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isthenumberofdocumentsinthecorpusand</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐷</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">isthenumberofdocumentsinwhich</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">appears.TheTFIDFcombinesthetermfrequencywiththeweightsoftheinversedocumentfrequencyandcanbeusedinsteadofthetoreplacetheTFinthebagofwords.ThedeﬁnitionofTFIDFforaword</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">is</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝐹𝐼𝐷𝐹</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑇𝐹</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">·</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝐼𝐷𝐹</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Forourtweets,wegetthefollowingwhenweusetheTFIDF.</text>
+  <path d="M0 0H473.978V16.936H0Z" fill="#f5f5f5" transform="matrix(1,0,0,-1,69.011,651.31399)"/>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,651.31399)"/>
+  <path d="M0 0V16.936" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,651.31399)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,634.178)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,651.513)"/>
+  <path d="M0 0H473.978V60.772H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,712.472)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1007thagendaamericabeautibishopcongressman\00.0000000.0000000.0000000.0000002.0794420.0000000.00000010.0000000.0000000.0000000.0000000.0000000.0000000.00000020.0000000.0000000.0000002.0794420.0000000.0000000.00000030.0000000.0000002.0794420.0000000.0000002.0794422.079442</text>
+  <path d="M0 0V60.772" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,712.472)"/>
+  <path d="M0 0V60.772" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,712.472)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,651.501)"/>
+  <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,712.672)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuesonnextpage)</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">154Chapter10.TextMining</text>
+</svg>

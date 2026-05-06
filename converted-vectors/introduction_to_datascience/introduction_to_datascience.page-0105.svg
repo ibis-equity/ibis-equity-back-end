@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.5</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">AreaUndertheCurve(AUC)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheAreaUndertheCurve(AUC)isaperformancemetricbasedontheROCcurve.TheROCcurveisagreattoolforthevisualanalysisoftheimpactofdifferentthresholdsaswellasfortheselectionofsuitablethresholdsifthereisadesiredgoalfortheTPRorFPR.TheAUCcomputesasinglevaluebasedontheROCcurvethatestimateshowwellthehypothesisperformsindependentofanyspeciﬁcthreshold.TheideabehindtheAUCisquitesimple.IfthebestcombinationsofTPRandFPRareintheupper-leftcorneroftheROCcurve,thismeansthattheperformanceisbetteriftheareaunderthecurveincreases.Thus,ifweintegratetheareaundertheROCcurve,wecanestimatehowwellaclassiﬁerperforms.Hence,thename:wehavetheareaunderthe(ROC)curve.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,398.916)"/>
+    <g>
+      <g transform="matrix(.75,0,0,.75002,72,187.42244)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,398.91603)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,398.91603)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,184.23601)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,399.116)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TheclosertheAUCvalueistoone,thebettertheperformanceofourclassiﬁer.Intermsofinterpretation,AUChassimilarproblemsasMCC:whileavalueof1isoptimal,theworstvalueisnot0,butrather0.5.Thisisbecauseifwejustrandomlyguessifwehaveapositiveoranegativeinstance,theTPRequalstheFPR,whichisthediagonaloftheROCcurve.Thus,anAUCvalueof0.5representsrandomguessing.Avalueof0meansthatwehaveaTPRof0andanFPR1.SameasfornegativevaluesofMCC,wecouldjustdotheoppositeofthehypothesisandgetaperfectresult.Consequently,valuesofAUCarebetter,thefarthertheyareawayfrom0.5.</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.6</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">MicroandMacroAverages</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allperformancemetricswediscussedsofararedeﬁnedusingthebinaryconfusionmatrix.Whiletheconceptofaccuracycanbegeneralizedtomorethantwoclasses,becauseitisthepercentageofcorrectlyclassiﬁedclasses,thisisnoteasilypossiblewiththeothermetrics.However,wecandeﬁnemultiplebinaryconfusionmatricesfromanon-binaryconfusionmatrix.Considerourconfusionmatrixwiththreeclassesfromabove.actualclass</text>
+    <path d="M0 0H98.47" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,310.757,591.716)"/>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,310.558,603.472)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">whale</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,346.702,603.472)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">bear</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,376.201,603.472)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">other</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,409.028,603.472)"/>
+    <path d="M0 0H134.614" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.613,603.671)"/>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.413,615.427)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">whale</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,310.558,615.427)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">29</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,346.702,615.427)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,376.201,615.427)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,409.028,615.427)"/>
+    <path d="M0 0H134.614" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.613,615.626)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Predictedclass</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.413,627.382)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">bear</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,310.558,627.382)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,346.702,627.382)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">22</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,376.201,627.382)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">13</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,409.028,627.382)"/>
+    <path d="M0 0H134.614" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.613,627.58206)"/>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.413,639.33706)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">other</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,310.558,639.33706)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,346.702,639.33706)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,376.201,639.33706)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">51</text>
+    <path d="M0 0V11.955" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,409.028,639.33706)"/>
+    <path d="M0 0H134.614" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,274.613,639.537)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wecandeﬁnethreeconfusionmatricesfromthisconfusionmatrix,ineachofwhichoneclassispositiveandallotherclassesnegative.Hereistheexamplewithwhaleaspositiveclass.</text>
+    <path d="M0 0H473.978V30.296H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,712.472)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;tdcolspan=3&gt;&lt;b&gt;Actualclass&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;tdrowspan=3&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Predictedclass&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;td&gt;&lt;b&gt;whale&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;</text>
+    <text fill="#ff0000" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">˓</text>
+    <text fill="#ff0000" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">→</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">notwhale&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;</text>
+    <path d="M0 0V30.296" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,712.472)"/>
+    <path d="M0 0V30.296" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,712.472)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,681.978)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,712.672)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(continuesonnextpage)</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.2.PerformanceMetrics97</text>
+  </g>
+</svg>

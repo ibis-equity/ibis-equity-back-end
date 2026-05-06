@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">innaturallanguagebytheuser,replacingthetraditionalmethodofhandlingFAQs–byusingasetofstatic‘‘canned’’questionsandanswers–andtherebyenhancingtheoveralluserexperience(Veturietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).RAGcanalsoenhancereal-timeinformationretrieval,therebyimprovingthetimelinessandtheaccuracyofinformationprovided.Forinstance,theChatGPTAndroidapplicationsourcesup-to-dateinformationfromthewebinrealtime.Additionally,RAGfacilitatestheincorporationofexternalandcontemporarymaterialsbyallowinguserstouploaddocumentsondemand.Thiscapabilityispar-ticularlybeneﬁcialinscenarioswherethemostcurrentinformationiscrucial(Amrietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Khanetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Inapplicationsthatrequirecontext-speciﬁcanswers,RAGisavaluabletool.Forexample,AI-poweredpro-grammingassistantstailoredtocourse-speciﬁccontentcandrawonadditionaldatasources,suchascoursematerials,toimprovetheaccuracyoftheiroutput.Thisapproachnotonlyincreasestheaccuracyofresults,butalsoensuresthatgeneratedanswersaredirectlylinkedtorelevantreferencematerials(Weietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Kazemitabaaretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Raietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;StrobelandBanh</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).RAGsigniﬁcantlyenhancesthecontentcreationprocessbyincorporatingthelatestknowledgeandtrendsintotheoutput.Thiscapabilityisparticularlyrelevanttothecre-ationofcontentsuchascommentaries,wheretheinclusionofup-to-dateinformationiscritical.Byguidingthecontentgenerationprocesswithadditionaldata,RAGensuresthatthequalityandrelevanceoftheoutputismaintainedatahighlevel(Wuetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Wangetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024b</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Finally,RAGenhancesfederatedsearchbyimprovingtheabilitytoretrieverelevantinformationfromheteroge-neousdatasourcesinconjunctionwithLLMs.Thiscom-binationenablesamorecomprehensiveandefﬁcientretrievalprocess,ensuringthatuserscanseamlesslyaccessrelevantinformationfromawiderangeofsources.Thisisparticularlybeneﬁcialincomplexinformationenviron-mentswheredataisdistributedacrossmultipleplatforms(Wangetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024a</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).3.2OpportunitiesofRAGByincorporatingexternaldata,theimplementationofRAGprovidesan</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">enhancedcontextualunderstanding</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(Lewisetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Asaresult,queriesthatrequirespeciﬁcknowledgethatwasnotpresentintheLLM’straining,andthereforeisnotreﬂectedintheLLM’sparameters,canbemeaningfullyprocessed.Usingfoundationmodelsisoftenproblematic,becausethetrainingdataisoutdated.Forexample,amodelwithtrainingdatafrom2023andearliercannotanswerquestionsrelatedtothe2024Europeanelections.WithRAG,morerecentdata,suchastheofﬁcialelectionswebsite,canbeadded,whichmaythenbereferredtoasnon-parametricmemory.Indoingso,aRAG-basedsystemhasthepotentialtoretrieveaccurateinfor-mationabouttheelection.</text>
+    <path d="M51.024 717.675H544.252V718.2419H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <path d="M51.024 469.134H544.252V469.70097H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <path d="M51.024 700.838H544.252V701.8584H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Table1</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">ExampleusecaseswithRAGTaskExampleusecaseReferencesFAQsRAGcanbeusedtodevelopasophisticatedquestion-answeringagent.Thiscanbeimplemented,forexample,forFAQs.Byincorporatingspeciﬁcknowledge,aRAG-basedFAQsystemisabletoaccuratelyanswerspeciﬁcquestionsposedinnaturallanguage.Veturietal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)Real-timeinformationretrievalRAGcanbeusedtointegrateadditionaldatasourcestoprovidereal-timeinformationretrieval.Forexample,theChatGPTAndroidappretrievesinformationfromthewebinrealtimetoimprovethetimelinessandaccuracyofresults.Externalandcurrentmaterialcanalsobeincorporatedbyallowinguserstouploaddocuments‘‘ontheﬂy’’andtousethisinformationinthegenerationprocess.Amrietal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)andKhanetal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)Context-speciﬁcanswersRAGcanbeusedtoenhancethedevelopmentofapplicationsthatrequirespeciﬁcinformation.Forexample,AI-empoweredprogrammingassistantsthataretailoredtocourse-speciﬁccontentcanuseadditionaldatasources(suchascoursematerials)toimprovetheaccuracyofresultsandincludeareferencetotherelevantmaterial.Weietal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),Kazemitabaaretal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),Raietal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)andStrobelandBanh(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)EnhancedcontentgenerationRAGcanbeusedtoguidethecontentgenerationprocessbyincorporatingadditionaldata.Inthisway,thequalityandrelevanceofthecontentgeneratedreﬂectscurrentknowledgeandtrendsrelevanttothegenerationofcontentsuchascommentary.Wuetal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)andWangetal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024b</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)FederatedsearchRAGcanbeusedtoenhancethecapabilitiesofsourcingrelevantinformationacrossheterogeneousdatasourcesincombinationwithanLLM.Wangetal.(</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024a</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)555</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>

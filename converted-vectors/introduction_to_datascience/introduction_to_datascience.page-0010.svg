@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Stochastics,especiallyrandomvariablesandtheirdistributions,e.g.normal/gaussiandistribution,uniformdis-tribution,exponentialdistribution,andbinomialdistribution.Withoutthisknowledgeyouwillhavetroubleunderstandingcertainproblemswithdataandmodels.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">InstallationofRequiredSoftware</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ThisonlinebookiswrittenusingJuypterNotebooks.YoucandownloadtheJupyterNotebooksofeachchapterusingthedownloadlinkatthetopofthepages.APDFwiththecontentofallchaptersisalsoplanned,butnotyetavailable.IfyouwanttoruntheJupyterNotebooksyourself,i.e.,executethecodeexamplesprovided,youmustinstalltherequiredsoftware.Theseare</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Python3.6ornewer.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">JupyterNotebook(testedwithversion5.7.8,butshouldlikelyalsoworkwithallnewerandmostolderversions).</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thepythonlibrariesnumpy,scipy,scikit-learn(atleast0.22),pandas,matplotlib,seaborn,mlxtend,nltk,andwordcloud.Werecommendtosetupalocalenvironmentasfollows:-</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">InstallPython</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">InstallJupyterNotebook</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Werecommendinstallationwithpip,becauseyougetthisdeliveredwithPython.Moreexperienceduserscanalsouseconda.-In-stalltherequiredlibrarieswithpip(</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">pipinstallnumpyscipyscikit-learnpandasmatplotlibmlxtendseabornnltkwordcloud</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">).Thismayrequiresudo/adminrights.Youcanalsoinstallthisinyouruserspaceifyouadd</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">--user</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">tothecommand.ThecreationoftheneuralnetworkﬁgureinChapter7alsorequiresthepackage</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">graphviz</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whichyouhavetoinstallbothwithpip,aswellaswithinyouroperatingsystem.YoushouldnowbeabletoﬁreupyourinstallationofJupyterwiththecommand</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">jupyternotebook</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.JupyterNotebookrunsinthebrowserandinitiallyshowsthehomefolderinyourlocalﬁlesystem.Youcannavigatetothedestinationwhereyoudownloadedthenotebooksandopenthem.Youcouldalsouploadthemtothecurrentlyopenfolderusingthebrowser.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">StateoftheBook</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thisonlinebookisstillawork-in-progressanditwilltakesometimebeforethebookisﬁnished.Thissectionsummarizesthecurrentstate.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter1:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter2:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter3:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter4:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter5:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter6:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter7:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter8:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter9:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter10:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter11:Finished.</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Chapter12:Draftﬁnished,requiresproofreading.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2CONTENTS:</text>
+</svg>

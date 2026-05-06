@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Eachofthesedecisiontreesonitsownisbad.Thisisfurtherhighlightedwhenwelookatthedecisionsurfacesofthefourtrees.</text>
+    <path d="M0 0H473.978V333.581H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,433.875)"/>
+    <g>
+      <g transform="matrix(.65001,0,0,.65001007,72,103.280948)"/>
+    </g>
+    <path d="M0 0V333.581" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,433.875)"/>
+    <path d="M0 0V333.581" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,433.875)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,100.095)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,434.07398)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Forexample,theﬁrstandfourthdecisiontreebothneverclassifyanythingasVirginica(teal).Thus,individually,wehavefour</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">weakclassiﬁers</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.However,ifwecombinetheresultsofthefourclassiﬁersandoutputtheaveragepredictionofeachtree,wegetthefollowing.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,696.974)"/>
+    <g>
+      <g transform="matrix(.75004997,0,0,.75002,72,485.47944)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,696.974)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,696.974)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,482.294)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,697.173)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thisisamuchbetterresult,eventhoughthisisonlybasedonfourweakclassiﬁers.Thisconcept,tobuilda</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">strong</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">106Chapter7.Classiﬁcation</text>
+  </g>
+</svg>

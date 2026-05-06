@@ -1,6 +1,8 @@
 import logging
 import os
+import random
 import sys
+import time
 
 import boto3
 from langchain_classic.chains import ConversationalRetrievalChain
@@ -35,6 +37,11 @@ AOSS_SVC_NAME = "aoss"
 
 DEFAULT_TIMEOUT_AOSS = 100
 # DEFAULT_AOSS_ENGINE = "faiss" # may not be needed
+DEFAULT_RETRIEVER_TOP_K = int(os.environ.get("RAG_RETRIEVER_TOP_K", "6"))
+TEXT_DOC_FILTER = {"wildcard": {"metadata.source.keyword": "*.txt"}}
+QUERY_THROTTLE_MAX_RETRIES = int(os.environ.get("QUERY_THROTTLE_MAX_RETRIES", "8"))
+QUERY_THROTTLE_BASE_BACKOFF_SECONDS = float(os.environ.get("QUERY_THROTTLE_BASE_BACKOFF_SECONDS", "1.0"))
+QUERY_THROTTLE_MAX_BACKOFF_SECONDS = float(os.environ.get("QUERY_THROTTLE_MAX_BACKOFF_SECONDS", "20.0"))
 
 BEDROCK_EMBEDDING_MODEL_ID = "amazon.titan-embed-text-v2:0"
 DEFAULT_CHAT_MODEL_ID = os.environ.get("BEDROCK_CHAT_MODEL_ID", "amazon.nova-micro-v1:0")
@@ -78,7 +85,12 @@ def build_chain(host, index_name):
     verify_certs=True,
     connection_class = RequestsHttpConnection,
 )
-  retriever = docsearch.as_retriever(search_kwargs={"k": 3})
+  retriever = docsearch.as_retriever(
+    search_kwargs={
+      "k": DEFAULT_RETRIEVER_TOP_K,
+      "filter": TEXT_DOC_FILTER,
+    }
+  )
   # the "k" needs to be revisited
 
   prompt_template = """Human: This is a friendly conversation between a human and an AI. 
@@ -122,7 +134,28 @@ def build_chain(host, index_name):
 
 
 def run_chain(chain, prompt: str, history=[]):
-  return chain({"question": prompt, "chat_history": history})
+  attempt = 0
+  while True:
+    try:
+      return chain({"question": prompt, "chat_history": history})
+    except Exception as err:
+      attempt += 1
+      err_text = str(err).lower()
+      throttled = "throttlingexception" in err_text or "too many requests" in err_text
+      if (not throttled) or attempt > QUERY_THROTTLE_MAX_RETRIES:
+        raise
+
+      sleep_seconds = min(
+        QUERY_THROTTLE_MAX_BACKOFF_SECONDS,
+        QUERY_THROTTLE_BASE_BACKOFF_SECONDS * (2 ** (attempt - 1)),
+      ) + random.uniform(0.0, 0.35)
+      LOGGER.warning(
+        "Bedrock throttled during query (attempt %s/%s). Retrying in %.2fs",
+        attempt,
+        QUERY_THROTTLE_MAX_RETRIES,
+        sleep_seconds,
+      )
+      time.sleep(sleep_seconds)
 
 
 if __name__ == "__main__":

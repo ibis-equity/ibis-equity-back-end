@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">suitableanalysisapproaches,aswellasexperimentswithdifferentmodelstoselectthebestmodel.Youmayuseyourtrainingdataasoftenaspossibleandtransformthedatahoweveryoulike.Inanidealworld,thetestdataisonlyusedonetime,i.e.,onceyouhaveﬁnishedthemodelbuildingandwanttodeterminehowwellyourmodelwouldperforminareal-worldestimation.Themodelyoucreatedisthenexecutedagainstthetestdataandyouevaluatetheperformanceofthatmodelwiththecriteriayoudeterminedinthediscoveryphase.Thestrongdifferentiationbetweentrainingandtestdataistoprevent</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">overﬁtting</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">andevaluatehowyourresults</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">gener-alize</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Overﬁttingoccurs,whendataismemorized.Forexample,wecaneasilycreateamodelthatperfectlypredictsourtrainingdata:wejustmemorizeallinstancesandpredicttheirexactvalue.However,thismodelwouldnotworkatallonotherdata.Therefore,itwouldbeuselessonallotherdata.Thisiswhywehavetestdata:thisdatawasneverseenduringthecreationofthemodel.Ifourmodelisgoodandactuallydoeswhatitissupposedtodo,itshouldalsoperformwellonthetestdata.Unfortunately,dataisoftenlimitedandthecreationofmoredatacanbedifﬁcultorexpensive.Ontheonehand,weknowthatmachinelearningalgorithmsyieldbetterresultswithmoredata.Ontheotherhand,theperformanceestimateonthetestdataisalsomorereliable,ifwehavemoretestdata.Therefore,howmuchdataisusedastrainingdataandhowmuchdataisastestdataisatradeoffthatmustbedecidedineveryproject.Thebestapproachistouse</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">hold-out</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">data.Thisisrealtestdatathatisonlyusedonce.Commonratiosbetweentrainingandtestdataare,e.g.,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">50%trainingdata,50%testdata.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">66.6%trainingdata,33.4%testdata.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">75%trainingdata,25%testdata.Sometimes,thereareadditionalconcernstoconsider.First,thereissomethingcalled</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">validationdata</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Validationdatais“testdatafortrainingmodels”.Thismeansthatthedataisusedinthesamewaythetestdataisusedattheendoftheproject,butmaybeusedrepeatedlyduringthecreationofmodels.Validationdatacan,e.g.,beusedtocomparedifferentmodelstoeachotherandselectthebestcandidate.Validationdatacanbecreatedashold-outdataaswell,e.g.,with50%trainingdata,25%validationdata,and25%testdata.Incasethereisnotenoughdata,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">cross-validation</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">maybeusedtopreventoverﬁttingofmodels.Withcross-validation,thereisnoclearseparationoftrainingandtestdata.Instead,alldataisusedfortrainingandtestingofthemodels.With</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-foldcross-validation,thedataissplitinto</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">partitionsofequalsizes.Eachpartitionisonceusedfortesting,theotherpartitionsareusedforthetraining.</text>
+    <g>
+      <g transform="matrix(.3939408,0,0,.39397923,72,473.6537)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theperformanceisthenestimatedasthemeanoftheresultsofthetestingoneachpartition.Withcross-validation,</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">4.4.TrainingandTestData53</text>
+  </g>
+</svg>

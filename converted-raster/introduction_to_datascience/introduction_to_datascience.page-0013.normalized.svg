@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,81.46399)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CHAPTER</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">ONE</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,134.26599)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">BIGDATAANDDATASCIENCE</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoBigData</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Theterm</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">bigdata</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">hasbeenaroundforquitesometimeandtheinitialhypeassociatedwiththetopicisalreadylongoverandreplacedbydifferenttopics,likethe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">internetofthings</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">artiﬁcialintelligence</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,especially</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">deepneuralnetworks</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.However,bigdataiscloselyrelatedtothesetopicsandcanbe,tosomedegree,seenasanenablerandimportantrelatedtechnology.Unfortunately,manypeoplestilldonotunderstandwhatmakesdata</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">big</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,whatisspecialaboutbigdata,andtheimplicationsofhavingproblemsthateitherproduceorrequirebigdata.Thesemisunderstandingsaremainlybecauseweinstinctivelyassignameaningtothetermbiginthesenseoflarge.Consequently,thenaivedeﬁnitionofbigdatawouldbethatthisisjustalargeamountofdata.However,onlytheamountofdataisnotsufﬁcienttomakedataintobigdata.Consider,forexample,thebackupsthatmoderncomputecentersstoreonhighvolumestorages,thatoftenhaveahighlatency.Thisiscertainlyalargeamountofdata,butalsocertainlynotbigdata.Moreover,deﬁningbigdatajustusingthesizewouldbeimpractical,becausewewouldhavetochangethedeﬁnitionrepeatedly,becauseourstorage,computational,andmemorycapacitiesareconstantlyincreasing.Abetterandwellaccepteddeﬁnitionofbigdataisbasedonthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">threeVs</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">[GartnersITLexicon]</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Deﬁnitionofbigdata:</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Bigdataishigh-volume,high-velocityand/orhigh-varietyinformationassetsthatdemandcost-effective,innovativeformsofinformationprocessingthatenableenhancedinsight,decisionmaking,andprocessautomation.Letusdissectthisdeﬁnitionandconsidertheindividualpartstounderstandwhybigdataismorethanjustsize.</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1.1.1</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Volume</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thevolumeofthedataisanimportantfactor.However,asdiscussedabove,thereisnoexactnumberthatmakesdatabig.Intheyear2006,whenGooglepublishedthelandmark</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Map/Reducepaper</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,oneTerabytewasahugeamountofdata.Intheyear2020,thisisthestorageofmylaptop.Asimplisticdeﬁnitionisthatbigdatadoesnotﬁtinthememory.Abetterguidelineisthatbigdataistoolargetobecopiedaround(veryoften),especiallyoverthenetwork.Duetothis,bigdataissometimesnotevencopiedfromthenetworkbutwiththe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">SneakerNet</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,forexample,forthe</text>
+  <text fill="#377063" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">creationoftheﬁrstimageofablackhole</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">5</text>
+</svg>

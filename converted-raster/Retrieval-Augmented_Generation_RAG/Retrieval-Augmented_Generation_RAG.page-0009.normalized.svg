@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Wikipediaandmaybemoreeffectiveinﬁndingrelevantinformation.ExampleresearchquestionsthatemergewithRAG-basedsystemsrelevantforindividual-levelBISEresearchare</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Cangrounding-basedexplanationsoutper-formtraditionalXAIapproachesinimprovingusertrust?</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">or</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">TowhatextentdoesRAGenhanceindividuals’work-placeperformance?</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Finally,RAGalsoinvitesmoreresearchthatinvesti-gatestheeconomicvalueofnewinformationsystemsarchitectures.Moregenerally,researchisneededthatinvestigateswhatoutcomescanbeexpectedfromtheevolutionandadvancementsofnewarchitectures(Hakietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Ultimately,organizationsseekopportunitiestoincreaseefﬁciencyandproductivity.RAGhasthepotentialtoimprovebusinessprocessesandenhanceorganizationaldecisionmaking.Nevertheless,itremainsuncleartowhatextentorganizationscanbeneﬁtfromusingRAG.Inaddition,RAGcanalsohelporganizationsmeetregulatoryrequirements.Forexample,theEuropeanAIActasksformoretransparencywhenAIisused.Again,theconceptofgroundinghasthepotentialtocontributetothisrequire-mentandofferapotentialpathwayfororganizations.Forthesereasons,thefollowingresearchquestionsareexam-plesforbusiness-oriented</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BISE</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">researchers:</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">HowcanorganizationsachieveacompetitiveadvantagewithRAG-basedsystems?</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">TowhatextentcanRAG-basedsystemsenhancethefulﬁllmentofregulatoryrequirements?</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Acknowledgements</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">TheauthorswouldliketoexpresssinceregratitudetotheDepartmentEditor,ChristineLegner,forhercon-structiveguidancethroughoutthereviewprocess,andtothetwoanonymousreviewersfortheirthoughtfulfeedbackthatsigniﬁcantlystrengthenedthiswork.</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Funding</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">OpenAccessfundingenabledandorganizedbyProjektDEAL.</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">OpenAccess</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">ThisarticleislicensedunderaCreativeCommonsAttribution4.0InternationalLicense,whichpermitsuse,sharing,adaptation,distributionandreproductioninanymediumorformat,aslongasyougiveappropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreativeCommonslicence,andindicateifchangesweremade.Theimagesorotherthirdpartymaterialinthisarticleareincludedinthearticle’sCreativeCommonslicence,unlessindicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthearticle’sCreativeCommonslicenceandyourintendeduseisnotpermittedbystatutoryregulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfromthecopyrightholder.Toviewacopyofthislicence,visit</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">http://creativecommons.org/licenses/by/4.0/</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">.</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">References</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BranM,CoxAS,SchilterO,BaldassariC,WhiteAD,SchwallerP(2024)Augmentinglargelanguagemodelswithchemistrytools.NatMachIntell6:525–535.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1038/s42256-024-00832-8</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">DingN,QinY,YangG,WeiF,YangZ,SuY,SunM(2023)Parameter-efﬁcientﬁne-tuningoflarge-scalepre-trainedlan-guagemodels.NatMachIntell5(3):220–235.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1038/s42256-023-00626-4</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">AbbasiA,SarkerS,ChiangR(2016)Bigdataresearchininformationsystems:Towardaninclusiveresearchagenda.JAssocInfSyst17(2):3.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.17705/1jais.00423</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">AlaviM,LeidnerDE(2001)Knowledgemanagementandknowledgemanagementsystems:Conceptualfoundationsandresearchissues.MISQ25(1):107–136.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.2307/3250961</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">AlaviM,LeidnerDE,MousaviR(2024)Knowledgemanagementperspectiveofgenerativeartiﬁcialintelligence.JAssocInfSyst25(1):1–12.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.17705/1jais.00859</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">AmriS,BaniR,BaniS(2024)AnapproachtotheanalysisofﬁnancialdocumentsusinggenerativeAI.In:Proceedingsofthe7thinternationalconferenceonnetworking,intelligentsystemsandsecurity,ACM,Meknes,pp1–5.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3659677.3659736</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BagozziRP(1992)Theself-regulationofattitudes,intentions,andbehavior.SocPsycholQ55(2):178.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.2307/2786945</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BalaguerA,BenaraV,CunhaRLdF,FilhoRdME,HendryT,HolsteinD,MarsmanJ,MecklenburgN,MalvarS,NunesLO,PadilhaR,SharpM,SilvaB,SharmaS,AskiV,ChandraR(2024)RAGvsﬁne-tuning:pipelines,tradeoffs,andacasestudyonagriculture.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/ARXIV.2401.08406</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BerenteN,GuB,ReckerJ,SanthanamR(2021)Managingartiﬁcialintelligence.MISQ45(3):1433–1450.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.25300/MISQ/2021/16274</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BlohmI,WortmannF,LegnerC,Ko¨blerF(2024)Dataproducts,datamesh,anddatafabric:Newparadigm(s)fordataandanalytics?BusInfSystEng66:643–652.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s12599-024-00876-5</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BrownTB,MannB,RyderN,SubbiahM,KaplanJ,DhariwalP,NeelakantanA,ShyamP,SastryG,AskellA,AgarwalS,Herbert-VossA,KruegerG,HenighanT,ChildR,RameshA,ZieglerDM,WuJ,WinterC,HesseC,ChenM,SiglerE,LitwinM,GrayS,ChessB,ClarkJ,BernerC,McCandlishS,RadfordA,SutskeverI,AmodeiD(2020)Languagemodelsarefew-shotlearners.In:Proceedingsofthe34thinternationalconferenceonneuralinformationprocessingsystems.CurranAssociatesInc.,RedHook,NY,USA,NIPS’20,pp1877–1901.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.5555/3495724.3495883</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">BruchS,GaiS,IngberA(2023)Ananalysisoffusionfunctionsforhybridretrieval.ACMTransInfSyst42(1):1–35.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3596512</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">CleverleyPH,BurnettS(2019)Enterprisesearchanddiscoverycapability:Thefactorsandgenerativemechanismsforusersatisfaction.JInfSci45(1):29–52.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1177/0165551518770969</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">DehghaniZ(2022)Datameshdeliveringdata-drivenvalueatscale.O’Reilly,SebastopolEdgeD,TrinhH,ChengN,BradleyJ,ChaoA,ModyA,TruittS,LarsonJ(2024)Fromlocaltoglobal:AgraphRAGapproachtoquery-focusedsummarization.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2404.16130</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">FeuerriegelS,DolataM,SchwabeG(2020)FairAI:Challengesandopportunities.BusInfSystEng62(4):379–384.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s12599-020-00650-3</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">FeuerriegelS,HartmannJ,JanieschC,ZschechP(2024)GenerativeAI.BusInfSystEng66(1):111–126.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s12599-023-00834-7</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GallegosIO,RossiRA,BarrowJ,TanjimMM,KimS,DernoncourtF,YuT,ZhangR,AhmedNK(2024)Biasandfairnessinlargelanguagemodels:Asurvey.CompLinguist50(3):1–79.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1162/coli_a_00524</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)559</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>

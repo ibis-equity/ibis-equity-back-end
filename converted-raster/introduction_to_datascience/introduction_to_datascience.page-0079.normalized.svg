@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.2.4</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Problemsof</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Means</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Eventhoughtheconceptof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansissimple,thealgorithmoftenworkswell.However,thereareseveralproblemswith</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansthatyoushouldbeawareof.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansissensitivetotheinitialclusters.Theresultsmaynotbestableandchangewithdifferentstartcenters.Consequently,</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansshouldberunwithmultiplerandomizedstartcenters.Iftheresultsareunstable,thisisastrongindicatorthattheoutcomemaynotbegoodforthegivennumberofclusters</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Anunsuitablevalueof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">mayleadtobadresults.Since</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">mustbepickedmanually,thismeansthatexperienceisimportantwhenusingthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meansalgorithm,toavoidbadresultsduetoawrongnumberofclusters.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allfeaturesmusthaveasimilarrangeofvalues,ideallyeventhesamerangeofvalues.Otherwise,differencesintherangesofthescalesmayintroduceartiﬁcialweightsbetweenfeatures.Forexample,considerdatawithtwofeatures:ageinyearsandtheyearlyincomeinEuro.Theageis(roughly)between0and100,theincomeinEurois-evenforlowpayingjobs,alreadyat12*400=4,800Euro,butcanalsoeasilybeabove50,000Euro.Thismeansthat,whenwecalculatethedistancebetweentwoinstances,theageisirrelevant,allthatmattersistheincome.Thus,thelargerangeoftheincomescalemeansthattheincomehasahigherweightandastrongerinﬂuenceontheresults.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Becausetheclusterassignmentisbasedonthedistance,clusterstendtoberound.Clustersthatarenotroughlyroundcanoftennotbedescribedwellbycentroids.Anexamplearethehalf-moonsbelow.Wecanclearlyseethattherearetwohalf-circlesandeachoneisacluster.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Meanscannotﬁndtheseclusters,becausetheyarenotround.</text>
+    <path d="M0 0H473.978V205.485H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,545.33706)"/>
+    <g>
+      <g transform="matrix(.75,0,0,.75003007,72,342.841)"/>
+    </g>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,545.338)"/>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,545.338)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,339.653)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,545.537)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">EMClustering</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.3.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">GeneralIdea</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Anotherwaytolookatcitiesandhousesistothinkofthemasrandomvariables.Theassignmentofhousestocitiesisthenguidedbyprobabilitydistributions.Thisisanextensionoftheideabehind</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑘</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Means.Ourtownhallisstillthesame,i.e.,thecenter.However,weacknowledgethathousesclosertothetownhallaremorelikelytobelongthethecitythanhousesthatarefartheraway.Weactuallygoonestepfurtheranddeﬁnecitiesnotonlybasedonthelocationofthetownhall,butalsobythevariabilityofthehouses,i.e.,howspreadoutthehousesofthecitiesare.Thisconceptiscalled</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">distribution-basedclustering</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">6.3.EMClustering71</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "Records": [
+    {
+      "messageId": "manual-index-intro-datascience",
+      "receiptHandle": "manual-receipt-handle",
+      "body": "{\"bucket\":\"baseinfrastack-processedtext1b5b9dda-g1nusiz02rae\",\"file\":\"introduction_to_datascience.txt\"}"
+    }
+  ]
+}

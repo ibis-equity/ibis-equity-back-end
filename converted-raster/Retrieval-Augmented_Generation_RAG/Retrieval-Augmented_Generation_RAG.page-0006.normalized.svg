@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">WhenLLMstrytoanswerquestionsforaspeciﬁcdomainthatisnotpartofthetrainingdata,</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">hallucinations</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">arelikely.Onewaytoaddressthisproblemistoﬁne-tunetheLLM,whichislessexpensivethanbuildingafounda-tionmodelbutrequiresconsiderableresourcesnonetheless.Studieshaveshownthatﬁne-tuningcanalsoleadtohal-lucinations(Gekhmanetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Ontheotherhand,RAGisaneffectivewaytoaddthisknowledge.Byaddingadditionalinformation,questionscanbeansweredusingthisdata,reducingthelikelihoodofinaccurateanswers.Thus,RAGisaneffectivemeasuretoenhance</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">factualaccuracy</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">.ARAGarchitectureallowsreferencestobeprovidedtothecontextualdatastoredinthevectordatabase.Providingvalidreferencestothegeneratedresulthasbeentermed</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">grounding</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(Mageshetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Groundingisasigniﬁcantadvantage,becauseitgivesauseradditionalinformationaboutwheretheinformationcomesfrom.Therefore,auserlookingforinformationinaparticularareacanfollowthisreferencetodoublechecktheanswerandgetadditionalinformation.</text>
+    <text fill="#0000ff" transform="matrix(1.060708 0 -0 .9427664 0 790.87)" x="0" y="0">4</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Inaddition,aRAGarchitecturecanbeusedtolimittheresponsespectrumtoadesiredknowledgedomain(</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">knowledge-domainguardrailsforLLMs</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),whichcanbeimplicitlydeﬁnedbyprovidingadditionalknowledge.Foundationmodelsoftenlackprecisioninresponses,becausetheyarenotprovidedwithappropriateboundaryconditionsandguardrailsthatfocusthesolutionspaceofanLLM.Aconversationalagentdeployedonabusinesswebsitewouldbepreventedfromprovidinganswersthatareirrelevanttothebusinessinterests.Forexample,aquerysuchas‘‘</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Tellmeajoke</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">’’shouldnotbeansweredbyanagentinanapplication(e.g.,aneducationalplatform),becauseitwouldnotbeinthebestinterestoftheplatform(e.g.,duetocostconsiderations).The‘‘</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Tellmeajoke</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">’’exampleissimpleenough,andaCAanswercouldthere-forebepreventedbyanexplicitguardrailintheprompt.Theboundariesofwhatshouldorshouldnotbeansweredbyabusinesschatbotmightbemorecomplexandlesseasytodeﬁneexplicitlyinasimpleprompt.RAGoffersthepossibilitytodothisimplicitlybyrestrictingthechatbot’sanswerstothedomaincoveredbythedocumentsthatwereusedtocreatethevectordatabaseinconjunctionwithanappropriateprompt.ConsidertheaugmentationtemplateshowninFig.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">.ThistemplatecanbeusedtorestricttheresponseofanLLMtoaparticularcontextspeciﬁedinthetemplate.Inotherwords,theaugmentationtemplatedeﬁnestheboundariesbyreferencetothedatabaseandcanthereforestaythesamewhenthedatabasechanges(e.g.,whenanorganizationaddsadditionaldatatothevectordatabase).InourexampleaugmentationtemplateinFig.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">–‘‘Givethecontextinformation,answerthequery’’–theLLMresponseshouldbegeneratedonlywithinthecontext.Assumingthatthecontextisadatabaseofcustomerinformation,theLLMisguidedtogenerateanswersbasedonthesedocuments.Finally,aRAGarchitecturealsocomeswithreduced</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">initialcostofownership</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">,becauseitislesscomputationallyintensivetocreateavectordatabasethanﬁne-tuneafoundationmodel.Therefore,RAGisapotentialalterna-tivetoLLMﬁne-tuning(Table</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).3.3ChallengesAmpliﬁedbyRAGAlongwiththeseopportunities,RAGalsopresentsnewchallengesfororganizations.Atthemostfundamentallevel,mostofthechallengestoRAGrelateto</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">dataman-agement</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">machinelearningoperations(MLOps)capa-bilities</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">.DatamanagementhasbeenidentiﬁedasamajorchallengeinISresearch(Abbasietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2016</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)ingeneral.SinceRAG-basedsystemsrequireadditionaleffortstomergedatafromheterogeneousdatasources,thesechal-lengesarecompounded.Therefore,organizationsneedtodevelopadditionalcapabilitiestoaddressthisneed.Mod-ernconceptssuchasdatameshstructures(Dehghani</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2022</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Blohmetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)canalsobeconsideredasausefulapproachfordevelopingRAG-basedsystems.Inaddition,mucheffortisrequiredtoensurethehighqualityoftheadditionaldata.Inpractice,theremaybecaseswherethedatasourcescontaincounterfactualorevenfalseinforma-tionthatshouldbeeliminated.Therefore,organizationsneedtoallocatemoreresourcesandbuildnewcapabilities,suchasMLOpscapabilities,toimplementRAG-basedsystems.Inadditiontodatamanagementissues,theunderlyingdatainevitablypresentsnewchallengesintermsofunwanted</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">bias</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">effects.ThisisbecauseorganizationshaveanewwayofaddingdatatotheAIinfrastructureviaavectordatabase.ThisisarguablysimilartoLLMﬁne-tuning,wheretheorganizationshouldalsobeawareofunwantednewbiaseffects.However,itdiffersfromtheuseoffoundationmodelsorSoftware-as-a-Service(SaaS)solu-tionswheretheorganizationcannotinﬂuencethedatausedtotrainorﬁne-tunethemodel.Awell-knownexampleistheuseofWesterndocuments,whicharelikelytoreﬂectonlyaWesternperspectiveandmaybeundesirableinaninternationalcontext.Thisispartofalargerareaofongoingresearchrelatedtotheavoidanceandcorrectionofbiaseffects(e.g.,Mehrabietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2022</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Gallegosetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),anareathatisalsoregulatedbytheEuropeanUnion(see,forexample,theEUAIAct).</text>
+    <g>
+      <path d="M0 0H45.354" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".283" transform="matrix(1,0,0,-1,51.024,674.026)"/>
+    </g>
+    <text transform="matrix(1.0607009 0 -0 .94277289 0 790.87)" x="0" y="0">4</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Foundationmodelspersedonotprovidesuchreferences.Theresultsarereferredtoas</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">ungrounded</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(Mageshetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Itisworthnotingthattherearealsoreferencesthatdonotsupportageneratedoutput.Thesearereferredtoas</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">misgrounded</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">.</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">556M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>

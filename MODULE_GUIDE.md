@@ -118,12 +118,13 @@ This guide explains each module in the repository: what it does, how it connects
 **Flow**
 1. Validate event format and bucket.
 2. Download PDF with boto3.
-3. Extract text page-by-page using `pypdf.PdfReader`.
+3. Extract text page-by-page using `pypdf.PdfReader` (optionally capped by `MAX_PDF_PAGES`).
 4. Upload `.txt` object into processed bucket.
 
 **Key env vars**
 - `SOURCE_BUCKET_NAME`
 - `DESTINATION_BUCKET_NAME`
+- `MAX_PDF_PAGES` (optional; `0` means all pages, `N > 0` means first `N` pages only)
 
 ### `lambda/aoss-trigger/app.py`
 **Purpose**

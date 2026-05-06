@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,290.865)"/>
+    <g>
+      <g transform="matrix(.75003,0,0,.75002,72,79.37044)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,290.86503)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,290.86503)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.184009)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,291.064)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wegetmoreinformationfromthisplot.Wenowseethegeneralrisingtrendinthedataandalsoobservethatthespreadinthetrendincreasesovertime.However,westillcannoteasilyseehowdatachangesfromonemonthtothenext.Forthis,weneedto-literally-connectthedots.Thisiscalledalineplot.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,553.964)"/>
+    <g>
+      <g transform="matrix(.75003,0,0,.75002,72,342.46943)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,553.964)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,553.964)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,339.28297)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,554.16299)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Withthelineplotweseethegeneraltrend,aswellashowthedatachangesfrommonthtomonth.Nowwealsoseearegularpatternthatrepeatseveryyear.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">3.3.VisualizationforDataExploration47</text>
+  </g>
+</svg>

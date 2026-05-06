@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GaoL,BidermanS,BlackS,GoldingL,HoppeT,FosterC,PhangJ,HeH,ThiteA,NabeshimaN,PresserS,LeahyC(2020)Thepile:An800GBdatasetofdiversetextforlanguagemodeling.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2101.00027</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GaoY,XiongY,GaoX,JiaK,PanJ,BiY,DaiY,SunJ,WangM,WangH(2023)Retrieval-augmentedgenerationforlargelanguagemodels:Asurvey.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/ARXIV.2312.10997</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GekhmanZ,YonaG,AharoniR,EyalM,FederA,ReichartR,HerzigJ(2024)Doesﬁne-tuningLLMsonnewknowledgeencouragehallucinations?</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2405.05904</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GuerreiroNM,AlvesDM,WaldendorfJ,HaddowB,BirchA,ColomboP,MartinsAFT(2023)Hallucinationsinlargemultilingualtranslationmodels.TransAssocComputLinguist11:1500–1517.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1162/tacl_a_00615</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">GuuK,LeeK,TungZ,PasupatP,ChangMW(2020)REALM:Retrieval-augmentedlanguagemodelpre-training.In:Proceed-ingsofthe37thinternationalconferenceonmachinelearning,JMLR.org,ICML’20.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.5555/3524938.3525306</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">HakiK,BeeseJ,AierS,WinterR(2020)Theevolutionofinformationsystemsarchitecture:Anagent-basedsimulationmodel.MISQ44(1):155–184.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.25300/MISQ/2020/14494</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">HammP,KleselM,CobergerP,WittmannHF(2023)Explanationmatters:AnexperimentalstudyonexplainableAI.ElectronMark33(1):17.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s12525-023-00640-9</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">HicksMT,HumphriesJ,SlaterJ(2024)ChatGPTisbullshit.EthicsInfTechnol26(2):38.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s10676-024-09775-5</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">HuEJ,ShenY,WallisP,Allen-ZhuZ,LiY,WangS,WangL,ChenW(2022)LoRA:Low-rankadaptationoflargelanguagemodels.In:Internationalconferenceonlearningrepresentations,virtualconferenceJaberR,ZhongS,Kuoppama¨kiS,HosseiniA,GessingerI,BrumbyDP,CowanBR,McmillanD(2024)Cookingwithagents:Designingcontext-awarevoiceinteraction.In:ProceedingsoftheCHIconferenceonhumanfactorsincomputingsystems,ACM,Honolulu,pp1–13.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3613904.3642183</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">JiZ,LeeN,FrieskeR,YuT,SuD,XuY,IshiiE,BangYJ,MadottoA,FungP(2023)Surveyofhallucinationinnaturallanguagegeneration.ACMComputSurv55(12):1–38.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3571730</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">JiangAQ,SablayrollesA,MenschA,BamfordC,ChaplotDS,CasasDdl,BressandF,LengyelG,LampleG,SaulnierL,LavaudLR,LachauxMA,StockP,ScaoTL,LavrilT,WangT,LacroixT,SayedWE(2023)Mistral7B.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2310.06825</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">KarpukhinV,OguzB,MinS,LewisP,WuL,EdunovS,ChenD,YihWt(2020)Densepassageretrievalforopen-domainquestionanswering.In:WebberB(ed)Proceedingsofthe2020confer-enceonempiricalmethodsinnaturallanguageprocessing(EMNLP),AssociationforComputationalLinguistics,Online,pp6769–6781.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.18653/v1/2020.emnlp-main.550</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">KazemitabaarM,YeR,WangX,HenleyAZ,DennyP,CraigM,GrossmanT(2024)CodeAid:Evaluatingaclassroomdeploy-mentofanLLM-basedprogrammingassistantthatbalancesstudentandeducatorneeds.In:ProceedingsoftheCHIconferenceonhumanfactorsincomputingsystems,ACM,Honolulu,pp1–20.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3613904.3642773</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">KhanAA,HasanMT,KemellKK,RaskuJ,AbrahamssonP(2024)Developingretrievalaugmentedgeneration(RAG)basedLLMsystemsfromPDFs:anexperiencereport.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/ARXIV.2410.15944</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LewisP,PerezE,PiktusA,PetroniF,KarpukhinV,GoyalN,Ku¨ttlerH,LewisM,YihWt,Rockta¨schelT,RiedelS,KielaD(2020)Retrieval-augmentedgenerationforknowledge-intensiveNLPtasks.In:Proceedingsofthe34thinternationalconferenceonneuralinformationprocessingsystems,Curran,RedHook,NIPS’20,pp9459–9474.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.5555/3495724.3496517</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LinsS,PandlKD,TeigelerH,ThiebesS,BayerC,SunyaevA(2021)Artiﬁcialintelligenceasaservice.BusInfSystEng63(4):441–456.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s12599-021-00708-w</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LiuY,PengX,ZhangX,LiuW,YinJ,CaoJ,DuT(2024)RA-ISF:Learningtoanswerandunderstandfromretrievalaugmentationviaiterativeself-feedback.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.18653/v1/2024.ﬁndings-acl.281</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LongoL,BrcicM,CabitzaF,ChoiJ,ConfalonieriR,SerJD,GuidottiR,HayashiY,HerreraF,HolzingerA,JiangR,KhosraviH,LecueF,MalgieriG,Pa´ezA,SamekW,SchneiderJ,SpeithT,StumpfS(2024)Explainableartiﬁcialintelligence(XAI)2.0:Amanifestoofopenchallengesandinterdisciplinaryresearchdirections.InfFusion106:102301.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1016/j.inffus.2024.102301</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">LundbergSM,LeeSI(2017)Auniﬁedapproachtointerpretingmodelpredictions.In:Proceedingsofthe31stinternationalconferenceonneuralinformationprocessingsystems,Curran,RedHook,NIPS’17,pp4768–4777.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.5555/3295222.3295230</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">MageshV,SuraniF,DahlM,SuzgunM,ManningCD,HoDE(2024)Hallucination-free?Assessingthereliabilityofleading(AI)legalresearchtools.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2405.20362</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">MaynezJ,NarayanS,BohnetB,McDonaldR(2020)Onfaithfulnessandfactualityinabstractivesummarization.In:Proceedingsofthe58thannualmeetingoftheassociationforcomputationallinguistics,AssociationforComputationalLinguistics,Online,pp1906–1919.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.18653/v1/2020.acl-main.173</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">MehrabiN,MorstatterF,SaxenaN,LermanK,GalstyanA(2022)Asurveyonbiasandfairnessinmachinelearning.ACMComputSurv54(6):1–35.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3457607</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">MeskeC,BundeE(2022)DesignprinciplesforuserinterfacesinAI-baseddecisionsupportsystems:thecaseofexplainablehatespeechdetection.InfSystFront.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1007/s10796-021-10234-5</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">NevoS,WadeMR,CookWD(2007)Anexaminationofthetrade-offbetweeninternalandexternalITcapabilities.JStratInfSyst16(1):5–23.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1016/j.jsis.2006.10.002</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">PalA,UmapathiLK,SankarasubbuM(2023)Med-HALT:medicaldomainhallucinationtestforlargelanguagemodels.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.48550/arXiv.2307.15343</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">PangL,XuJ,AiQ,LanY,ChengX,WenJ(2020)SetRank:learningapermutation-invariantrankingmodelforinformationretrieval.In:Proceedingsofthe43rdinternationalACMSIGIRconfer-enceonresearchanddevelopmentininformationretrieval,ACM,VirtualEventChina,pp499–508.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.1145/3397271.3401104</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">ParkY,MithasS(2020)Organizedcomplexityofdigitalbusinessstrategy:aconﬁgurationalperspective.MISQ44(1):85–127.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.25300/MISQ/2020/14477</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">PerezE,KaramchetiS,FergusR,WestonJ,KielaD,ChoK(2019)FindinggeneralizableevidencebylearningtoconvinceQ&amp;Amodels.In:InuiK(ed)Conferenceonempiricalmethodsinnaturallanguageprocessingandthe9thinternationaljointconferenceonnaturallanguageprocessing,HongKong.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">https://doi.org/10.18653/v1/D19-1244</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">RaiA,ChenL,BreazealC,RameshB,LongY,AriaA(2024)Designandevaluationattributesforscalable,cost-effectivepersonal-izationofLLMtutorsinprogrammingeducation.In:ICIS2024proceedings</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">560M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>

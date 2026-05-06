@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.5</text>
+  <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">GoodStatisticalReporting</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Whilemanypublicationsstillrelyonlyonreportingthep-valueandsimplystatethataresultissigniﬁcant,goodsta-tisticalreportinggoesbeyondthisandalsoconsidersadditionalaspects,suchaseffectsizesandconﬁdenceintervals.Moreover,allstatisticalanalysisshouldbeplannedbeforehandandnotbeconductedinanexploratoryfashion,asthisleadstop-hacking.Therefore,manyscientiﬁcﬁeldsareturningtowards</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">registeredreports</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,wheretheplannedstatis-ticalanalysisisdescribedindetailbeforeconductingthestudy.Thisinaneffectivemeasuretopreventexploratorystatistics,whichleadtofalsepositiveﬁndings.Moreover,thestatisticswediscussedhereis</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">frequentiststatistics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Goodreportingmayalsouseacompletelydifferentapproach,i.e.,</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Bayesianstatistics</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.BayesianstatisticsisbasedonBayestheoremandevaluatesdatathroughtheestimationofthe</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">degreeofbelief</text>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">inanoutcome.ScientistsinfavorofBayesianapproachesarguethattheresultsareofteneasiertointerpretthanfrequentiststatisticsandbetteralignedwiththeactualresearchquestions.</text>
+  <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+  <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.5.GoodStatisticalReporting167</text>
+</svg>

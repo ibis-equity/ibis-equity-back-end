@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,81.46399)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">CHAPTER</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">NINE</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".996" transform="matrix(1,0,0,-1,72,134.26599)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">TIMESERIESANALYSIS</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">9.1</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Overview</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Timeseriesanalysisdealswithorderedsequencesofdata,e.g.,dataovertime.Considerthefollowingexample.</text>
+    <g>
+      <g transform="matrix(.35135044,0,0,.3514176,72,280.45814)"/>
+    </g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thedataweuseforthetimeseriesanalysisarepassengernumbersmeasuredeverymonth.Thus,wehaveaninstanceforeverymonthinthedata.Thegoalofthetimeseriesanalysisistodescribethetemporalstructureofthedata,i.e.,toﬁndamodelthatexplainshowthedatachangesfrommonthtomonth.Thiscouldbedone,e.g.,topredictthenextvalueofatimeseries.Abitmoreabstract,timeseriesanalysiscanbedescribedasfollows.</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73306)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">135</text>
+  </g>
+</svg>

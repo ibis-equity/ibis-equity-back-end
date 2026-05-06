@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <path d="M0 0H473.978V205.485H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,281.869)"/>
+    <g>
+      <g transform="matrix(.75002,0,0,.75003007,72,79.372028)"/>
+    </g>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,281.86903)"/>
+    <path d="M0 0V205.485" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,281.86903)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,76.184009)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,282.068)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Thisdistributionlookssimilartothenormaldistribution,thedifferenceisthatthetailsareabitlongerthanthoseofthenormaldistribution.Student’s</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-distributionisdeﬁnedasthedistributionofthedeviationofthearithmeticmeanofasampledrawnfromastandardnormaldistributionwithameanvalueof0andastandarddeviationof1.Thus,the</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Distributiontellsushowmuchdeviationofthemeanvaluesbetweentwosamplesdrawnfromastandardnormaldistributionwecanexpect.Thisisdirectlyrelatedtothelikelihoodofthedata,giventhehypothesisthatdataisnormal.Thedifferencewestillhaveisthatthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">distributionisforaspeciﬁcmeanvalueandstandarddeviation,whileourhypothesisisfornormaldistributionswithanymeanvalueandstandarddistribution.Thisiswhyweneeda</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">teststatistic</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">,incaseofthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-Testthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">value,whichisdeﬁnedas</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">=</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑒𝑎𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">−</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑚𝑒𝑎𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <path d="M0 0H102.385" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,263.248,423.785)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">√︁</text>
+    <path d="M0 0H73.847" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,282.498,425.777)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <path d="M0 0H28.444" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,283.694,435.317)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">+</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑠𝑑</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">(</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <path d="M0 0H28.444" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,326.706,435.317)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑛</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Abitsimpliﬁed,theteststatistics</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">istherescaleddifferencebetweenthetwopopulations</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">1</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">and</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑋</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">suchthat</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">estimatesthedifferenceofthemeansasiftheyweretwostandardnormaldistributions.Thus,wecanusethe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">valueandStudent’s</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-distributiontocalculatehowprobableitis,thatthesepopulationsareobserved,giventhatthemeansarenotdifferent.Forthis,wecalculatetheareaunderthe</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">-distributionoutsideof</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">±</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">𝑡</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.</text>
+    <path d="M0 0H473.978V218.236H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,719.602)"/>
+    <g>
+      <g transform="matrix(.75002,0,0,.75003,72,504.3545)"/>
+    </g>
+    <path d="M0 0V218.236" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,719.602)"/>
+    <path d="M0 0V218.236" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,719.602)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,501.167)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,719.80099)"/>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.73397)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">11.2.HypothesisTesting161</text>
+  </g>
+</svg>

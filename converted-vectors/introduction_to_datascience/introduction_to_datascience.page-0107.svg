@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="792" version="1.1" viewBox="0 0 612 792" width="612">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">IntroductiontoDataScience,Release0.1</text>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,47.29303)"/>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.3</text>
+    <text fill="#20435c" transform="matrix(1 0 -0 1 0 792)" x="0" y="0">DecisionSurfaces</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Wewilluseavisualaidtodemonstratehowdifferentalgorithmsdecidehowdataisclassiﬁed:the</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">decisionsurface</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">.Thedecisionsurfaceusescolorstoshowtheclassofdata.Thedrawbackofdecisionsurfacesisthattheycanonlybe(easily)usedwith2-dimensionaldata.WewillusethesepallengthandsepalwidthoftheIrisdataassampledatatotrainclassiﬁer.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,370.247)"/>
+    <g>
+      <g transform="matrix(.75,0,0,.75002,72,158.75344)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,370.247)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,370.247)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,155.567)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,370.447)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">WecanseethatSetosaisclearlyseparated,whilethereisoverlapbetweenVersicolorandVirginica.Wewillcolorizethebackgroundoftheaboveplotwiththeclassesthattheclassiﬁerspredicttovisualizethedecisionsurface:purplebackgroundforSetosa,tealforVersicolor,andyellowforVirginica.Wedemonstratethiswithasimpleexample:</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allinstanceswithsepallengthlessthan5.5arepredictedasSetosa.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allinstanceswithsepallengthbetween5.5and6areVersicolor.</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">•</text>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">Allinstanceswithsepallengthgreaterthan6areVirginica.Thisclassiﬁerwouldresultinthefollowingdecisionsurface.</text>
+    <path d="M0 0H473.978V214.481H0Z" fill="#ffffff" transform="matrix(1,0,0,-1,69.011,705.077)"/>
+    <g>
+      <g transform="matrix(.75,0,0,.75002,72,493.58345)"/>
+    </g>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.812,705.07699)"/>
+    <path d="M0 0V214.481" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,543.188,705.07699)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,490.39698)"/>
+    <path d="M0 0H474.775" fill="none" stroke="#e0e0e0" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,68.613,705.277)"/>
+    <path d="M0 0H468" fill="none" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".398" transform="matrix(1,0,0,-1,72,737.734)"/>
+    <text transform="matrix(1 0 -0 1 0 792)" x="0" y="0">7.3.DecisionSurfaces99</text>
+  </g>
+</svg>

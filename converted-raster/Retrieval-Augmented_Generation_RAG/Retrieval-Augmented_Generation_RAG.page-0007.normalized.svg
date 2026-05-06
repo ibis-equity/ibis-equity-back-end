@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="790.87" version="1.1" viewBox="0 0 595.28 790.87" width="595.28">
+  <defs/>
+  <g>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">AplainvanillaRAGarchitecture(seeFig.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)alsosuf-fersfromwhatwewouldliketocallthe‘‘</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">blinkeredchunkeffect</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">’’(BCE).Supposethatyouextractaparagraph(chunk)fromalargetextdocumentsuchasaHarryPotterbook.Towhatextentcouldone(asahuman)understandthatparagraphwithouthavingreadtheentiretyofthenovel?Itislikelythatalackofunderstandingwouldbeapparent,particularlywithregardtotermsthatareuniquetothecontextofthenovelsandthemainplotofthestory.Althoughthismaybeanextremeexampleduetothesizeandscopeoftheimaginaryuniverse,whichincludesmagicandﬁctionalcharacters,theprincipleoftheBCEalsoappliestocontextualizeddocumentsinbusinessapplica-tions.Therefore,theuseofRAGwithrichdatastillhaslimitationsintermsofcomprehensiveunderstanding.Insuchcases,recentdevelopments,including</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">RAPTOR</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(Sarthietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)andGraphRAG(Edgeetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),shouldbeconsidered.Theperformanceoftheretrieverdependsonaneffectiverankingsystem,whichmeansthattherankingmechanismisabletoidentifythemostrelevantdocuments.Mostcommonly,therankingsystemisbuiltupontheprobabilityrankingprinciple(Robertson</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">1977</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),whichisnotalwaysideal.Forthatreason,newapproachescanbeconsideredtoimprovetherankingresults.Currentapproachesincludepermutation-invariantrankingmodels(Pangetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),list-awarere-rankings,andhybridsearches(Bruchetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2023</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)(Table</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">3</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">4ImplicationsforBISEResearchers</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">ThiscatchwordarticleseekstoprovideafundamentaloverviewofRAG,highlightcharacteristicsofRAGarchitectures,andoutlineimplicationsofRAG.Sincepriorworkhasalreadyidentiﬁedimportantavenuesforresearchwithfoundationmodels(Schneideretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Feuerriegeletal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),weillustratesomenuancedresearchquestionsthatoccurincombinationwithRAGfromthreedifferentperspectives:(1)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">organizational</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">,(2)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">individual</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">,and(3)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">economic</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">(seeFig.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">3</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Firstly,theuseofRAG-basedarchitectureshasimpli-cationsfororganizations.Similartoprevioussoftwarearchitecturesandparadigms,organizationsneednewskillstoimplementandleveragenewAItechnologies(Berenteetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2021</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).ThisisparticularlytrueforITarchitectureanddatamanagementcapabilities,whichareamajorchallengefororganizations(Abbasietal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2016</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Blohmetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).Inadditiontowell-knownshortcomingssuchasthecen-tralizationofdatamanagement(Veluetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2013</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">),aRAG-basedarchitecturebringsnewchallengesthatorganizationsneedtoaddress.Inparticular,organizationsneedtodeterminehowtheywillusetheirdata.Forexample,anorganization’sdatasetmaybeusedformodelﬁne-tuning(i.e.,LLMﬁne-tuning),vectordatabasedevelopment(i.e.,RAG),orboth(e.g.,usingRAFT).Fromatheoreticalperspective,appropriateconﬁgurationsshouldbeidentiﬁed(ParkandMithas</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)thatguideorganizationsinhowtoorganizetheirdataforﬁne-tuning,RAG,orboth.Fur-thermore,identifyingtrade-offsandpreferredconﬁgura-tionsischallenging,becauseitishighlydependentoncontextualandenvironmentalfactorssuchasorganiza-tionalsizeorindustry.Forthisreason,italsoraisesquestionsaboutthedevelopmentofinternalversusexternalcapabilities(Nevoetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2007</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">).ThefollowingresearchquestionsareexamplesofBISEscholarsconductingresearchattheorganizationallevel:</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Dohighlevelsofdatamanagementcapability,e.g.,DataMeshincludingRAG,leadtohighlevelsoforganizationalperformance?</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">,</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">WhatistheoptimalbalanceofdatagoingintoRAGversusﬁne-</text>
+    <path d="M51.024 717.675H544.252V718.2419H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <path d="M51.024 561.6H544.252V562.16696H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <path d="M51.024 700.838H544.252V701.8584H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Table2</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">SummaryofopportunitiesempoweredbyRAG-basedarchitecturesOpportunitiesDescriptionEnhancedcontextualizedunderstandingRAGarchitectures‘‘usetheinputsequence</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">x</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">toretrievetextdocuments</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">z</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">andusethemasadditionalcontext’’(Lewisetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">,p.2).Therefore,aRAG-basedsystemdoeshaveanextendedcontextualunderstandingcomparedtofoundationmodels.ReducedhallucinationsandimprovedfactualaccuracyByincludinganextendedcontext,aRAG-basedsystemcangenerateoutcomesbasedonthecontextwhichreduceshallucinationsandincreasesfactualaccuracy(Lewisetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2020</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">;Shusteretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2021</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)GroundingGeneratedoutputiscombinedwithreferencestothecontextualdata(i.e.,grounding(Mageshetal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)).Thisallowsuserstodoublechecktheoutputandgetadditionalinformationfollowingthereference.KnowledgedomainguardrailsforLLMsRAG-basedsystemscanbeusedtospecifythedomainthatiswithintheinterestoftheprovideddata.Therefore,irrelevantorundesirabledomainscanbeexcluded.InitialcostofownershipDevelopingavectordatabaseismuchmorecost-effectivecomparedtoﬁne-tuningwhenitcomestothetotalcostofownership(Balagueretal.</text>
+    <text fill="#0000ff" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">2024</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">)</text>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">123</text>
+    <path d="M51.024 744.604H544.252V745.5678H51.024Z" transform="matrix(1,0,0,-1,0,790.87)"/>
+    <text transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">M.Klesel,H.F.Wittmann:Retrieval-AugmentedGeneration(RAG),BusInfSystEng67(4):551–561(2025)557</text>
+  </g>
+  <text fill="#808080" transform="matrix(1 0 -0 1 0 790.87)" x="0" y="0">Content courtesy of Springer Nature, terms of use apply. Rights reserved.</text>
+</svg>
